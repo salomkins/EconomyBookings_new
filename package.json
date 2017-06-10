@@ -1,0 +1,17 @@
+{
+  "name": "EconomyBookings",
+  "version": "0.0.1",
+  "description": "School project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --include-path src/scss --output-style expanded --watch src/scss/index.scss dist/css/style.css",
+    "build": "node-sass --include-path src/scss src/scss/index.scss dist/css/style.css"
+  },
+  "author": "The Fresh Leopards TM",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0"
+  }
+}
