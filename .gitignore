@@ -21,5 +21,8 @@ Packages/*
 fileadmin/*
 uploads/*
 
+# generetie faili
+dist/
+
 # NPM
 node_modules/
