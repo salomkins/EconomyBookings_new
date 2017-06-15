@@ -1,0 +1,15 @@
+@mixin ext($extention) {
+    $selector: nth(&, 1);
+
+    &#{$extention} {
+        @extend #{$selector} !optional;
+        @content;
+    }
+}
+@mixin font_sizes($s_array) {
+     @each $s in $s_array{
+        @include ext(_#{$s}) {
+            font-size: #{$s}px;
+        }
+    }
+}
