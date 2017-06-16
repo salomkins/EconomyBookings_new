@@ -14,23 +14,23 @@
 
 .font {
     @include font_sizes($font_sizes);
-    @include ext(_a) {
+    @include font_ext(_a) {
         font-family: 'fontawesome_webfont';
         @include font_sizes($font_sizes);
     }
-    @include ext(_r) {
+    @include font_ext(_r) {
         font-family: 'open_sansregular';
         @include font_sizes($font_sizes);
     }
-    @include ext(_l) {
+    @include font_ext(_l) {
         font-family: 'open_sanslight';
         @include font_sizes($font_sizes);
     }
-    @include ext(_sb) {
+    @include font_ext(_sb) {
         font-family: 'open_sanssemibold';
         @include font_sizes($font_sizes);
     }
-    @include ext(_b) {
+    @include font_ext(_b) {
         font-family: 'open_sansbold';
         @include font_sizes($font_sizes);
     }

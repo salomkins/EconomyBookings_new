@@ -1,4 +1,4 @@
-@mixin ext($extention) {
+@mixin font_ext($extention) {
     $selector: nth(&, 1);
 
     &#{$extention} {
@@ -8,7 +8,7 @@
 }
 @mixin font_sizes($s_array) {
      @each $s in $s_array{
-        @include ext(_#{$s}) {
+        @include font_ext(_#{$s}) {
             font-size: #{$s}px;
         }
     }
