@@ -1,0 +1,8 @@
+@mixin icons-ext($extention) {
+    $selector: nth(&, 1);
+
+    &#{$extention} {
+        @extend #{$selector} !optional;
+        @content;
+    }
+}

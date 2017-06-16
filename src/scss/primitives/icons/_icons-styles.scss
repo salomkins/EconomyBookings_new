@@ -1,0 +1,11 @@
+//
+.icon {
+    font-family: 'fontawesome_webfont';
+    @each $name, $code in $icons {
+         @include icons-ext(_#{$name}){
+            &::before {
+                content: $code;
+            }
+        }
+    }
+}
