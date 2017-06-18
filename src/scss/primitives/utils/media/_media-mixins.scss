@@ -1,0 +1,25 @@
+@mixin media($type) {
+     @if $type == xs-only{
+        @media screen and (max-width: #{$media_tablet_width - 1px}) {
+             @content;
+        }
+    }
+    @else if $type == md {
+         @media screen and (min-width: #{$media_tablet_width}){
+            @content;
+        }
+    }
+    @else if $type == md-only {
+         @media screen and (min-width: #{$media_tablet_width}) and (max-width: #{$media_desktop_width - 1px}){
+            @content;
+        }
+    }
+    @else if $type == lg {
+         @media screen and (min-width: #{$media_desktop_width}){
+            @content;
+        }
+    }
+    @else {
+         @error"Programmētājam ir līki pirkstiņi, tādēļ viņš nevar pareizi uzrakstīt media tipu...";
+    }
+}
