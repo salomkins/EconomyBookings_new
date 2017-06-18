@@ -1,22 +1,15 @@
-### Primitives >>> icons
+### Components >>> icons_soc
 
-klase 'icon' darbojas analogi 'font_a'
-klases 'icon_[name]' pieslēgtos name skat. masīvā icons
+Biagās muļķibas, bet mācību procesā varbūt ir noderīgi
 
-piem.
+visu skat piemērā.
 
 <html>
-<span class="icon">&#xf0d1;</span>
-darbojas analogi
-<span class="font_a">&#xf0d1;</span>
+<span class="icon_facebook_soc"></span>
+<span class="icon_google_plus_soc"></span>
+<span class="icon_youtube_soc"></span>
 <br>
-<span class="icon font_32">&#xf0d1;</span>
-mainīt izmēru
-<span class="font_a_32">&#xf0d1;</span>
-<br>
-iconas, kas šobrīd iekļautas masīvā 'icons'
-<span class="icon_facebook"></span>
-<span class="icon_google_plus"></span>
-<span class="icon_youtube"></span>
-<span class="icon_angle_double_right"></span>
+<span class="icon_facebook_soc--footer"></span>
+<span class="icon_google_plus_soc--footer"></span>
+<span class="icon_youtube_soc--footer"></span>
 </html>
