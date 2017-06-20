@@ -164,3 +164,15 @@
     font-size: 24px; }
   .font_b_32 {
     font-size: 32px; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 100; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
