@@ -1,5 +1,8 @@
 ### Primitives >>> fonts
 
+Izmanto Primitives:
+extend
+
 font-family Property atbilst 'key' masīvā $fonts
 piem.  .head-box {font-family: 'open_sansbold'}
 
