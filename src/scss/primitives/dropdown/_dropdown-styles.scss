@@ -1,16 +1,25 @@
 //https://www.w3schools.com/css/css_dropdowns.asp
-//
+
 .dropdown {
     position: relative;
     display: inline-block;
-}
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 100;
-}
+    &-content {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        z-index: 100;
+    }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+    &:hover {
+        cursor: pointer;
+    }
+
+    &-active .dropdown-content,
+    &:hover .dropdown-content {
+        opacity: 1;
+        visibility: visible;
+        cursor: auto;
+    }
 }
