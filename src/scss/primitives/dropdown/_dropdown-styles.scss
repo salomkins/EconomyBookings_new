@@ -1,5 +1,4 @@
-//https://www.w3schools.com/css/css_dropdowns.asp
-
+//
 .dropdown {
     position: relative;
     display: inline-block;
@@ -16,8 +15,12 @@
         cursor: pointer;
     }
 
+    &:focus {
+        outline: none;
+    }
+
     &-active .dropdown-content,
-    &:hover .dropdown-content {
+    &:focus .dropdown-content {
         opacity: 1;
         visibility: visible;
         cursor: auto;
