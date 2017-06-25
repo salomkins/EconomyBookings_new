@@ -1,7 +1,12 @@
 //
+
 .dropdown {
     position: relative;
     display: inline-block;
+
+    &-label {
+        display: block;
+    }
 
     &-content {
         display: block;
@@ -19,10 +24,12 @@
         outline: none;
     }
 
-    &-active .dropdown-content,
-    &:focus .dropdown-content {
-        opacity: 1;
-        visibility: visible;
-        cursor: auto;
+    &-active,
+    &:focus {
+        .dropdown-content {
+            opacity: 1;
+            visibility: visible;
+            cursor: auto;
+        }
     }
 }

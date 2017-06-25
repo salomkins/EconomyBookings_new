@@ -713,6 +713,10 @@ template {
   display: inline-block;
 }
 
+.dropdown-label {
+  display: block;
+}
+
 .dropdown-content {
   display: block;
   opacity: 0;
@@ -725,8 +729,11 @@ template {
   cursor: pointer;
 }
 
-.dropdown-active .dropdown-content,
-.dropdown:hover .dropdown-content {
+.dropdown:focus {
+  outline: none;
+}
+
+.dropdown-active .dropdown-content, .dropdown:focus .dropdown-content {
   opacity: 1;
   visibility: visible;
   cursor: auto;
