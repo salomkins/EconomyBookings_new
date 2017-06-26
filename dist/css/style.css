@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+@charset "UTF-8";
+=======
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -389,169 +392,326 @@ template {
 [hidden] {
   display: none; }
 
+>>>>>>> develop
 @font-face {
   font-family: "fontawesome_webfont";
   src: url("../assets/fonts/fontawesome-webfont.eot");
   src: url("../assets/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/fontawesome-webfont.woff2") format("woff2"), url("../assets/fonts/fontawesome-webfont.woff") format("woff"), url("../assets/fonts/fontawesome-webfont.ttf") format("truetype"), url("../assets/fonts/fontawesome-webfont.svg#fontawesome_webfont") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "open_sansregular";
   src: url("../assets/fonts/OpenSans-Regular.eot");
   src: url("../assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"), url("../assets/fonts/OpenSans-Regular.woff") format("woff"), url("../assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("../assets/fonts/OpenSans-Regular.svg#open_sansregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "open_sanslight";
   src: url("../assets/fonts/OpenSans-Light.eot");
   src: url("../assets/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Light.woff2") format("woff2"), url("../assets/fonts/OpenSans-Light.woff") format("woff"), url("../assets/fonts/OpenSans-Light.ttf") format("truetype"), url("../assets/fonts/OpenSans-Light.svg#open_sanslight") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "open_sanssemibold";
   src: url("../assets/fonts/OpenSans-Semibold.eot");
   src: url("../assets/fonts/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Semibold.woff2") format("woff2"), url("../assets/fonts/OpenSans-Semibold.woff") format("woff"), url("../assets/fonts/OpenSans-Semibold.ttf") format("truetype"), url("../assets/fonts/OpenSans-Semibold.svg#open_sanssemibold") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "open_sansbold";
   src: url("../assets/fonts/OpenSans-Bold.eot");
   src: url("../assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Bold.woff2") format("woff2"), url("../assets/fonts/OpenSans-Bold.woff") format("woff"), url("../assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("../assets/fonts/OpenSans-Bold.svg#open_sansbold") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 .font_12 {
-  font-size: 12px; }
+  font-size: 12px;
+}
 
 .font_13 {
-  font-size: 13px; }
+  font-size: 13px;
+}
 
 .font_14 {
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 .font_15 {
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 .font_16 {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 .font_18 {
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .font_22 {
-  font-size: 22px; }
+  font-size: 22px;
+}
 
 .font_24 {
-  font-size: 24px; }
+  font-size: 24px;
+}
 
 .font_32 {
-  font-size: 32px; }
+  font-size: 32px;
+}
 
 .font_a, .font_a_12, .font_a_13, .font_a_14, .font_a_15, .font_a_16, .font_a_18, .font_a_22, .font_a_24, .font_a_32 {
-  font-family: 'fontawesome_webfont'; }
-  .font_a_12 {
-    font-size: 12px; }
-  .font_a_13 {
-    font-size: 13px; }
-  .font_a_14 {
-    font-size: 14px; }
-  .font_a_15 {
-    font-size: 15px; }
-  .font_a_16 {
-    font-size: 16px; }
-  .font_a_18 {
-    font-size: 18px; }
-  .font_a_22 {
-    font-size: 22px; }
-  .font_a_24 {
-    font-size: 24px; }
-  .font_a_32 {
-    font-size: 32px; }
+  font-family: 'fontawesome_webfont';
+}
+
+.font_a_12 {
+  font-size: 12px;
+}
+
+.font_a_13 {
+  font-size: 13px;
+}
+
+.font_a_14 {
+  font-size: 14px;
+}
+
+.font_a_15 {
+  font-size: 15px;
+}
+
+.font_a_16 {
+  font-size: 16px;
+}
+
+.font_a_18 {
+  font-size: 18px;
+}
+
+.font_a_22 {
+  font-size: 22px;
+}
+
+.font_a_24 {
+  font-size: 24px;
+}
+
+.font_a_32 {
+  font-size: 32px;
+}
 
 .font_r, .font_r_12, .font_r_13, .font_r_14, .font_r_15, .font_r_16, .font_r_18, .font_r_22, .font_r_24, .font_r_32 {
-  font-family: 'open_sansregular'; }
-  .font_r_12 {
-    font-size: 12px; }
-  .font_r_13 {
-    font-size: 13px; }
-  .font_r_14 {
-    font-size: 14px; }
-  .font_r_15 {
-    font-size: 15px; }
-  .font_r_16 {
-    font-size: 16px; }
-  .font_r_18 {
-    font-size: 18px; }
-  .font_r_22 {
-    font-size: 22px; }
-  .font_r_24 {
-    font-size: 24px; }
-  .font_r_32 {
-    font-size: 32px; }
+  font-family: 'open_sansregular';
+}
+
+.font_r_12 {
+  font-size: 12px;
+}
+
+.font_r_13 {
+  font-size: 13px;
+}
+
+.font_r_14 {
+  font-size: 14px;
+}
+
+.font_r_15 {
+  font-size: 15px;
+}
+
+.font_r_16 {
+  font-size: 16px;
+}
+
+.font_r_18 {
+  font-size: 18px;
+}
+
+.font_r_22 {
+  font-size: 22px;
+}
+
+.font_r_24 {
+  font-size: 24px;
+}
+
+.font_r_32 {
+  font-size: 32px;
+}
 
 .font_l, .font_l_12, .font_l_13, .font_l_14, .font_l_15, .font_l_16, .font_l_18, .font_l_22, .font_l_24, .font_l_32 {
-  font-family: 'open_sanslight'; }
-  .font_l_12 {
-    font-size: 12px; }
-  .font_l_13 {
-    font-size: 13px; }
-  .font_l_14 {
-    font-size: 14px; }
-  .font_l_15 {
-    font-size: 15px; }
-  .font_l_16 {
-    font-size: 16px; }
-  .font_l_18 {
-    font-size: 18px; }
-  .font_l_22 {
-    font-size: 22px; }
-  .font_l_24 {
-    font-size: 24px; }
-  .font_l_32 {
-    font-size: 32px; }
+  font-family: 'open_sanslight';
+}
+
+.font_l_12 {
+  font-size: 12px;
+}
+
+.font_l_13 {
+  font-size: 13px;
+}
+
+.font_l_14 {
+  font-size: 14px;
+}
+
+.font_l_15 {
+  font-size: 15px;
+}
+
+.font_l_16 {
+  font-size: 16px;
+}
+
+.font_l_18 {
+  font-size: 18px;
+}
+
+.font_l_22 {
+  font-size: 22px;
+}
+
+.font_l_24 {
+  font-size: 24px;
+}
+
+.font_l_32 {
+  font-size: 32px;
+}
 
 .font_sb, .font_sb_12, .font_sb_13, .font_sb_14, .font_sb_15, .font_sb_16, .font_sb_18, .font_sb_22, .font_sb_24, .font_sb_32 {
-  font-family: 'open_sanssemibold'; }
-  .font_sb_12 {
-    font-size: 12px; }
-  .font_sb_13 {
-    font-size: 13px; }
-  .font_sb_14 {
-    font-size: 14px; }
-  .font_sb_15 {
-    font-size: 15px; }
-  .font_sb_16 {
-    font-size: 16px; }
-  .font_sb_18 {
-    font-size: 18px; }
-  .font_sb_22 {
-    font-size: 22px; }
-  .font_sb_24 {
-    font-size: 24px; }
-  .font_sb_32 {
-    font-size: 32px; }
+  font-family: 'open_sanssemibold';
+}
+
+.font_sb_12 {
+  font-size: 12px;
+}
+
+.font_sb_13 {
+  font-size: 13px;
+}
+
+.font_sb_14 {
+  font-size: 14px;
+}
+
+.font_sb_15 {
+  font-size: 15px;
+}
+
+.font_sb_16 {
+  font-size: 16px;
+}
+
+.font_sb_18 {
+  font-size: 18px;
+}
+
+.font_sb_22 {
+  font-size: 22px;
+}
+
+.font_sb_24 {
+  font-size: 24px;
+}
+
+.font_sb_32 {
+  font-size: 32px;
+}
 
 .font_b, .font_b_12, .font_b_13, .font_b_14, .font_b_15, .font_b_16, .font_b_18, .font_b_22, .font_b_24, .font_b_32 {
-  font-family: 'open_sansbold'; }
-  .font_b_12 {
-    font-size: 12px; }
-  .font_b_13 {
-    font-size: 13px; }
-  .font_b_14 {
-    font-size: 14px; }
-  .font_b_15 {
-    font-size: 15px; }
-  .font_b_16 {
-    font-size: 16px; }
-  .font_b_18 {
-    font-size: 18px; }
-  .font_b_22 {
-    font-size: 22px; }
-  .font_b_24 {
-    font-size: 24px; }
-  .font_b_32 {
-    font-size: 32px; }
+  font-family: 'open_sansbold';
+}
+
+.font_b_12 {
+  font-size: 12px;
+}
+
+.font_b_13 {
+  font-size: 13px;
+}
+
+.font_b_14 {
+  font-size: 14px;
+}
+
+.font_b_15 {
+  font-size: 15px;
+}
+
+.font_b_16 {
+  font-size: 16px;
+}
+
+.font_b_18 {
+  font-size: 18px;
+}
+
+.font_b_22 {
+  font-size: 22px;
+}
+
+.font_b_24 {
+  font-size: 24px;
+}
+
+.font_b_32 {
+  font-size: 32px;
+}
+
+.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right {
+  font-family: 'fontawesome_webfont';
+}
+
+.icon_facebook::before, .icon_facebook_soc::before, .icon_facebook_soc--footer::before {
+  content: "";
+}
+
+.icon_google_plus::before, .icon_google_plus_soc::before, .icon_google_plus_soc--footer::before {
+  content: "";
+}
+
+.icon_youtube::before, .icon_youtube_soc::before, .icon_youtube_soc--footer::before {
+  content: "";
+}
+
+.icon_angle_double_right::before {
+  content: "";
+}
+
+.icon_facebook_soc, .icon_facebook_soc--footer {
+  font-size: 35px;
+}
+
+.icon_facebook_soc--footer {
+  font-size: 32px;
+  color: #eee;
+}
+
+.icon_google_plus_soc, .icon_google_plus_soc--footer {
+  font-size: 35px;
+}
+
+.icon_google_plus_soc--footer {
+  font-size: 32px;
+  color: #eee;
+}
+
+.icon_youtube_soc, .icon_youtube_soc--footer {
+  font-size: 35px;
+}
+
+.icon_youtube_soc--footer {
+  font-size: 32px;
+  color: #eee;
+}
