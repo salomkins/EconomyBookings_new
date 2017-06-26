@@ -1,0 +1,35 @@
+//
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    &-label {
+        display: block;
+    }
+
+    &-content {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        z-index: 100;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &-active,
+    &:focus {
+        .dropdown-content {
+            opacity: 1;
+            visibility: visible;
+            cursor: auto;
+        }
+    }
+}
