@@ -17,6 +17,7 @@
             transform: rotate(45deg);
             opacity: 0;
             visibility: hidden;
+            z-index: 99;
         }
 
         &-active,
@@ -37,7 +38,6 @@
 }
     &-content {
         @include ext(_mrk) {
-            width: 100%;
             top: calc(100% + #{$dropdown_mrk_space});
             background-color: $dropdown_mrk_content_background_color;
             border-radius: 3px;
