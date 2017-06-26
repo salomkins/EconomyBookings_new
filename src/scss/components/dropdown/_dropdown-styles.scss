@@ -1,0 +1,45 @@
+//
+$dropdown_nav_background_color: transparent;
+$dropdown_nav_background_color_active: blue;
+$dropdown_nav_content_background_color: white;
+$dropdown_nav_space: 10px;
+$dropdown_nav_marker_size: 7px;
+
+.dropdown {
+    @include ext(--nav) {
+        background-color: $dropdown_nav_background_color;
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            background-color: $dropdown_nav_content_background_color;
+            width: $dropdown_nav_marker_size;
+            height: $dropdown_nav_marker_size;
+            top: calc(100% + #{$dropdown_nav_space} - #{$dropdown_nav_marker_size} / 2);
+            left: calc(50% - #{$dropdown_nav_marker_size} / 2);
+            transform: rotate(45deg);
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        &-active,
+        &:focus {
+            background-color: $dropdown_nav_background_color_active;
+
+            &:after {
+                opacity: 1;
+                visibility: visible;
+                cursor: auto;
+            }
+        }
+    }
+
+    &-content {
+        @include ext(--nav) {
+            top: calc(100% + #{$dropdown_nav_space});
+            background-color: $dropdown_nav_content_background_color;
+            border-radius: 5px;
+        }
+    }
+}

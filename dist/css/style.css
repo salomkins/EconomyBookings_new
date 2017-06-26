@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 @charset "UTF-8";
-=======
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -435,7 +433,6 @@ template {
   display: none;
 }
 
->>>>>>> develop
 @font-face {
   font-family: "fontawesome_webfont";
   src: url("../assets/fonts/fontawesome-webfont.eot");
@@ -712,37 +709,6 @@ template {
   font-size: 32px;
 }
 
-<<<<<<< HEAD
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-label {
-  display: block;
-}
-
-.dropdown-content {
-  display: block;
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  z-index: 100;
-}
-
-.dropdown:hover {
-  cursor: pointer;
-}
-
-.dropdown:focus {
-  outline: none;
-}
-
-.dropdown-active .dropdown-content, .dropdown:focus .dropdown-content {
-  opacity: 1;
-  visibility: visible;
-  cursor: auto;
-=======
 .icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right {
   font-family: 'fontawesome_webfont';
 }
@@ -761,6 +727,37 @@ template {
 
 .icon_angle_double_right::before {
   content: "";
+}
+
+.dropdown, .dropdown--nav {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-label {
+  display: block;
+}
+
+.dropdown-content, .dropdown-content--nav {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: 100;
+}
+
+.dropdown:hover, .dropdown--nav:hover {
+  cursor: pointer;
+}
+
+.dropdown:focus, .dropdown--nav:focus {
+  outline: none;
+}
+
+.dropdown-active .dropdown-content, .dropdown-active .dropdown-content--nav, .dropdown:focus .dropdown-content, .dropdown--nav:focus .dropdown-content, .dropdown:focus .dropdown-content--nav, .dropdown--nav:focus .dropdown-content--nav {
+  opacity: 1;
+  visibility: visible;
+  cursor: auto;
 }
 
 .icon_facebook_soc, .icon_facebook_soc--footer {
@@ -788,5 +785,38 @@ template {
 .icon_youtube_soc--footer {
   font-size: 32px;
   color: #eee;
->>>>>>> develop
+}
+
+.dropdown--nav {
+  background-color: transparent;
+}
+
+.dropdown--nav:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  top: calc(100% + 10px - 7px / 2);
+  left: calc(50% - 7px / 2);
+  transform: rotate(45deg);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdown--nav-active, .dropdown--nav:focus {
+  background-color: blue;
+}
+
+.dropdown--nav-active:after, .dropdown--nav:focus:after {
+  opacity: 1;
+  visibility: visible;
+  cursor: auto;
+}
+
+.dropdown-content--nav {
+  top: calc(100% + 10px);
+  background-color: white;
+  border-radius: 5px;
 }

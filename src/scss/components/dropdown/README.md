@@ -8,7 +8,7 @@ Lai nostrādātu uz ":focus" - html pievienot parametru: tabindex="1"
 
 <html>
 <div class="dropdown" tabindex="1">
-    <span class="dropdown-label" style="background-color:red">Click me!</span>
+    <span class="dropdown-label" style="background-color:red">Mouse over me</span>
     <div class="dropdown-content" style="background-color:green">
         <p>Hello World!</p>
     </div>
