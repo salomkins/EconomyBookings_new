@@ -1,23 +1,19 @@
 //
-$dropdown_nav_background_color: transparent;
-$dropdown_nav_background_color_active: blue;
-$dropdown_nav_content_background_color: white;
-$dropdown_nav_space: 10px;
-$dropdown_nav_marker_size: 7px;
+//dropdown_mrk ---dropdown with marker
 
 .dropdown {
-    @include ext(--nav) {
-        background-color: $dropdown_nav_background_color;
+    @include ext(_mrk) {
+        background-color: $dropdown_mrk_background_color;
 
         &:after {
             content: "";
             display: block;
             position: absolute;
-            background-color: $dropdown_nav_content_background_color;
-            width: $dropdown_nav_marker_size;
-            height: $dropdown_nav_marker_size;
-            top: calc(100% + #{$dropdown_nav_space} - #{$dropdown_nav_marker_size} / 2);
-            left: calc(50% - #{$dropdown_nav_marker_size} / 2);
+            background-color: $dropdown_mrk_content_background_color;
+            width: $dropdown_mrk_marker_size;
+            height: $dropdown_mrk_marker_size;
+            top: calc(100% + #{$dropdown_mrk_space} - #{$dropdown_mrk_marker_size} / 2);
+            left: calc(50% - #{$dropdown_mrk_marker_size} / 2);
             transform: rotate(45deg);
             opacity: 0;
             visibility: hidden;
@@ -25,7 +21,7 @@ $dropdown_nav_marker_size: 7px;
 
         &-active,
         &:focus {
-            background-color: $dropdown_nav_background_color_active;
+            background-color: $dropdown_mrk_background_color_active;
 
             &:after {
                 opacity: 1;
@@ -34,12 +30,17 @@ $dropdown_nav_marker_size: 7px;
             }
         }
     }
-
+&-label{
+  @include ext(_mrk) {
+  color: $dropdown_mrk_label_color;
+  }
+}
     &-content {
-        @include ext(--nav) {
-            top: calc(100% + #{$dropdown_nav_space});
-            background-color: $dropdown_nav_content_background_color;
-            border-radius: 5px;
+        @include ext(_mrk) {
+            width: 100%;
+            top: calc(100% + #{$dropdown_mrk_space});
+            background-color: $dropdown_mrk_content_background_color;
+            border-radius: 3px;
         }
     }
 }
