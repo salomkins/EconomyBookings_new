@@ -1,0 +1,11 @@
+//
+@each $name in $icons_soc {
+    .icon_#{$name}_soc {
+        @extend .icon_#{$name};
+        font-size: 35px;
+        @include ext(--footer) {
+            font-size: 32px;
+            color: #eee;
+        }
+    }
+}

@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+@charset "UTF-8";
+=======
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -432,6 +435,7 @@ template {
   display: none;
 }
 
+>>>>>>> develop
 @font-face {
   font-family: "fontawesome_webfont";
   src: url("../assets/fonts/fontawesome-webfont.eot");
@@ -708,6 +712,7 @@ template {
   font-size: 32px;
 }
 
+<<<<<<< HEAD
 .dropdown {
   position: relative;
   display: inline-block;
@@ -737,4 +742,51 @@ template {
   opacity: 1;
   visibility: visible;
   cursor: auto;
+=======
+.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right {
+  font-family: 'fontawesome_webfont';
+}
+
+.icon_facebook::before, .icon_facebook_soc::before, .icon_facebook_soc--footer::before {
+  content: "";
+}
+
+.icon_google_plus::before, .icon_google_plus_soc::before, .icon_google_plus_soc--footer::before {
+  content: "";
+}
+
+.icon_youtube::before, .icon_youtube_soc::before, .icon_youtube_soc--footer::before {
+  content: "";
+}
+
+.icon_angle_double_right::before {
+  content: "";
+}
+
+.icon_facebook_soc, .icon_facebook_soc--footer {
+  font-size: 35px;
+}
+
+.icon_facebook_soc--footer {
+  font-size: 32px;
+  color: #eee;
+}
+
+.icon_google_plus_soc, .icon_google_plus_soc--footer {
+  font-size: 35px;
+}
+
+.icon_google_plus_soc--footer {
+  font-size: 32px;
+  color: #eee;
+}
+
+.icon_youtube_soc, .icon_youtube_soc--footer {
+  font-size: 35px;
+}
+
+.icon_youtube_soc--footer {
+  font-size: 32px;
+  color: #eee;
+>>>>>>> develop
 }
