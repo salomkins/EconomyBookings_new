@@ -1,0 +1,25 @@
+@mixin media($type) {
+     @if $type == xs-only{
+        @media (max-width: #{$media_tablet_width - 1px}) {
+             @content;
+        }
+    }
+    @else if $type == md {
+         @media (min-width: #{$media_tablet_width}){
+            @content;
+        }
+    }
+    @else if $type == md-only {
+         @media (min-width: #{$media_tablet_width}) and (max-width: #{$media_desktop_width - 1px}){
+            @content;
+        }
+    }
+    @else if $type == lg {
+         @media (min-width: #{$media_desktop_width}){
+            @content;
+        }
+    }
+    @else {
+         @error"Houston, we have a problem!";
+    }
+}
