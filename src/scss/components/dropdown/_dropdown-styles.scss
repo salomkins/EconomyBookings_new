@@ -51,8 +51,8 @@
         &-mrk {
             top: calc(100% + #{$dropdown_mrk_space});
             background-color: $dropdown_mrk_content_background_color;
-            border-radius: $dropdown_mrk_border_radius;
-            min-width: calc(50% + (#{$dropdown_mrk_marker_size} * 1.41421 / 2) + #{$dropdown_mrk_border_radius});
+            border-radius: $dropdown_mrk_content_border_radius;
+            min-width: calc(50% + (#{$dropdown_mrk_marker_size} * 1.41421 / 2) + #{$dropdown_mrk_content_border_radius});
         }
     }
 }
@@ -110,8 +110,8 @@
         @include ext(_mrk) {
             top: calc(100% + #{$dropdown_mrk_space});
             background-color: $dropdown_mrk_content_background_color;
-            border-radius: $dropdown_mrk_border_radius;
-            min-width: calc(50% + (#{$dropdown_mrk_marker_size} * 1.41421 / 2) + #{$dropdown_mrk_border_radius});
+            border-radius: $dropdown_mrk_content_border_radius;
+            min-width: calc(50% + (#{$dropdown_mrk_marker_size} * 1.41421 / 2) + #{$dropdown_mrk_content_border_radius});
         }
     }
 }
