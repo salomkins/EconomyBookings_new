@@ -1,4 +1,4 @@
-##Components >>> icons_flags
+##Primitives >>> icons_flags
 
 visu skat piemērā.
 ### projektā izmantoti - Valsts divu burtu kods!!!
