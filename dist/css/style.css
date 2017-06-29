@@ -588,24 +588,6 @@ template {
     visibility: visible;
     cursor: auto; }
 
-.icon_facebook_soc, .icon_facebook_soc--footer {
-  font-size: 35px; }
-  .icon_facebook_soc--footer {
-    font-size: 32px;
-    color: #eee; }
-
-.icon_google_plus_soc, .icon_google_plus_soc--footer {
-  font-size: 35px; }
-  .icon_google_plus_soc--footer {
-    font-size: 32px;
-    color: #eee; }
-
-.icon_youtube_soc, .icon_youtube_soc--footer {
-  font-size: 35px; }
-  .icon_youtube_soc--footer {
-    font-size: 32px;
-    color: #eee; }
-
 .famfamfam-flags {
   background: url("../assets/images/flags.png") no-repeat;
   background-size: 224px 199px;
@@ -1862,3 +1844,21 @@ template {
   width: 9px;
   height: 11px;
   background-position: -208px -154px; }
+
+.icon_facebook_soc, .icon_facebook_soc--footer {
+  font-size: 35px; }
+  .icon_facebook_soc--footer {
+    font-size: 32px;
+    color: #eee; }
+
+.icon_google_plus_soc, .icon_google_plus_soc--footer {
+  font-size: 35px; }
+  .icon_google_plus_soc--footer {
+    font-size: 32px;
+    color: #eee; }
+
+.icon_youtube_soc, .icon_youtube_soc--footer {
+  font-size: 35px; }
+  .icon_youtube_soc--footer {
+    font-size: 32px;
+    color: #eee; }
