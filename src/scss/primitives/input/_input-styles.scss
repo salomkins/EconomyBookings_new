@@ -1,4 +1,9 @@
 //
-.input[type='text'] {
-    
+input[type="text"], input[type="password"]{
+  display: block;
+  outline: none;
+  border: none;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
 }
