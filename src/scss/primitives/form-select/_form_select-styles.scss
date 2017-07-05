@@ -4,10 +4,9 @@
   min-width: 60px;
 
   &:after {
-    content: '>';
-    font: 12px "Consolas";
+    content: "\f107";
+    font-family: 'FontAwesome';
     color: #fff;
-    transform: rotate(90deg);
     right: 11px;
     top: 15px;
     padding: 0 0 2px;
@@ -32,8 +31,8 @@
   background-color: transparent;
   border: 1px solid transparent;
 
-  //&:active {
+  // &:active {
   //  background-color: #142a3c;
   //  border: 1px solid transparent;
-  //}
+  // }
 }
