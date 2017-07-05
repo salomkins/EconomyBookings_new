@@ -23,7 +23,7 @@ fileadmin/*
 uploads/*
 
 # generetie faili
-#dist/css/
+dist/css/
 
 # NPM
 node_modules/
