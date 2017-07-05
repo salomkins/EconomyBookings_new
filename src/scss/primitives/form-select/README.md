@@ -11,5 +11,6 @@ html example for testing
           <option>Galician</option>
           <option>Georgian</option>
       </select>
+    <span></span>
   </label>
 </div>
