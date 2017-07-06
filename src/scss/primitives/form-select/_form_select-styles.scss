@@ -1,13 +1,13 @@
 .selectdiv {
   position: relative;
   float: left;
-  min-width: 60px;
+  min-width: $form-select-min-width;
 
   &:after {
     content: "\f107";
     font-family: 'FontAwesome';
-    font-size: 14px;
-    color: #fff;
+    font-size: $form-select-icon-size;
+    color: $form-select-main-color;
     right: 11px;
     top: 15px;
     padding: 0 0 2px;
@@ -20,13 +20,12 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 4px;
   display: block;
   width: auto;
-  height: 36px;
+  height: $form-select-select-height;
   margin: 5px 0px;
   padding: 0px 12px;
-  font-size: 13px;
+  font-size: $font-select-font-size;
   background-color: transparent;
   border: 1px solid transparent;
 
@@ -40,6 +39,7 @@
       right: 0;
       bottom: 0;
       background-color: #142a3c;
+      border-radius: $form-select-border-radius;
       border: 1px solid transparent;
       z-index: -1;
     }
