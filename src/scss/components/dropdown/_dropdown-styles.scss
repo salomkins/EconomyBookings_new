@@ -59,59 +59,59 @@
 //
 //
 //dropdown_mrk ---dropdown with marker (variants ar @extend)
+//atstāju, kā paraugu
 //
-
-.dropdown {
-    @include ext(_mrk) {
-        background-color: $dropdown_mrk_background_color;
-        border-radius: 3px;
-        border: 1px solid transparent;
-
-        &:after {
-            content: "";
-            display: block;
-            position: absolute;
-            background-color: $dropdown_mrk_content_background_color;
-            width: $dropdown_mrk_marker_size;
-            height: $dropdown_mrk_marker_size;
-            top: calc(100% + #{$dropdown_mrk_space} - #{$dropdown_mrk_marker_size} / 2);
-            left: calc(50% - #{$dropdown_mrk_marker_size} / 2);
-            transform: rotate(45deg);
-            opacity: 0;
-            visibility: hidden;
-            z-index: 99;
-        }
-
-        &:hover {
-            border: 1px solid rgba(255, 255, 255, .5);
-        }
-
-        &-active,
-        &:focus {
-            background-color: $dropdown_mrk_background_color_active;
-
-            &:after {
-                opacity: 1;
-                visibility: visible;
-                cursor: auto;
-            }
-        }
-    }
-
-    &-label {
-        @include ext(_mrk) {
-            display: block;
-            color: $dropdown_mrk_label_color;
-            margin: 10px 15px;
-        }
-    }
-
-    &-content {
-        @include ext(_mrk) {
-            top: calc(100% + #{$dropdown_mrk_space});
-            background-color: $dropdown_mrk_content_background_color;
-            border-radius: $dropdown_mrk_content_border_radius;
-            min-width: calc(50% + (#{$dropdown_mrk_marker_size} * 1.41421 / 2) + #{$dropdown_mrk_content_border_radius});
-        }
-    }
-}
+// .dropdown {
+//     @include ext(_mrk) {
+//         background-color: $dropdown_mrk_background_color;
+//         border-radius: 3px;
+//         border: 1px solid transparent;
+//
+//         &:after {
+//             content: "";
+//             display: block;
+//             position: absolute;
+//             background-color: $dropdown_mrk_content_background_color;
+//             width: $dropdown_mrk_marker_size;
+//             height: $dropdown_mrk_marker_size;
+//             top: calc(100% + #{$dropdown_mrk_space} - #{$dropdown_mrk_marker_size} / 2);
+//             left: calc(50% - #{$dropdown_mrk_marker_size} / 2);
+//             transform: rotate(45deg);
+//             opacity: 0;
+//             visibility: hidden;
+//             z-index: 99;
+//         }
+//
+//         &:hover {
+//             border: 1px solid rgba(255, 255, 255, .5);
+//         }
+//
+//         &-active,
+//         &:focus {
+//             background-color: $dropdown_mrk_background_color_active;
+//
+//             &:after {
+//                 opacity: 1;
+//                 visibility: visible;
+//                 cursor: auto;
+//             }
+//         }
+//     }
+//
+//     &-label {
+//         @include ext(_mrk) {
+//             display: block;
+//             color: $dropdown_mrk_label_color;
+//             margin: 10px 15px;
+//         }
+//     }
+//
+//     &-content {
+//         @include ext(_mrk) {
+//             top: calc(100% + #{$dropdown_mrk_space});
+//             background-color: $dropdown_mrk_content_background_color;
+//             border-radius: $dropdown_mrk_content_border_radius;
+//             min-width: calc(50% + (#{$dropdown_mrk_marker_size} * 1.41421 / 2) + #{$dropdown_mrk_content_border_radius});
+//         }
+//     }
+// }

@@ -1,5 +1,8 @@
 ### Components >>> dropdown
 
+Izmanto Primitives:
+dropdown
+
 UZMANĪBU!
 Lai nostrādātu uz ":focus" - html pievienot parametru: tabindex="1"
 
@@ -26,12 +29,11 @@ Lai nostrādātu uz ":focus" - html pievienot parametru: tabindex="1"
         <p>Hello World!</p>
     </div>
 </div>
-
-
+<!--
 <div class="dropdown_mrk" tabindex="1">
     <span class="dropdown-label_mrk">I am MRK dropdown with @extend</span>
     <div class="dropdown-content_mrk">
         <p>Hello World!</p>
     </div>
-</div>
+</div> -->
 </html>
