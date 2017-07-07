@@ -4,8 +4,8 @@
   min-width: $form-select-min-width;
 
   &:after {
-    content: "\f107";
-    font-family: 'FontAwesome';
+    content: $form-select-icon;
+    font-family: $form-select-icon-font;
     font-size: $form-select-icon-size;
     color: $form-select-main-color;
     right: 11px;
