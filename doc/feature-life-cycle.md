@@ -15,7 +15,8 @@ N.B. Never pull changes between different feature branches.
 11. [Trello] If you are the one who reviews another persons feature always leave comments- if everything looks fine and works well, add comment of any kind of approval. In something is not working properly or could be done better, describe it in your comment and move particular task to ToDo section for adjusments.
 12. [Trello] Once your task has passed review, move it to QA section of board so managing gurus can check your work. From here there's only 2 options- either your task will be moved to Done section or back to ToDo section for some more adjusments.
 13. [SourceTree] When your task is moved to Done section in Trello by one of gurus, right click on develop branch and select "Merge develop into current branch".
-14. [SourceTree] If merge is successful and no conflicts are displayed, close feature using Gitflow and begin work on next task. In the case of conflicts, resolve them using external diff tool before closing feature and moving on to next task.
+14. [SourceTree] If merge is successful and no conflicts are displayed, finish feature using Gitflow and begin work on next task. In the case of conflicts, resolve them using external diff tool before closing feature and moving on to next task.
+15. [SourceTree] If feature is displayed in origin after finishing, delete it and then use fetch button to synchronize branches and features. To do so check option "Prune tracking branches no longer present on remote(s)"
 
 
 
@@ -37,5 +38,5 @@ N.B. Nekad neievelc izmaiņas starp dažādiem "feature" zariem.
 11. [Trello] Ja tu esi tas, kurš pārbauda cita komandas biedra "feature", vienmēr raksti komentārus- ja viss ir kārtībā, tad ieraksti apstiprinošu komentāru, bet ja kaut kas nestrādā vai varētu tik izveidots labāk, tad to apraksti un pārvieto uzdevumu atpakaļ uz ToDo sadaļu tālākiem labojumiem.
 12. [Trello] Kad tavs uzdevums ir izturējis komandas biedra pārbaudi, pārvieto to uz QA sadaļu, lai kāds no sensejiem var pārbaudīt tavu darbu. Pēc tam atliek 2 scenāriji- vai nu tavs uzdevums tiks pārvietots uz Done sadaļu, vai arī pārvietots atpakaļ uz ToDo sadaļu, lai veiktu papildus labojumus.
 13. [SourceTree] Ja kāds no sensejiem tavu uzdevumu ir pārvietojis uz Done sadaļu, atrodoties sava "feature" zarā, labais peles klikšķis uz develop zara un izvēlies "Merge develop into current branch".
-14. [SourceTree] Ja apvienošana ir veiksmīga un nav parādījies neviens konflikts, tad aizver "feature" izmantojot Gitflow pogu "Close feature" un sāc strādāt pie nākamā uzdevuma. Ja tomēr parādījušies konflikti, atrisini tos izmantojot speciālo rīku un tad aizver "feature" un sāc strādāt pie nākamā uzdevuma.
-
+14. [SourceTree] Ja apvienošana ir veiksmīga un nav parādījies neviens konflikts, tad aizver "feature" izmantojot Gitflow pogu "Finish feature" un sāc strādāt pie nākamā uzdevuma. Ja tomēr parādījušies konflikti, atrisini tos izmantojot speciālo rīku un tad aizver "feature" un sāc strādāt pie nākamā uzdevuma.
+15. [SourceTree] Ja pēc "feature" pabeigšanas, tā vēl parādās serverī, tad to no turienes jāizdzēš un jāizmanto iespēja fetch, lai sinhronizētu lokālos un servera zarus. Lai tas notiktu pareizi, atķeksē "Prune tracking branches no longer present on remote(s)"
