@@ -13,8 +13,7 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
    ========================================================================== */
@@ -22,8 +21,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
@@ -34,8 +32,7 @@ footer,
 header,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -43,8 +40,7 @@ section {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
    ========================================================================== */
@@ -56,15 +52,13 @@ figcaption,
 figure,
 main {
   /* 1 */
-  display: block;
-}
+  display: block; }
 
 /**
  * Add the correct margin in IE 8.
  */
 figure {
-  margin: 1em 40px;
-}
+  margin: 1em 40px; }
 
 /**
  * 1. Add the correct box sizing in Firefox.
@@ -76,8 +70,7 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -87,8 +80,7 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
    ========================================================================== */
@@ -100,8 +92,7 @@ a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
@@ -113,24 +104,21 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
 b,
 strong {
-  font-weight: inherit;
-}
+  font-weight: inherit; }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -142,30 +130,26 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font style in Android 4.3-.
  */
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
 mark {
   background-color: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -176,16 +160,13 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
    ========================================================================== */
@@ -194,30 +175,26 @@ sup {
  */
 audio,
 video {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Add the correct display in iOS 4-7.
  */
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Remove the border on images inside links in IE 10-.
  */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* Forms
    ========================================================================== */
@@ -237,8 +214,7 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
@@ -247,8 +223,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -257,8 +232,7 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
@@ -270,8 +244,7 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -281,8 +254,7 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
@@ -291,15 +263,13 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -319,8 +289,7 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * 1. Add the correct display in IE 9-.
@@ -330,15 +299,13 @@ progress {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the default vertical scrollbar in IE.
  */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10-.
@@ -349,16 +316,14 @@ textarea {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -368,16 +333,14 @@ textarea {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -387,8 +350,7 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
    ========================================================================== */
@@ -398,15 +360,13 @@ textarea {
  */
 details,
 menu {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Scripting
    ========================================================================== */
@@ -414,15 +374,13 @@ summary {
  * Add the correct display in IE 9-.
  */
 canvas {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
 template {
-  display: none;
-}
+  display: none; }
 
 /* Hidden
    ========================================================================== */
@@ -430,368 +388,228 @@ template {
  * Add the correct display in IE 10-.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 @font-face {
   font-family: "fontawesome_webfont";
   src: url("../assets/fonts/fontawesome-webfont.eot");
   src: url("../assets/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/fontawesome-webfont.woff2") format("woff2"), url("../assets/fonts/fontawesome-webfont.woff") format("woff"), url("../assets/fonts/fontawesome-webfont.ttf") format("truetype"), url("../assets/fonts/fontawesome-webfont.svg#fontawesome_webfont") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: "open_sansregular";
   src: url("../assets/fonts/OpenSans-Regular.eot");
   src: url("../assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"), url("../assets/fonts/OpenSans-Regular.woff") format("woff"), url("../assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("../assets/fonts/OpenSans-Regular.svg#open_sansregular") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: "open_sanslight";
   src: url("../assets/fonts/OpenSans-Light.eot");
   src: url("../assets/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Light.woff2") format("woff2"), url("../assets/fonts/OpenSans-Light.woff") format("woff"), url("../assets/fonts/OpenSans-Light.ttf") format("truetype"), url("../assets/fonts/OpenSans-Light.svg#open_sanslight") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: "open_sanssemibold";
   src: url("../assets/fonts/OpenSans-Semibold.eot");
   src: url("../assets/fonts/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Semibold.woff2") format("woff2"), url("../assets/fonts/OpenSans-Semibold.woff") format("woff"), url("../assets/fonts/OpenSans-Semibold.ttf") format("truetype"), url("../assets/fonts/OpenSans-Semibold.svg#open_sanssemibold") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: "open_sansbold";
   src: url("../assets/fonts/OpenSans-Bold.eot");
   src: url("../assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Bold.woff2") format("woff2"), url("../assets/fonts/OpenSans-Bold.woff") format("woff"), url("../assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("../assets/fonts/OpenSans-Bold.svg#open_sansbold") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 .font_12 {
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .font_13 {
-  font-size: 13px;
-}
+  font-size: 13px; }
 
 .font_14 {
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .font_15 {
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 .font_16 {
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 .font_18 {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 .font_22 {
-  font-size: 22px;
-}
+  font-size: 22px; }
 
 .font_24 {
-  font-size: 24px;
-}
+  font-size: 24px; }
 
 .font_32 {
-  font-size: 32px;
-}
+  font-size: 32px; }
 
 .font_a, .font_a_12, .font_a_13, .font_a_14, .font_a_15, .font_a_16, .font_a_18, .font_a_22, .font_a_24, .font_a_32 {
-  font-family: 'fontawesome_webfont';
-}
-
-.font_a_12 {
-  font-size: 12px;
-}
-
-.font_a_13 {
-  font-size: 13px;
-}
-
-.font_a_14 {
-  font-size: 14px;
-}
-
-.font_a_15 {
-  font-size: 15px;
-}
-
-.font_a_16 {
-  font-size: 16px;
-}
-
-.font_a_18 {
-  font-size: 18px;
-}
-
-.font_a_22 {
-  font-size: 22px;
-}
-
-.font_a_24 {
-  font-size: 24px;
-}
-
-.font_a_32 {
-  font-size: 32px;
-}
+  font-family: 'fontawesome_webfont'; }
+  .font_a_12 {
+    font-size: 12px; }
+  .font_a_13 {
+    font-size: 13px; }
+  .font_a_14 {
+    font-size: 14px; }
+  .font_a_15 {
+    font-size: 15px; }
+  .font_a_16 {
+    font-size: 16px; }
+  .font_a_18 {
+    font-size: 18px; }
+  .font_a_22 {
+    font-size: 22px; }
+  .font_a_24 {
+    font-size: 24px; }
+  .font_a_32 {
+    font-size: 32px; }
 
 .font_r, .font_r_12, .font_r_13, .font_r_14, .font_r_15, .font_r_16, .font_r_18, .font_r_22, .font_r_24, .font_r_32 {
-  font-family: 'open_sansregular';
-}
-
-.font_r_12 {
-  font-size: 12px;
-}
-
-.font_r_13 {
-  font-size: 13px;
-}
-
-.font_r_14 {
-  font-size: 14px;
-}
-
-.font_r_15 {
-  font-size: 15px;
-}
-
-.font_r_16 {
-  font-size: 16px;
-}
-
-.font_r_18 {
-  font-size: 18px;
-}
-
-.font_r_22 {
-  font-size: 22px;
-}
-
-.font_r_24 {
-  font-size: 24px;
-}
-
-.font_r_32 {
-  font-size: 32px;
-}
+  font-family: 'open_sansregular'; }
+  .font_r_12 {
+    font-size: 12px; }
+  .font_r_13 {
+    font-size: 13px; }
+  .font_r_14 {
+    font-size: 14px; }
+  .font_r_15 {
+    font-size: 15px; }
+  .font_r_16 {
+    font-size: 16px; }
+  .font_r_18 {
+    font-size: 18px; }
+  .font_r_22 {
+    font-size: 22px; }
+  .font_r_24 {
+    font-size: 24px; }
+  .font_r_32 {
+    font-size: 32px; }
 
 .font_l, .font_l_12, .font_l_13, .font_l_14, .font_l_15, .font_l_16, .font_l_18, .font_l_22, .font_l_24, .font_l_32 {
-  font-family: 'open_sanslight';
-}
-
-.font_l_12 {
-  font-size: 12px;
-}
-
-.font_l_13 {
-  font-size: 13px;
-}
-
-.font_l_14 {
-  font-size: 14px;
-}
-
-.font_l_15 {
-  font-size: 15px;
-}
-
-.font_l_16 {
-  font-size: 16px;
-}
-
-.font_l_18 {
-  font-size: 18px;
-}
-
-.font_l_22 {
-  font-size: 22px;
-}
-
-.font_l_24 {
-  font-size: 24px;
-}
-
-.font_l_32 {
-  font-size: 32px;
-}
+  font-family: 'open_sanslight'; }
+  .font_l_12 {
+    font-size: 12px; }
+  .font_l_13 {
+    font-size: 13px; }
+  .font_l_14 {
+    font-size: 14px; }
+  .font_l_15 {
+    font-size: 15px; }
+  .font_l_16 {
+    font-size: 16px; }
+  .font_l_18 {
+    font-size: 18px; }
+  .font_l_22 {
+    font-size: 22px; }
+  .font_l_24 {
+    font-size: 24px; }
+  .font_l_32 {
+    font-size: 32px; }
 
 .font_sb, .font_sb_12, .font_sb_13, .font_sb_14, .font_sb_15, .font_sb_16, .font_sb_18, .font_sb_22, .font_sb_24, .font_sb_32 {
-  font-family: 'open_sanssemibold';
-}
-
-.font_sb_12 {
-  font-size: 12px;
-}
-
-.font_sb_13 {
-  font-size: 13px;
-}
-
-.font_sb_14 {
-  font-size: 14px;
-}
-
-.font_sb_15 {
-  font-size: 15px;
-}
-
-.font_sb_16 {
-  font-size: 16px;
-}
-
-.font_sb_18 {
-  font-size: 18px;
-}
-
-.font_sb_22 {
-  font-size: 22px;
-}
-
-.font_sb_24 {
-  font-size: 24px;
-}
-
-.font_sb_32 {
-  font-size: 32px;
-}
+  font-family: 'open_sanssemibold'; }
+  .font_sb_12 {
+    font-size: 12px; }
+  .font_sb_13 {
+    font-size: 13px; }
+  .font_sb_14 {
+    font-size: 14px; }
+  .font_sb_15 {
+    font-size: 15px; }
+  .font_sb_16 {
+    font-size: 16px; }
+  .font_sb_18 {
+    font-size: 18px; }
+  .font_sb_22 {
+    font-size: 22px; }
+  .font_sb_24 {
+    font-size: 24px; }
+  .font_sb_32 {
+    font-size: 32px; }
 
 .font_b, .font_b_12, .font_b_13, .font_b_14, .font_b_15, .font_b_16, .font_b_18, .font_b_22, .font_b_24, .font_b_32 {
-  font-family: 'open_sansbold';
-}
-
-.font_b_12 {
-  font-size: 12px;
-}
-
-.font_b_13 {
-  font-size: 13px;
-}
-
-.font_b_14 {
-  font-size: 14px;
-}
-
-.font_b_15 {
-  font-size: 15px;
-}
-
-.font_b_16 {
-  font-size: 16px;
-}
-
-.font_b_18 {
-  font-size: 18px;
-}
-
-.font_b_22 {
-  font-size: 22px;
-}
-
-.font_b_24 {
-  font-size: 24px;
-}
-
-.font_b_32 {
-  font-size: 32px;
-}
+  font-family: 'open_sansbold'; }
+  .font_b_12 {
+    font-size: 12px; }
+  .font_b_13 {
+    font-size: 13px; }
+  .font_b_14 {
+    font-size: 14px; }
+  .font_b_15 {
+    font-size: 15px; }
+  .font_b_16 {
+    font-size: 16px; }
+  .font_b_18 {
+    font-size: 18px; }
+  .font_b_22 {
+    font-size: 22px; }
+  .font_b_24 {
+    font-size: 24px; }
+  .font_b_32 {
+    font-size: 32px; }
 
 .icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right {
-  font-family: 'fontawesome_webfont';
-}
-
-.icon_facebook::before, .icon_facebook_soc::before, .icon_facebook_soc--footer::before {
-  content: "";
-}
-
-.icon_google_plus::before, .icon_google_plus_soc::before, .icon_google_plus_soc--footer::before {
-  content: "";
-}
-
-.icon_youtube::before, .icon_youtube_soc::before, .icon_youtube_soc--footer::before {
-  content: "";
-}
-
-.icon_angle_double_right::before {
-  content: "";
-}
+  font-family: 'fontawesome_webfont'; }
+  .icon_facebook::before, .icon_facebook_soc::before, .icon_facebook_soc--footer::before {
+    content: ""; }
+  .icon_google_plus::before, .icon_google_plus_soc::before, .icon_google_plus_soc--footer::before {
+    content: ""; }
+  .icon_youtube::before, .icon_youtube_soc::before, .icon_youtube_soc--footer::before {
+    content: ""; }
+  .icon_angle_double_right::before {
+    content: ""; }
 
 .dropdown {
   position: relative;
-  display: inline-block;
-}
+  display: inline-block; }
+  .dropdown-label {
+    display: block; }
+  .dropdown-content {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 100; }
+  .dropdown:hover {
+    cursor: pointer; }
+  .dropdown:focus {
+    outline: none; }
+  .dropdown-active .dropdown-content, .dropdown:focus .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    cursor: auto; }
 
-.dropdown-label {
-  display: block;
-}
-
-.dropdown-content {
-  display: block;
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  z-index: 100;
-}
-
-.dropdown:hover {
-  cursor: pointer;
-}
-
-.dropdown:focus {
-  outline: none;
-}
-
-.dropdown-active .dropdown-content, .dropdown:focus .dropdown-content {
-  opacity: 1;
-  visibility: visible;
-  cursor: auto;
-}
-
-input[type="text"], input[type="password"] {
+.form-input[type="text"], .form-input[type="password"] {
   display: block;
   outline: none;
   border: none;
   width: 100%;
   text-align: center;
-  padding: 15px;
-}
+  padding: 15px; }
 
 .icon_facebook_soc, .icon_facebook_soc--footer {
-  font-size: 35px;
-}
-
-.icon_facebook_soc--footer {
-  font-size: 32px;
-  color: #eee;
-}
+  font-size: 35px; }
+  .icon_facebook_soc--footer {
+    font-size: 32px;
+    color: #eee; }
 
 .icon_google_plus_soc, .icon_google_plus_soc--footer {
-  font-size: 35px;
-}
-
-.icon_google_plus_soc--footer {
-  font-size: 32px;
-  color: #eee;
-}
+  font-size: 35px; }
+  .icon_google_plus_soc--footer {
+    font-size: 32px;
+    color: #eee; }
 
 .icon_youtube_soc, .icon_youtube_soc--footer {
-  font-size: 35px;
-}
-
-.icon_youtube_soc--footer {
-  font-size: 32px;
-  color: #eee;
-}
+  font-size: 35px; }
+  .icon_youtube_soc--footer {
+    font-size: 32px;
+    color: #eee; }
