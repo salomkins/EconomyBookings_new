@@ -1,0 +1,10 @@
+//
+.form-input[type="text"], .form-input[type="password"]{
+  display: block;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}

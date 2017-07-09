@@ -568,6 +568,68 @@ template {
   .icon_angle_double_right::before {
     content: ""; }
 
+<<<<<<< HEAD
+.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right {
+  font-family: 'fontawesome_webfont';
+}
+
+.icon_facebook::before, .icon_facebook_soc::before, .icon_facebook_soc--footer::before {
+  content: "";
+}
+
+.icon_google_plus::before, .icon_google_plus_soc::before, .icon_google_plus_soc--footer::before {
+  content: "";
+}
+
+.icon_youtube::before, .icon_youtube_soc::before, .icon_youtube_soc--footer::before {
+  content: "";
+}
+
+.icon_angle_double_right::before {
+  content: "";
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-label {
+  display: block;
+}
+
+.dropdown-content {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: 100;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.dropdown:focus {
+  outline: none;
+}
+
+.dropdown-active .dropdown-content, .dropdown:focus .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  cursor: auto;
+}
+
+.form-input[type="text"], .form-input[type="password"] {
+  display: block;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+=======
 .dropdown {
   position: relative;
   display: inline-block; }
@@ -587,6 +649,7 @@ template {
     opacity: 1;
     visibility: visible;
     cursor: auto; }
+>>>>>>> develop
 
 .icon_facebook_soc, .icon_facebook_soc--footer {
   font-size: 35px; }
@@ -601,6 +664,15 @@ template {
     color: #eee; }
 
 .icon_youtube_soc, .icon_youtube_soc--footer {
+<<<<<<< HEAD
+  font-size: 35px;
+}
+
+.icon_youtube_soc--footer {
+  font-size: 32px;
+  color: #eee;
+}
+=======
   font-size: 35px; }
   .icon_youtube_soc--footer {
     font-size: 32px;
@@ -642,3 +714,4 @@ template {
   background-color: #fff;
   border-radius: 3px;
   min-width: calc(50% + (7px * 1.41421 / 2) + 3px); }
+>>>>>>> develop
