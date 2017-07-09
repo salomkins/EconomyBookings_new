@@ -27,3 +27,4 @@ dist/css/
 
 # NPM
 node_modules/
+style.css
