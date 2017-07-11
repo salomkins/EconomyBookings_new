@@ -1,0 +1,35 @@
+.btn {
+  height: 42px;
+  background-color: #0073b5;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'open_sansregular';
+  font-size: 16px;
+
+  &-main {
+    @extend .btn;
+    width: 100%;
+
+      &_form {
+        @extend .btn-main;
+        background-color: #f26522;
+      }
+  }
+
+  &-carousel {
+    @extend .btn;
+    font-family: 'open_sansbold';
+    width: 151px;
+
+      &:hover {
+        background-color: #00a0fb;
+      }
+
+      &_active {
+         @extend .btn-carousel;
+         background-color: #f2a622;
+       }
+  }
+
+}
