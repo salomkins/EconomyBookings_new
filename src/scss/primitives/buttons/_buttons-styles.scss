@@ -7,6 +7,10 @@
   font-family: 'open_sansregular';
   font-size: 16px;
 
+  &:focus {
+    outline: none;
+  }
+
   &-main {
     @extend .btn;
     width: 100%;
