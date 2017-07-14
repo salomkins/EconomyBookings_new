@@ -557,7 +557,7 @@ template {
   .font_b_32 {
     font-size: 32px; }
 
-.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right {
+.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right, .icon_star, .icon_star_half, .icon_star_empty {
   font-family: 'fontawesome_webfont'; }
   .icon_facebook::before, .icon_facebook_soc::before, .icon_facebook_soc--footer::before {
     content: ""; }
@@ -567,6 +567,12 @@ template {
     content: ""; }
   .icon_angle_double_right::before {
     content: ""; }
+  .icon_star::before {
+    content: ""; }
+  .icon_star_half::before {
+    content: ""; }
+  .icon_star_empty::before {
+    content: ""; }
 
 .dropdown {
   position: relative;
@@ -1945,6 +1951,10 @@ select {
       background-color: #00a0fb; }
     .btn-carousel_active {
       background-color: #f2a622; }
+
+.rating {
+  color: #fff292;
+  font-size: 15px; }
 
 .icon_facebook_soc, .icon_facebook_soc--footer {
   font-size: 35px; }
