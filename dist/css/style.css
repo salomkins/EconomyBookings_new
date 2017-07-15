@@ -557,13 +557,15 @@ template {
   .font_b_32 {
     font-size: 32px; }
 
-.anchor, .anchor_underline, .anchor_underline_dash {
+.anchor, .anchor_underline, .anchor_underline--main, .anchor_underline_dash {
   color: inherit;
   text-decoration: inherit; }
-  .anchor:focus, .anchor_underline:focus, .anchor_underline_dash:focus {
+  .anchor:focus, .anchor_underline:focus, .anchor_underline--main:focus, .anchor_underline_dash:focus {
     outline: none; }
-  .anchor_underline, .anchor_underline_dash {
+  .anchor_underline, .anchor_underline--main, .anchor_underline_dash {
     text-decoration: underline; }
+    .anchor_underline--main {
+      color: #0073b5; }
     .anchor_underline_dash {
       text-decoration-style: dashed; }
 
