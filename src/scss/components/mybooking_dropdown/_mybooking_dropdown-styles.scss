@@ -1,1 +1,20 @@
 //
+.dropdown-content{
+  &--sign_in{
+    min-width: 320px;
+    border-radius: 3px;
+    padding: 3px;
+    box-shadow: inset 0 0 7px #777,  0 0 7px #777;
+  }
+}
+.form-input{
+  &--sign_in{
+    background-color: transparent;
+  }
+}
+.btn-main{
+  &--sign_in{
+  margin: 16px 12px;
+  width: calc(100% - 24px);
+}
+}
