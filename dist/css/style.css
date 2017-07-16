@@ -709,7 +709,7 @@ template {
   font-size: 32px;
 }
 
-.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right {
+.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right, .icon_bars {
   font-family: 'fontawesome_webfont';
 }
 
@@ -727,6 +727,10 @@ template {
 
 .icon_angle_double_right::before {
   content: "";
+}
+
+.icon_bars::before {
+  content: "";
 }
 
 .dropdown {
@@ -2300,8 +2304,7 @@ template {
   background-image: url("../assets/images/main-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 170px;
-  height: 30px;
+  height: 26px;
 }
 
 .selectdiv {
@@ -2438,4 +2441,32 @@ select {
 
 .navbar {
   background-color: #1a5880;
+  color: #fff;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-main_logo {
+  margin: 20px 15px 0;
+  width: 100%;
+}
+
+.navbar-icon_bars {
+  margin: 12px 15px;
+  padding: 8px 10px;
+  font-size: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+
+.navbar-content {
+  display: none;
+  background-color: #133f5c;
+}
+
+.navbar-content--active {
+  display: block;
 }

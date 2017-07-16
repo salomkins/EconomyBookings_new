@@ -1,5 +1,36 @@
 ### Components >>> navbar
+Izmanto Primitives:
+icons
+main_logo
 
 <html>
+
+<style media="screen">
+    body {
+        background-color: grey;
+    }
+
+    .main_container {
+        width: 320px;
+        margin: 0 auto;
+    }
+</style>
+
+<nav class="navbar">
+    <div class="main_container navbar-container">
+        <div class="navbar-main_logo"><span class="main_logo"></span></div>
+        <div class="navbar-icon_bars"> <span class="icon_bars"></span> </div>
+    </div>
+
+    <div class="navbar-content navbar-content--active">
+        <div class="main_container">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quod doloribus tempore deserunt id repellendus dolores assumenda, cum voluptatum vero reiciendis, nobis aperiam eius. Iusto laudantium deleniti vitae consequuntur impedit.
+        </div>
+    </div>
+</nav>
+<!-- Lapas satura sākums -->
+<div class="main_container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quod doloribus tempore deserunt id repellendus dolores assumenda, cum voluptatum vero reiciendis, nobis aperiam eius. Iusto laudantium deleniti vitae consequuntur impedit.</p>
+</div>
 
 </html>
