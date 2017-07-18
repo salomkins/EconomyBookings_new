@@ -1,9 +1,4 @@
 //
-.box{
-  width: 320px;
-  margin: 0 auto;
-  border: 1px solid black;
-}
 .checklist {
     margin: 0;
     padding: 0;
@@ -16,10 +11,13 @@
             content: $checklist_icon;
             color: $checklist_icon_color;
             font-family: 'fontawesome_webfont';
-            font-size: 22px;
+            font-size: calc(150%);
             position: absolute;
             top: -4px;
             left: -#{$checklist_text_left};
         }
+    }
+    & > &-item:first-child{
+      margin-top: 0;
     }
 }
