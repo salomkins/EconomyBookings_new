@@ -1,0 +1,18 @@
+//
+
+.anchor {
+    color: inherit;
+    text-decoration: inherit;
+    &:focus{
+      outline: none; //priekš firefox
+    }
+    @include ext(_underline) {
+        text-decoration: underline;
+        @include ext(--main){
+          color: #0073b5;
+        }
+        @include ext(_dash) {
+            text-decoration-style: dashed;
+        }
+    }
+}
