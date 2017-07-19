@@ -1,0 +1,24 @@
+### Components >>> subscribe
+
+Izmanto Primitives:
+fonts
+headings
+input
+buttons
+
+Piemers testesanai:
+
+<style>
+  .box {
+    width: 320px;
+    margin: 20px auto;
+  }
+</style>
+<div class="box">
+  <div class="block--subscribe">
+    <h2 class="heading-alternative_subscribe">Subscribe to our best deals</h2>
+    <h3 class="heading-description_subscribe">Car hire at half price. Subscribe to our Exclusive Offers.</h3>
+    <input class="form-input_subscribe" type="text" name="txt" placeholder="Enter your email">
+    <button class="btn-main_form">Subscribe</button>
+  </div>
+</div>

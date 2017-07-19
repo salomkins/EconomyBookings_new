@@ -1,0 +1,25 @@
+.block--subscribe{
+  background-color: #444444;
+  padding: 22px 20px;
+}
+
+.form-input_subscribe {
+  @extend .form-input;
+  border-radius: 2px;
+  padding: 15px 0px;
+  margin: 10px 0px;
+  font-family: pt_sansregular;
+  font-size: 16px;
+}
+
+.heading-alternative_subscribe {
+  @extend .heading-alternative;
+  color: #cccccc;
+  padding-bottom: 15px;
+}
+
+.heading-description_subscribe {
+  @extend .heading-description;
+  color: #aaaaaa;
+  padding-bottom: 8px;
+}
