@@ -1,28 +1,35 @@
-.block--subscribe{
-  background-color: #444444;
-  padding: 22px 20px;
-  width: 100%;
+.block{
+  &--subscribe {
+    background-color: #444444;
+    padding: 26px 20px 22px 20px;
+  }
 }
 
-.form-input_subscribe {
-  @extend .form-input[type="text"];
-  border-radius: 2px;
-  padding: 15px 0px;
-  margin: 10px 0px;
-  font-family: open_sansregular;
-  font-size: 16px;
+.form-input {
+  &--subscribe {
+    @extend .form-input[type="text"];
+    border-radius: 2px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    font-family: open_sansregular;
+    font-size: 16px;
+  }
 }
 
-.heading-alternative_subscribe {
-  @extend .heading-alternative;
-  color: #cccccc;
-  padding-bottom: 15px;
-  line-height: 18px;
+.heading-alternative {
+  &--subscribe {
+    @extend .heading-alternative;
+    color: #cccccc;
+    padding-bottom: 15px;
+    line-height: 18px;
+  }
 }
 
-.heading-subject_subscribe {
-  @extend .heading-subject;
-  color: #aaaaaa;
-  padding-bottom: 8px;
-  line-height: 18px;
+.heading-subject {
+  &--subscribe {
+    @extend .heading-subject;
+    color: #aaaaaa;
+    padding-bottom: 8px;
+    line-height: 18px;
+  }
 }
