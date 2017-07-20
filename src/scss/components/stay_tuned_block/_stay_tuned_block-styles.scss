@@ -1,0 +1,19 @@
+//
+.block{
+  &--stay_tuned{
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    color: #444;
+  }
+}
+.row{
+  &--stay_tuned{
+    margin-top: 13px;
+  }
+}
+.form-input--stay_tuned[type="text"]{
+  font-size: 14px;
+  padding: 12px 0;
+  border: 1px solid #ddd;
+}
