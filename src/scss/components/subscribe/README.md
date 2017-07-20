@@ -17,7 +17,7 @@ Piemers testesanai:
 <div class="box">
   <div class="block--subscribe">
     <h2 class="heading-alternative_subscribe">Subscribe to our best deals</h2>
-    <h3 class="heading-description_subscribe">Car hire at half price. Subscribe to our Exclusive Offers.</h3>
+    <h3 class="heading-subject_subscribe">Car hire at half price. Subscribe to our Exclusive Offers.</h3>
     <input class="form-input_subscribe" type="text" name="txt" placeholder="Enter your email">
     <button class="btn-main_form">Subscribe</button>
   </div>

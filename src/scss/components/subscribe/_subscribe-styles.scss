@@ -18,8 +18,9 @@
   padding-bottom: 15px;
 }
 
-.heading-description_subscribe {
-  @extend .heading-description;
+.heading-subject_subscribe {
+  @extend .heading-subject;
   color: #aaaaaa;
   padding-bottom: 8px;
+  line-height: 18px;
 }
