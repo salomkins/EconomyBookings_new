@@ -1,10 +1,11 @@
 .block--subscribe{
   background-color: #444444;
   padding: 22px 20px;
+  width: 100%;
 }
 
 .form-input_subscribe {
-  @extend .form-input;
+  @extend .form-input[type="text"];
   border-radius: 2px;
   padding: 15px 0px;
   margin: 10px 0px;
@@ -16,6 +17,7 @@
   @extend .heading-alternative;
   color: #cccccc;
   padding-bottom: 15px;
+  line-height: 18px;
 }
 
 .heading-subject_subscribe {
