@@ -11,17 +11,6 @@
     width: 234px;
     height: 71px;
     border-radius: 10px;
-
-    &_light {
-      @extend .appbtn-large;
-      background-color: #fff;
-    }
-
-    &_dark {
-      @extend .appbtn-large;
-      background-color: #000;
-      border: 1px solid #c0c0c0;
-    }
   }
 
   &-small {
@@ -29,16 +18,5 @@
     width: 135px;
     height: 40px;
     border-radius: 5px;
-
-    &_light {
-      @extend .appbtn-small;
-      background-color: #fff;
-    }
-
-    &_dark {
-      @extend .appbtn-small;
-      background-color: #000;
-      border: 1px solid #c0c0c0;
-    }
   }
 }

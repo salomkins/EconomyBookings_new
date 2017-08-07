@@ -1,0 +1,23 @@
+.apple {
+  &--dark {
+    background-image: url("../assets/images/app-store.png");
+    background-size: cover;
+  }
+
+  &--light {
+    background-image: url("../assets/images/app-store-white.png");
+    background-size: cover;
+  }
+}
+
+.google {
+  &--dark {
+    background-image: url("../assets/images/google-play.png");
+    background-size: cover;
+  }
+
+  &--light {
+    background-image: url("../assets/images/google-play-white.png");
+    background-size: cover;
+  }
+}
