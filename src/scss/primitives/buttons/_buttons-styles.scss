@@ -12,6 +12,10 @@
     outline: none;
   }
 
+  &:hover {
+    background-color: lighten(#0073b5, 10%);
+  }
+
   &-main {
     @extend .btn;
     width: 100%;
