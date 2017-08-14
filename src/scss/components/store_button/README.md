@@ -13,11 +13,11 @@ Piemers testesanai:
 </style>
 
 <div class="box">
-    <button class="appbtn-large"><img src="../dist/assets/images/"></button>
-        <p></p>
-        <button class="appbtn-small"><img src="../dist/assets/images/"></button>
-        <p></p>
-        <button class="appbtn-large"><img src="../dist/assets/images/"></button>
-        <p></p>
-        <button class="appbtn-small"><img src="../dist/assets/images/"></button>
+    <button class="appbtn-large apple--light"><img src="../dist/assets/images/"></button>
+    <p></p>
+    <button class="appbtn-small apple--dark"><img src="../dist/assets/images/"></button>
+    <p></p>
+    <button class="appbtn-large google--light"><img src="../dist/assets/images/"></button>
+    <p></p>
+    <button class="appbtn-medium google--dark"><img src="../dist/assets/images/"></button>
 </div>

@@ -13,10 +13,18 @@
     border-radius: 10px;
   }
 
+  &-medium {
+    @extend .appbtn;
+    width: 115px;
+    height: 40px;
+    border-radius: 5px;
+
+  }
+
   &-small {
     @extend .appbtn;
     width: 135px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 3px;
   }
 }
