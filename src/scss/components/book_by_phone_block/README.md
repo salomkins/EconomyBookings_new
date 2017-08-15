@@ -20,7 +20,7 @@ icons_soc
 
 <div class="block--by_phone font_r_15">
   <h3 class="heading-subject">You can book car by phone</h3>
-  <div class="row--by_phone"><a class="anchor anchor--by_phone" href="#">(+371) 6-601-0858</a></div>
+  <div class="row--by_phone"><a class="anchor anchor--by_phone" href="tel:+37166010858">(+371) 6-601-0858</a></div>
   <div class="social--by_phone">
     <span class="row--by_phone separator--by_phone"></span>
     <div class="row--by_phone">We are social</div>
