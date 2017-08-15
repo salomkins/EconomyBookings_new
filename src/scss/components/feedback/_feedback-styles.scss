@@ -1,0 +1,29 @@
+.block {
+  &--feedback {
+    margin: 0 auto;
+    background-color: transparent;
+    width: 300px;
+    padding: 10px;
+    border: #bccad7 1px dashed;
+    position: relative;
+  }
+}
+
+.row {
+  &--feedback {
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.rating {
+  &--feedback {
+    color: #ffcd4a;
+    font-size: 13px;
+  }
+}
+
+.review-text {
+  line-height: 18px;
+}
