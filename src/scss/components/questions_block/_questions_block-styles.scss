@@ -1,0 +1,14 @@
+//
+.block{
+  &--questions{
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    color: #444;
+  }
+}
+.row{
+  &--questions{
+    margin-top: 13px;
+  }
+}

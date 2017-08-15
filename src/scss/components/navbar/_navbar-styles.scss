@@ -1,0 +1,33 @@
+//
+
+.navbar {
+    background-color: #1a5880;
+    color: #fff;
+
+    &-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-main_logo {
+        margin: 20px 15px 0;
+        width: 100%;
+    }
+
+    &-icon_bars {
+        margin: 12px 15px;
+        padding: 8px 10px;
+        font-size: 18px;
+        border: 1px solid rgba(255,255,255,.5);
+        border-radius: 3px;
+    }
+
+    &-content {
+        display: none;
+        background-color: #133f5c;
+
+        &--active {
+            display: block;
+        }
+    }
+}

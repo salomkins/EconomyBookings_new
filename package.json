@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node-sass --include-path src/scss src/scss/index.scss dist/css/style.css",
-    "sass": "node-sass --include-path src/scss --output-style expanded --watch src/scss/index.scss dist/css/style.css",
-    "watch": "nodemon -e scss -x 'npm run build-css'"
+    "watch": "nodemon -e scss -x 'npm run build-css'",
+    "sass": "node-sass --include-path src/scss --output-style expanded --watch src/scss/index.scss dist/css/style.css"
   },
   "author": "The Fresh Leopards TM",
   "license": "ISC",
