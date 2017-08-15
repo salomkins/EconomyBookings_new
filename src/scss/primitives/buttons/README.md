@@ -11,14 +11,14 @@ Example for testing:
 </style>
 
 <div class="box">
-    <button class="btn">simple btn</button>
+    <a class="btn">simple btn</a>
     <p></p>
-    <button class="btn-main">most used btn</button>
+    <a class="btn-main">most used btn</a>
     <p></p>
-    <button class="btn-main_form">alternate btn</button>
+    <a class="btn-main_form">alternate btn</a>
     <p></p>
-    <button class="btn-carousel">carousel btn</button>
+    <a class="btn-carousel">carousel btn</a>
     <p></p>
-    <button class="btn-carousel_active">carousel btn active</button>
+    <a class="btn-carousel_active">carousel btn active</a>
 </div>
 
