@@ -18,9 +18,9 @@ Piemers testesanai:
 <div class="box">
     <a class="appbtn-large apple--light"></a>
     <p></p>
-    <a class="appbtn-small apple--dark"></a>
+    <a class="appbtn-small google--dark"></a>
     <p></p>
     <a class="appbtn-large google--light"></a>
     <p></p>
-    <a class="appbtn-medium google--dark"></a>
+    <a class="appbtn-medium apple--dark"></a>
 </div>

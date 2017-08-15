@@ -12,20 +12,23 @@
     width: 234px;
     height: 71px;
     border-radius: 10px;
+    background-color: #fff;
   }
 
   &-medium {
     @extend .appbtn;
-    width: 115px;
+    width: 135px;
     height: 40px;
     border-radius: 7px;
+    background-color: #fff;
 
   }
 
   &-small {
     @extend .appbtn;
-    width: 135px;
+    width: 115px;
     height: 40px;
     border-radius: 7px;
+    background-color: #fff;
   }
 }

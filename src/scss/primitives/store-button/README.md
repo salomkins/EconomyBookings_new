@@ -1,11 +1,20 @@
 HTML code for testing
 
-<html style="background-color: orange">
-    <button class="appbtn-large"><img src="https://fueled.com/assets/images/kapture/btn--app-store@2x.png" height="100%" width="100%"></button>
+<style>
+    * {
+        background-color: brown;
+    }
+    .box {
+        width: 320px;
+        margin: 20px auto;
+    }
+</style>
+
+<div class="box">
+    <a class="appbtn-large"></a>
     <p></p>
-    <button class="appbtn-small"><img src="http://vignette2.wikia.nocookie.net/respawnables/images/4/4a/Google-Play-logo-3300x746-transparent.png/revision/latest?cb=20141030073231" height="100%" width="100%"></button>
+    <a class="appbtn-medium"></a>
     <p></p>
-    <button class="appbtn-large"><img src="https://fueled.com/assets/images/kapture/btn--app-store@2x.png" height="100%" width="100%"></button>
-    <p></p>
-    <button class="appbtn-small"><img src="http://vignette2.wikia.nocookie.net/respawnables/images/4/4a/Google-Play-logo-3300x746-transparent.png/revision/latest?cb=20141030073231" height="100%" width="100%"></button>
-</html>
+    <a class="appbtn-small"></a>
+</div>
+
