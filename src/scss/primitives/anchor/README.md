@@ -18,4 +18,5 @@ extend
 <a class="anchor_underline_dash" href="#">Teksta dekors atbilst parent color un pasvītrojums ar raustītu līniju</a>
 <br>
 <a class="anchor_underline--main" href="#">Biežāk lietotais</a>
+<a href="#">Noklusētais</a>
 </html>
