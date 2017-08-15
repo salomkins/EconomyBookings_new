@@ -2,7 +2,7 @@
   &--feedback {
     margin: 0 auto;
     background-color: transparent;
-    width: 100%;
+    width: 300px;
     padding: 10px;
     border: #bccad7 1px dashed;
     position: relative;
@@ -14,7 +14,6 @@
     padding: 6px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
   }
 }
 
@@ -26,5 +25,5 @@
 }
 
 .review-text {
-  line-height: 1.38;
+  line-height: 18px;
 }
