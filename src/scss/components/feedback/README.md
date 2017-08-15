@@ -26,9 +26,7 @@ Piemers testesanai:
             </div>
         </div>
         <div class="row--feedback">
-            <div class="review">
                 <span class="review-text font_r_13">I rented with Economybooking(car rental company SIXT)s in Alicante in September and found the service and quality of car to be absolutely fantastic. One of my best experiences with a large company ever!</span>
-            </div>
         </div>
         <div class="row--feedback">
             <a class="anchor_underline--main font_r_13" href="#">Read more</a>
