@@ -13,12 +13,12 @@ Example for testing:
 <div class="box">
     <a class="btn">simple btn</a>
     <p></p>
-    <a class="btn-main">most used btn</a>
+    <span class="btn-main">most used btn</span>
     <p></p>
-    <a class="btn-main_form">alternate btn</a>
+    <button class="btn-main_form">alternate btn</button>
     <p></p>
     <a class="btn-carousel">carousel btn</a>
     <p></p>
-    <a class="btn-carousel_active">carousel btn active</a>
+    <a class="btn-carousel_active">carousel active</a>
 </div>
 

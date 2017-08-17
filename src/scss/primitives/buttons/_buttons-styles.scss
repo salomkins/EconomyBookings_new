@@ -1,4 +1,4 @@
-.btn {
+.btn, a.btn, span.btn, button.btn {
   height: 42px;
   background-color: #0073b5;
   border: none;
@@ -7,6 +7,9 @@
   font-family: 'open_sansregular';
   font-size: 16px;
   cursor: pointer;
+  display: block;
+  text-align: center;
+  line-height: 42px;
 
   &:focus {
     outline: none;
