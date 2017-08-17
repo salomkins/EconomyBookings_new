@@ -1,15 +1,22 @@
-.btn, a.btn, span.btn, button.btn {
-  height: 42px;
+$button-height-base: 42px;
+$button-font-size: 16px;
+$button-space-vertical: ($button-height-base - $button-font-size) / 2;
+$button-space-horizontal: 1em;
+$button-border-radius-base: 4px;
+
+.btn, a.btn, button.btn {
+  min-height: $button-height-base;
   background-color: #0073b5;
   border: none;
-  border-radius: 4px;
+  border-radius: $button-border-radius-base;
   color: #fff;
   font-family: 'open_sansregular';
-  font-size: 16px;
+  font-size: $button-font-size;
   cursor: pointer;
   display: block;
   text-align: center;
-  line-height: 42px;
+  line-height: 1;
+  padding: $button-space-vertical $button-space-horizontal;
 
   &:focus {
     outline: none;
