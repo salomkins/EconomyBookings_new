@@ -1,4 +1,4 @@
-### Primitives >>> utils/media
+### Primitives >>> media
 
 [mqb] media queries breakpoints:
   xs-only >>> phone - only

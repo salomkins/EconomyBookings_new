@@ -2068,7 +2068,7 @@ select {
 .block--feedback {
   margin: 0 auto;
   background-color: transparent;
-  width: 300px;
+  width: 100%;
   padding: 10px;
   border: #bccad7 1px dashed;
   position: relative; }
@@ -2076,14 +2076,15 @@ select {
 .row--feedback {
   padding: 6px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .rating--feedback {
   color: #ffcd4a;
   font-size: 13px; }
 
 .review-text {
-  line-height: 18px; }
+  line-height: 1.38; }
 
 .block--questions {
   background-color: #eee;
@@ -2141,3 +2142,13 @@ select {
   margin-left: 28px; }
   .icon--by_phone:first-of-type {
     margin-left: 0; }
+
+.container {
+  margin: 0 auto;
+  width: 320px; }
+  @media (min-width: 640px) {
+    .container {
+      width: 640px; } }
+  @media (min-width: 1024px) {
+    .container {
+      width: 1024px; } }
