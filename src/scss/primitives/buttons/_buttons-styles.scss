@@ -1,15 +1,9 @@
-$button-height-base: 42px;
-$button-font-size: 16px;
-$button-space-vertical: ($button-height-base - $button-font-size) / 2;
-$button-space-horizontal: 1em;
-$button-border-radius-base: 4px;
-
 .btn, a.btn, button.btn {
   min-height: $button-height-base;
   background-color: #0073b5;
   border: none;
   border-radius: $button-border-radius-base;
-  color: #fff;
+  color: $button-color-base;
   font-family: 'open_sansregular';
   font-size: $button-font-size;
   cursor: pointer;
