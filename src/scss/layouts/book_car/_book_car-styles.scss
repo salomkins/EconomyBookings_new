@@ -1,1 +1,25 @@
 //book_car
+
+.layout--book_car{
+  background-color: #444;
+  background-image: url('../assets/images/backgrounds/Dollarphotoclub_72530909.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.container--book_car{
+  @extend .container;
+  padding: 30px 20px;
+}
+.heading--book_car{
+  text-align: center;
+  margin: 0;
+  font-family: open_sansregular;
+  font-size: 32px;
+  line-height: calc(38 / 32);
+}
+.text--book_car{
+  text-align: center;
+  line-height: calc(26 / 18);
+}
