@@ -1,9 +1,24 @@
 Example for testing:
 
-<html>
-    <button class="btn">simple btn</button>
-    <button class="btn-main">most used btn</button>
+<style>
+    * {
+        background-color: brown;
+    }
+    .box {
+        width: 320px;
+        margin: 20px auto;
+    }
+</style>
+
+<div class="box">
+    <a class="btn">simple btn</a>
+    <p></p>
+    <span class="btn-main">most used btn</span>
+    <p></p>
     <button class="btn-main_form">alternate btn</button>
-    <button class="btn-carousel">carousel btn</button>
-    <button class="btn-carousel_active">carousel btn active</button>
-</html>
+    <p></p>
+    <a class="btn-carousel">carousel btn</a>
+    <p></p>
+    <a class="btn-carousel_active">carousel active</a>
+</div>
+
