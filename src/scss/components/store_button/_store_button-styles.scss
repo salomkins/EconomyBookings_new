@@ -1,0 +1,33 @@
+.apple {
+  &--dark {
+    background-image: url("../assets/images/app-store.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #c0c0c0;
+  }
+
+  &--light {
+    background-image: url("../assets/images/app-store-white.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+.google {
+  &--dark {
+    background-image: url("../assets/images/google-play.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #c0c0c0;
+  }
+
+  &--light {
+    background-image: url("../assets/images/google-play-white.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
