@@ -2401,78 +2401,79 @@ select {
   color: white;
 }
 
-.btn, .btn-main, .btn-main_form, .btn-carousel, .btn-carousel_active {
-  height: 42px;
+.btn, .btn-main, .btn-main_form, a.btn-main_form, button.btn-main_form, a.btn-main, button.btn-main, .btn-carousel, .btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active, a.btn-carousel, button.btn-carousel, a.btn, a.btn-main, a.btn-main_form, a.btn-carousel, a.btn-carousel_active, button.btn, button.btn-main, button.btn-main_form, button.btn-carousel, button.btn-carousel_active {
+  min-height: 42px;
   background-color: #0073b5;
   border: none;
   border-radius: 4px;
   color: #fff;
   font-family: 'open_sansregular';
   font-size: 16px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  padding: 13px 1em;
 }
 
-.btn:focus, .btn-main:focus, .btn-main_form:focus, .btn-carousel:focus, .btn-carousel_active:focus {
+.btn:focus, .btn-main:focus, .btn-main_form:focus, .btn-carousel:focus, .btn-carousel_active:focus, a.btn:focus, a.btn-main:focus, a.btn-main_form:focus, a.btn-carousel:focus, a.btn-carousel_active:focus, button.btn:focus, button.btn-main:focus, button.btn-main_form:focus, button.btn-carousel:focus, button.btn-carousel_active:focus {
   outline: none;
 }
 
-.btn-main, .btn-main_form {
+.btn:hover, .btn-main:hover, .btn-main_form:hover, .btn-carousel:hover, .btn-carousel_active:hover, a.btn:hover, a.btn-main:hover, a.btn-main_form:hover, a.btn-carousel:hover, a.btn-carousel_active:hover, button.btn:hover, button.btn-main:hover, button.btn-main_form:hover, button.btn-carousel:hover, button.btn-carousel_active:hover {
+  background-color: #0093e8;
+}
+
+.btn-main, .btn-main_form, a.btn-main_form, button.btn-main_form, a.btn-main, a.btn-main_form, button.btn-main, button.btn-main_form {
   width: 100%;
 }
 
-.btn-main_form {
+.btn-main_form, a.btn-main_form, button.btn-main_form {
   background-color: #f26522;
 }
 
-.btn-carousel, .btn-carousel_active {
+.btn-carousel, .btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active, a.btn-carousel, a.btn-carousel_active, button.btn-carousel, button.btn-carousel_active {
   font-family: 'open_sansbold';
   width: 151px;
 }
 
-.btn-carousel:hover, .btn-carousel_active:hover {
+.btn-carousel:hover, .btn-carousel_active:hover, a.btn-carousel:hover, a.btn-carousel_active:hover, button.btn-carousel:hover, button.btn-carousel_active:hover {
   background-color: #00a0fb;
 }
 
-.btn-carousel_active {
+.btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active {
   background-color: #f2a622;
 }
 
-.appbtn, .appbtn-large, .appbtn-large_light, .appbtn-large_dark, .appbtn-small, .appbtn-small_light, .appbtn-small_dark {
+.appbtn, .appbtn-large, .appbtn-medium, .appbtn-small {
   display: block;
   border: none;
+  cursor: pointer;
 }
 
-.appbtn:focus, .appbtn-large:focus, .appbtn-large_light:focus, .appbtn-large_dark:focus, .appbtn-small:focus, .appbtn-small_light:focus, .appbtn-small_dark:focus {
+.appbtn:focus, .appbtn-large:focus, .appbtn-medium:focus, .appbtn-small:focus {
   outline: none;
 }
 
-.appbtn-large, .appbtn-large_light, .appbtn-large_dark {
+.appbtn-large {
   width: 234px;
   height: 71px;
   border-radius: 10px;
-}
-
-.appbtn-large_light {
   background-color: #fff;
 }
 
-.appbtn-large_dark {
-  background-color: #000;
-  border: 1px solid #c0c0c0;
-}
-
-.appbtn-small, .appbtn-small_light, .appbtn-small_dark {
+.appbtn-medium {
   width: 135px;
   height: 40px;
-  border-radius: 5px;
-}
-
-.appbtn-small_light {
+  border-radius: 7px;
   background-color: #fff;
 }
 
-.appbtn-small_dark {
-  background-color: #000;
-  border: 1px solid #c0c0c0;
+.appbtn-small {
+  width: 115px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #fff;
 }
 
 .rating {
@@ -2692,12 +2693,38 @@ select {
   }
 }
 
+.apple--dark {
+  background-image: url("../assets/images/app-store.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #c0c0c0;
+}
+
+.apple--light {
+  background-image: url("../assets/images/app-store-white.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.google--dark {
+  background-image: url("../assets/images/google-play.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #c0c0c0;
+}
+
+.google--light {
+  background-image: url("../assets/images/google-play-white.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .layout--book_car {
   background-color: #444;
-  background-image: url("../assets/images/backgrounds/Dollarphotoclub_72530909.jpg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   color: #fff;
 }
 
@@ -2716,4 +2743,27 @@ select {
 .text--book_car {
   text-align: center;
   line-height: calc(26 / 18);
+}
+
+.vote--book_car {
+  margin-top: 25px;
+}
+
+.appbtn--book_car {
+  margin: 0 auto;
+}
+
+.rating--book_car {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.rental--book_car {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.rental-item--book_car {
+  height: 20px;
 }

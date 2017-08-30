@@ -1,25 +1,51 @@
 //book_car
 
-.layout--book_car{
-  background-color: #444;
-  background-image: url('../assets/images/backgrounds/Dollarphotoclub_72530909.jpg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
+.layout--book_car {
+    background-color: #444; //background-image: url('../assets/images/backgrounds/Dollarphotoclub_72530909.jpg');
+    //background-size: contain;
+    //background-position: center;
+    //background-repeat: no-repeat;
+    color: #fff;
 }
-.container--book_car{
-  @extend .container;
-  padding: 30px 20px;
+
+.container--book_car {
+    @extend .container;
+    padding: 30px 20px;
 }
-.heading--book_car{
-  text-align: center;
-  margin: 0;
-  font-family: open_sansregular;
-  font-size: 32px;
-  line-height: calc(38 / 32);
+
+.heading--book_car {
+    text-align: center;
+    margin: 0;
+    font-family: open_sansregular;
+    font-size: 32px;
+    line-height: calc(38 / 32);
 }
-.text--book_car{
-  text-align: center;
-  line-height: calc(26 / 18);
+
+.text--book_car {
+    text-align: center;
+    line-height: calc(26 / 18);
+}
+
+.vote--book_car {
+    margin-top: 25px;
+}
+
+.appbtn--book_car {
+    margin: 0 auto;
+}
+
+.rating--book_car {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.rental--book_car{
+display: flex;
+justify-content:space-around;
+margin-top: 60px;
+}
+
+.rental-item--book_car{
+  height: 20px;
+
 }
