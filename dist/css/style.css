@@ -2676,19 +2676,19 @@ select {
   margin-left: 0;
 }
 
-.container, .container--book_car {
+.container, .container_bok_car {
   margin: 0 auto;
   width: 320px;
 }
 
 @media (min-width: 640px) {
-  .container, .container--book_car {
+  .container, .container_bok_car {
     width: 640px;
   }
 }
 
 @media (min-width: 1024px) {
-  .container, .container--book_car {
+  .container, .container_bok_car {
     width: 1024px;
   }
 }
@@ -2723,16 +2723,16 @@ select {
   background-position: center center;
 }
 
-.layout--book_car {
+.layout_bok_car {
   background-color: #444;
   color: #fff;
 }
 
-.container--book_car {
+.container_bok_car {
   padding: 30px 20px;
 }
 
-.heading--book_car {
+.heading_bok_car {
   text-align: center;
   margin: 0;
   font-family: open_sansregular;
@@ -2740,30 +2740,71 @@ select {
   line-height: calc(38 / 32);
 }
 
-.text--book_car {
+@media (min-width: 640px) {
+  .heading_bok_car {
+    text-align: left;
+    margin: 0;
+    font-family: open_sanslight;
+    font-size: 60px;
+    line-height: calc(68 / 60);
+  }
+}
+
+.text_bok_car {
   text-align: center;
   line-height: calc(26 / 18);
 }
 
-.vote--book_car {
+@media (min-width: 640px) {
+  .text_bok_car {
+    text-align: left;
+  }
+}
+
+.vote_bok_car-row {
   margin-top: 25px;
 }
 
-.appbtn--book_car {
-  margin: 0 auto;
+@media (max-width: 639px) {
+  .appbtn_bok_car {
+    margin: 0 auto;
+  }
 }
 
-.rating--book_car {
-  text-align: center;
+.rating_bok_car {
   margin-top: 15px;
+  text-align: center;
 }
 
-.rental--book_car {
+@media (max-width: 639px) {
+  .phone_img_bok_car {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .phone_img_bok_car {
+    width: 230px;
+    overflow-x: hidden;
+  }
+}
+
+.rental_bok_car {
   display: flex;
   justify-content: space-around;
   margin-top: 60px;
 }
 
-.rental-item--book_car {
+.rental_bok_car-item {
   height: 20px;
+}
+
+@media (min-width: 640px) {
+  .rental_bok_car-item {
+    height: 30px;
+  }
+}
+
+.main_box_bok_car {
+  display: flex;
 }
