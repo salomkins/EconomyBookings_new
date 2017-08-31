@@ -2729,7 +2729,21 @@ select {
 }
 
 .container_bok_car {
+  background-color: grey;
   padding: 30px 20px;
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .container_bok_car {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container_bok_car {
+    padding-left: 0;
+    width: 960px;
+  }
 }
 
 .heading_bok_car {
@@ -2795,6 +2809,12 @@ select {
   margin-top: 60px;
 }
 
+@media (min-width: 640px) {
+  .rental_bok_car {
+    justify-content: space-between;
+  }
+}
+
 .rental_bok_car-item {
   height: 20px;
 }
@@ -2807,4 +2827,10 @@ select {
 
 .main_box_bok_car {
   display: flex;
+}
+
+@media (min-width: 1024px) {
+  .main_box_bok_car-row:first-child {
+    padding-right: 50px;
+  }
 }

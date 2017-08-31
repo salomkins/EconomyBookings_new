@@ -1,8 +1,7 @@
 //book_car
 
 .layout_bok_car {
-    background-color: #444;
-    //background-image: url('../assets/images/backgrounds/Dollarphotoclub_72530909.jpg');
+    background-color: #444; //background-image: url('../assets/images/backgrounds/Dollarphotoclub_72530909.jpg');
     //background-size: contain;
     //background-position: center;
     //background-repeat: no-repeat;
@@ -11,7 +10,16 @@
 
 .container_bok_car {
     @extend .container;
+    background-color: grey;
     padding: 30px 20px;
+    @include media(md-only) {
+padding-right: 0;
+    }
+    @include media(lg) {
+padding-left: 0;
+width: 960px;
+    }
+
 }
 
 .heading_bok_car {
@@ -20,61 +28,71 @@
     font-family: open_sansregular;
     font-size: 32px;
     line-height: calc(38 / 32);
-    @include media(md){
-      text-align: left;
-      margin: 0;
-      font-family: open_sanslight;
-      font-size: 60px;
-      line-height: calc(68 / 60);
+    @include media(md) {
+        text-align: left;
+        margin: 0;
+        font-family: open_sanslight;
+        font-size: 60px;
+        line-height: calc(68 / 60);
     }
 }
 
 .text_bok_car {
     text-align: center;
     line-height: calc(26 / 18);
-      @include media(md){
-          text-align: left;
-      }
+    @include media(md) {
+        text-align: left;
+    }
 }
 
 .vote_bok_car {
-  &-row{
-    margin-top: 25px;
+    &-row {
+        margin-top: 25px;
     }
 }
 
 .appbtn_bok_car {
-  @include media(xs-only){
-  margin: 0 auto;
-  }
-
+    @include media(xs-only) {
+        margin: 0 auto;
+    }
 }
 
 .rating_bok_car {
-  margin-top: 15px;
-  text-align: center;
-}
-.phone_img_bok_car{
-
-  @include media(xs-only) {
-      display: none;
-  }
-  @include media(md-only) {
-    width: 230px;
-    overflow-x: hidden;  }
-}
-.rental_bok_car{
-display: flex;
-justify-content:space-around;
-margin-top: 60px;
-&-item{
-  height: 20px;
-  @include media(md){
-      height: 30px;
-  }
-}
+    margin-top: 15px;
+    text-align: center;
 }
 
-.main_box_bok_car{
-  display: flex;
+.phone_img_bok_car {
+    @include media(xs-only) {
+        display: none;
+    }
+    @include media(md-only) {
+        width: 230px;
+        overflow-x: hidden;
+    }
+}
+
+.rental_bok_car {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    @include media(md) {
+        justify-content: space-between;
+    }
+
+    &-item {
+        height: 20px;
+        @include media(md) {
+            height: 30px;
+        }
+    }
+}
+
+.main_box_bok_car {
+    display: flex;
+    @include media(lg) {
+    &-row:first-child{
+      padding-right: 50px;
+    }
+  }
 }
