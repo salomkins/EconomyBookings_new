@@ -2723,13 +2723,22 @@ select {
   background-position: center center;
 }
 
+.cf:after,
+.cf:before {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
 .layout_bok_car {
-  background-color: #444;
   color: #fff;
+  background-color: #444;
 }
 
 .container_bok_car {
-  background-color: grey;
   padding: 30px 20px;
 }
 
@@ -2756,9 +2765,16 @@ select {
 
 @media (min-width: 640px) {
   .heading_bok_car {
+    margin-top: 30px;
     text-align: left;
-    margin: 0;
     font-family: open_sanslight;
+    font-size: 50px;
+    line-height: calc(58 / 50);
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading_bok_car {
     font-size: 60px;
     line-height: calc(68 / 60);
   }
@@ -2767,11 +2783,19 @@ select {
 .text_bok_car {
   text-align: center;
   line-height: calc(26 / 18);
+  margin: 20px 0 0;
 }
 
 @media (min-width: 640px) {
   .text_bok_car {
     text-align: left;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .vote_bok_car {
+    margin-top: 15px;
   }
 }
 
@@ -2779,10 +2803,17 @@ select {
   margin-top: 25px;
 }
 
-@media (max-width: 639px) {
-  .appbtn_bok_car {
-    margin: 0 auto;
+@media (min-width: 640px) {
+  .vote_bok_car-row {
+    float: left;
   }
+  .vote_bok_car-row:first-child {
+    margin-right: 20px;
+  }
+}
+
+.appbtn_bok_car {
+  margin: 0 auto;
 }
 
 .rating_bok_car {
@@ -2798,6 +2829,7 @@ select {
 
 @media (min-width: 640px) and (max-width: 1023px) {
   .phone_img_bok_car {
+    margin-top: 120px;
     width: 230px;
     overflow-x: hidden;
   }
@@ -2815,6 +2847,13 @@ select {
   }
 }
 
+@media (min-width: 1024px) {
+  .rental_bok_car {
+    justify-content: flex-start;
+    margin-top: 90px;
+  }
+}
+
 .rental_bok_car-item {
   height: 20px;
 }
@@ -2825,12 +2864,18 @@ select {
   }
 }
 
+@media (min-width: 1024px) {
+  .rental_bok_car-item:first-child {
+    margin-right: 30px;
+  }
+}
+
 .main_box_bok_car {
   display: flex;
 }
 
 @media (min-width: 1024px) {
   .main_box_bok_car-row:first-child {
-    padding-right: 50px;
+    margin-right: 50px;
   }
 }
