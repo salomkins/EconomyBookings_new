@@ -1,0 +1,39 @@
+.block{
+  &--subscribe {
+    background-color: #444444;
+    padding: 26px 20px 22px 20px;
+  }
+}
+
+.form-input {
+  &--subscribe {
+    @extend .form-input[type="text"];
+    border-radius: 2px;
+    padding: 14px 0px;
+    margin: 10px 0px;
+    font-family: open_sansregular;
+    font-size: 16px;
+  }
+}
+
+.heading-alternative {
+  &--subscribe {
+    @extend .heading-alternative;
+    font-family: open_sansregular;
+    color: #cccccc;
+    padding-bottom: 15px;
+    line-height: 18px;
+    letter-spacing: -1px;
+  }
+}
+
+.heading-subject {
+  &--subscribe {
+    @extend .heading-subject;
+    font-family: open_sansregular;
+    color: #aaaaaa;
+    padding-bottom: 8px;
+    line-height: 18px;
+    letter-spacing: -1px;
+  }
+}
