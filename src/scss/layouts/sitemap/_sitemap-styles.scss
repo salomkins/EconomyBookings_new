@@ -1,1 +1,34 @@
 //sitemap
+//
+
+.layout_sitemap {
+    color: #fff;
+    background-color: #555;
+}
+
+.container_sitemap {
+    @extend .container; //background-color: grey;
+    @include media(lg) {
+        width: 960px;
+    }
+}
+
+.info_box_sitemap {
+    padding: 25px 20px;
+}
+
+.socicons_sitemap {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.socico_sitemap {
+    margin: 0 15px;
+    color: #d5d5d5;
+}
+
+.store_sitemap {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
