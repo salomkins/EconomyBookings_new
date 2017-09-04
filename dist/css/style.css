@@ -611,7 +611,7 @@ template {
     visibility: visible;
     cursor: auto; }
 
-.form-input[type="text"], .form-input[type="password"] {
+.form-input[type="text"], .form-input--subscribe, .form-input[type="password"] {
   display: block;
   outline: none;
   border: none;
@@ -1887,9 +1887,15 @@ template {
   font-size: 18px;
   margin: 0; }
 
-.heading-subject {
+.heading-subject, .heading-subject--subscribe {
   font-family: open_sanssemibold;
   font-size: 16px;
+  margin: 0; }
+
+.heading-alternative, .heading-alternative--subscribe {
+  font-family: open_sanssemibold;
+  font-size: 22px;
+  line-height: 18px;
   margin: 0; }
 
 .main_logo {
@@ -1946,51 +1952,56 @@ option {
 select {
   color: white; }
 
-.btn, .btn-main, .btn-main_form, .btn-carousel, .btn-carousel_active {
-  height: 42px;
+.btn, .btn-main, .btn-main_form, a.btn-main_form, button.btn-main_form, a.btn-main, button.btn-main, .btn-carousel, .btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active, a.btn-carousel, button.btn-carousel, a.btn, a.btn-main, a.btn-main_form, a.btn-carousel, a.btn-carousel_active, button.btn, button.btn-main, button.btn-main_form, button.btn-carousel, button.btn-carousel_active {
+  min-height: 42px;
   background-color: #0073b5;
   border: none;
   border-radius: 4px;
   color: #fff;
   font-family: 'open_sansregular';
-  font-size: 16px; }
-  .btn:focus, .btn-main:focus, .btn-main_form:focus, .btn-carousel:focus, .btn-carousel_active:focus {
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  padding: 13px 1em; }
+  .btn:focus, .btn-main:focus, .btn-main_form:focus, .btn-carousel:focus, .btn-carousel_active:focus, a.btn:focus, a.btn-main:focus, a.btn-main_form:focus, a.btn-carousel:focus, a.btn-carousel_active:focus, button.btn:focus, button.btn-main:focus, button.btn-main_form:focus, button.btn-carousel:focus, button.btn-carousel_active:focus {
     outline: none; }
-  .btn-main, .btn-main_form {
+  .btn:hover, .btn-main:hover, .btn-main_form:hover, .btn-carousel:hover, .btn-carousel_active:hover, a.btn:hover, a.btn-main:hover, a.btn-main_form:hover, a.btn-carousel:hover, a.btn-carousel_active:hover, button.btn:hover, button.btn-main:hover, button.btn-main_form:hover, button.btn-carousel:hover, button.btn-carousel_active:hover {
+    background-color: #0093e8; }
+  .btn-main, .btn-main_form, a.btn-main_form, button.btn-main_form, a.btn-main, a.btn-main_form, button.btn-main, button.btn-main_form {
     width: 100%; }
-    .btn-main_form {
+    .btn-main_form, a.btn-main_form, button.btn-main_form {
       background-color: #f26522; }
-  .btn-carousel, .btn-carousel_active {
+  .btn-carousel, .btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active, a.btn-carousel, a.btn-carousel_active, button.btn-carousel, button.btn-carousel_active {
     font-family: 'open_sansbold';
     width: 151px; }
-    .btn-carousel:hover, .btn-carousel_active:hover {
+    .btn-carousel:hover, .btn-carousel_active:hover, a.btn-carousel:hover, a.btn-carousel_active:hover, button.btn-carousel:hover, button.btn-carousel_active:hover {
       background-color: #00a0fb; }
-    .btn-carousel_active {
+    .btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active {
       background-color: #f2a622; }
 
-.appbtn, .appbtn-large, .appbtn-large_light, .appbtn-large_dark, .appbtn-small, .appbtn-small_light, .appbtn-small_dark {
+.appbtn, .appbtn-large, .appbtn-medium, .appbtn-small {
   display: block;
-  border: none; }
-  .appbtn:focus, .appbtn-large:focus, .appbtn-large_light:focus, .appbtn-large_dark:focus, .appbtn-small:focus, .appbtn-small_light:focus, .appbtn-small_dark:focus {
+  border: none;
+  cursor: pointer; }
+  .appbtn:focus, .appbtn-large:focus, .appbtn-medium:focus, .appbtn-small:focus {
     outline: none; }
-  .appbtn-large, .appbtn-large_light, .appbtn-large_dark {
+  .appbtn-large {
     width: 234px;
     height: 71px;
-    border-radius: 10px; }
-    .appbtn-large_light {
-      background-color: #fff; }
-    .appbtn-large_dark {
-      background-color: #000;
-      border: 1px solid #c0c0c0; }
-  .appbtn-small, .appbtn-small_light, .appbtn-small_dark {
+    border-radius: 10px;
+    background-color: #fff; }
+  .appbtn-medium {
     width: 135px;
     height: 40px;
-    border-radius: 5px; }
-    .appbtn-small_light {
-      background-color: #fff; }
-    .appbtn-small_dark {
-      background-color: #000;
-      border: 1px solid #c0c0c0; }
+    border-radius: 7px;
+    background-color: #fff; }
+  .appbtn-small {
+    width: 115px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #fff; }
 
 .rating {
   color: #fff292;
@@ -2143,12 +2154,167 @@ select {
   .icon--by_phone:first-of-type {
     margin-left: 0; }
 
-.container {
+.container, .container_bok_car {
   margin: 0 auto;
   width: 320px; }
   @media (min-width: 640px) {
-    .container {
+    .container, .container_bok_car {
       width: 640px; } }
   @media (min-width: 1024px) {
-    .container {
+    .container, .container_bok_car {
       width: 1024px; } }
+
+.apple--dark {
+  background-image: url("../assets/images/app-store.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #c0c0c0; }
+
+.apple--light {
+  background-image: url("../assets/images/app-store-white.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.google--dark {
+  background-image: url("../assets/images/google-play.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #c0c0c0; }
+
+.google--light {
+  background-image: url("../assets/images/google-play-white.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.block--subscribe {
+  background-color: #444444;
+  padding: 26px 20px 22px 20px; }
+
+.form-input--subscribe {
+  border-radius: 2px;
+  padding: 14px 0px;
+  margin: 10px 0px;
+  font-family: open_sansregular;
+  font-size: 16px; }
+
+.heading-alternative--subscribe {
+  font-family: open_sansregular;
+  color: #cccccc;
+  padding-bottom: 15px;
+  line-height: 18px;
+  letter-spacing: -1px; }
+
+.heading-subject--subscribe {
+  font-family: open_sansregular;
+  color: #aaaaaa;
+  padding-bottom: 8px;
+  line-height: 18px;
+  letter-spacing: -1px; }
+
+.cf:after,
+.cf:before {
+  content: " ";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+.layout_bok_car {
+  color: #fff;
+  background-color: #444; }
+
+.container_bok_car {
+  padding: 30px 20px; }
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .container_bok_car {
+      padding-right: 0; } }
+  @media (min-width: 1024px) {
+    .container_bok_car {
+      padding-left: 0;
+      width: 960px; } }
+
+.heading_bok_car {
+  text-align: center;
+  margin: 0;
+  font-family: open_sansregular;
+  font-size: 32px;
+  line-height: calc(38 / 32); }
+  @media (min-width: 640px) {
+    .heading_bok_car {
+      margin-top: 30px;
+      text-align: left;
+      font-family: open_sanslight;
+      font-size: 50px;
+      line-height: calc(58 / 50); } }
+  @media (min-width: 1024px) {
+    .heading_bok_car {
+      font-size: 60px;
+      line-height: calc(68 / 60); } }
+
+.text_bok_car {
+  text-align: center;
+  line-height: calc(26 / 18);
+  margin: 20px 0 0; }
+  @media (min-width: 640px) {
+    .text_bok_car {
+      text-align: left;
+      margin-top: 30px; } }
+
+@media (min-width: 1024px) {
+  .vote_bok_car {
+    margin-top: 15px; } }
+
+.vote_bok_car-row {
+  margin-top: 25px; }
+  @media (min-width: 640px) {
+    .vote_bok_car-row {
+      float: left; }
+      .vote_bok_car-row:first-child {
+        margin-right: 20px; } }
+
+.appbtn_bok_car {
+  margin: 0 auto; }
+
+.rating_bok_car {
+  margin-top: 15px;
+  text-align: center; }
+
+@media (max-width: 639px) {
+  .phone_img_bok_car {
+    display: none; } }
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .phone_img_bok_car {
+    margin-top: 120px;
+    width: 230px;
+    overflow-x: hidden; } }
+
+.rental_bok_car {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px; }
+  @media (min-width: 640px) {
+    .rental_bok_car {
+      justify-content: space-between; } }
+  @media (min-width: 1024px) {
+    .rental_bok_car {
+      justify-content: flex-start;
+      margin-top: 90px; } }
+  .rental_bok_car-item {
+    height: 20px; }
+    @media (min-width: 640px) {
+      .rental_bok_car-item {
+        height: 30px; } }
+    @media (min-width: 1024px) {
+      .rental_bok_car-item:first-child {
+        margin-right: 30px; } }
+
+.main_box_bok_car {
+  display: flex; }
+  @media (min-width: 1024px) {
+    .main_box_bok_car-row:first-child {
+      margin-right: 50px; } }
