@@ -1,8 +1,9 @@
 .block {
   &--feedback {
     margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: transparent;
-    width: 93.75%;
     padding: 10px;
     border: #bccad7 1px dashed;
     position: relative;

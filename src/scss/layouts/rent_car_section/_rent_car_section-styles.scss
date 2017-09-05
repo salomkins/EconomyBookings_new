@@ -1,6 +1,58 @@
 .antivirus-logo {
   padding-top: 20px;
   padding-bottom: 30px;
+  margin-left: 10px;
+}
+
+.wrapper--rent-car {
+  @include media(md) {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+  }
+
+  @include media(lg) {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+  }
+}
+
+.item--rent-car {
+  @include media(md) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  @include media(lg) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    margin-bottom: 35px;
+  }
+}
+
+.block--rent-car {
+  @include media(lg) {
+    width: 33.3333%;
+  }
 }
 
 .heading-alternative--rent-car {
@@ -9,13 +61,46 @@
   padding-bottom: 20px;
   text-align: center;
   line-height: 24px;
+  margin: 0 auto;
+  margin-top: 28px;
+
+  @include media(md) {
+    font-size: 24px;
+  }
+
+  @include media(lg) {
+    font-size: 32px;
+  }
+}
+
+.heading-subsection--rent-car {
+  @extend .heading-subsection;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .h-line {
-  width: 93.75%;
-  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
   display: block;
   height: 4px;
   background-color: #eee;
   margin-bottom: 25px;
+}
+
+.checklist--rent-car {
+  @extend .checklist;
+  margin-left: 10px;
+}
+
+.block--questions {
+  @include media(xs-only) {
+    margin-top: 26px;
+  }
+}
+
+.block--stay_tuned {
+  @include media(xs-only) {
+    margin-bottom: 46px;
+  }
 }
