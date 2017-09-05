@@ -1,0 +1,21 @@
+.antivirus-logo {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.heading-alternative--rent-car {
+  @extend .heading-alternative;
+  color: #777777;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.h-line {
+  width: 93.75%;
+  margin: 0 auto;
+  display: block;
+  height: 4px;
+  background-color: #eee;
+  margin-bottom: 25px;
+}

@@ -1892,7 +1892,7 @@ template {
   font-size: 16px;
   margin: 0; }
 
-.heading-alternative, .heading-alternative--subscribe {
+.heading-alternative, .heading-alternative--subscribe, .heading-alternative--rent-car {
   font-family: open_sanssemibold;
   font-size: 22px;
   line-height: 18px;
@@ -1951,6 +1951,25 @@ option {
 
 select {
   color: white; }
+
+.checklist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .checklist-item {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 20px; }
+    .checklist-item:before {
+      content: "";
+      color: #0073b5;
+      font-family: 'fontawesome_webfont';
+      font-size: calc(150%);
+      position: absolute;
+      top: -4px;
+      left: -30px; }
+  .checklist > .checklist-item:first-child {
+    margin-top: 0; }
 
 .btn, .btn-main, .btn-main_form, a.btn-main_form, button.btn-main_form, a.btn-main, button.btn-main, .btn-carousel, .btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active, a.btn-carousel, button.btn-carousel, a.btn, a.btn-main, a.btn-main_form, a.btn-carousel, a.btn-carousel_active, button.btn, button.btn-main, button.btn-main_form, button.btn-carousel, button.btn-carousel_active {
   min-height: 42px;
@@ -2079,7 +2098,7 @@ select {
 .block--feedback {
   margin: 0 auto;
   background-color: transparent;
-  width: 100%;
+  width: 93.75%;
   padding: 10px;
   border: #bccad7 1px dashed;
   position: relative; }
@@ -2214,3 +2233,21 @@ select {
   padding-bottom: 8px;
   line-height: 18px;
   letter-spacing: -1px; }
+
+.antivirus-logo {
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
+.heading-alternative--rent-car {
+  color: #777777;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 24px; }
+
+.h-line {
+  width: 93.75%;
+  margin: 0 auto;
+  display: block;
+  height: 4px;
+  background-color: #eee;
+  margin-bottom: 25px; }
