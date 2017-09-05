@@ -2774,6 +2774,37 @@ select {
   padding: 25px 20px;
 }
 
+.links_sitemap {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .links_sitemap {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.links_sitemap-col-head {
+  font-family: 'open_sansregular';
+  font-size: 15px;
+  color: #ccc;
+}
+
+.links_sitemap-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'open_sansregular';
+  font-size: 12px;
+  line-height: calc(15 /12);
+  color: #e2f0f0;
+}
+
+.links_sitemap-item {
+  margin: 8px 0;
+}
+
 .socicons_sitemap {
   margin-top: 35px;
   text-align: center;

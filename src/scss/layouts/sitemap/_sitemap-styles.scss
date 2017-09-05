@@ -17,6 +17,34 @@
     padding: 25px 20px;
 }
 
+.links_sitemap{
+  display: none;
+  @include media(md){
+    display:flex;
+    justify-content: space-between;
+  }
+  &-col{
+    &-head{
+      font-family: 'open_sansregular';
+      font-size: 15px;
+      color: #ccc;
+    }
+  }
+  &-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'open_sansregular';
+    font-size: 12px;
+    line-height: calc(15 /12);
+    color: #e2f0f0;
+  }
+  &-item{
+    margin: 8px 0;
+  }
+}
+
+
 .socicons_sitemap {
     margin-top: 35px;
     text-align: center;
