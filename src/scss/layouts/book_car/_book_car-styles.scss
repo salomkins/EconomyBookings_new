@@ -1,17 +1,4 @@
 //book_car
-@mixin set_background {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 75px;
-    background-color: #444;
-    @include media(md) {
-        bottom: 105px;
-    }
-}
-//
 
 .cf:after,
 .cf:before {
