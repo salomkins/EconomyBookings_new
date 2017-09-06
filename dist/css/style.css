@@ -2735,11 +2735,56 @@ select {
 
 .layout_bok_car {
   color: #fff;
+  position: relative;
+}
+
+@media (min-width: 640px) {
+  .layout_bok_car {
+    overflow: hidden;
+  }
+}
+
+.layout_bok_car::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: #444;
+  z-index: -2;
+}
+
+.layout_bok_car::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url("../assets/images/backgrounds/Dollarphotoclub_72530909.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 75px;
+}
+
+@media (min-width: 640px) {
+  .layout_bok_car::after {
+    bottom: 105px;
+  }
 }
 
 .container_bok_car {
-  padding: 30px 20px;
+  padding: 30px 20px 25px;
+}
+
+@media (min-width: 640px) {
+  .container_bok_car {
+    padding: 30px 20px;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 1023px) {
@@ -2831,7 +2876,6 @@ select {
   .phone_img_bok_car {
     margin-top: 120px;
     width: 230px;
-    overflow-x: hidden;
   }
 }
 
