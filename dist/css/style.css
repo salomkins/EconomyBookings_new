@@ -2738,7 +2738,7 @@ select {
   position: relative;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .layout_bok_car {
     overflow: hidden;
   }
@@ -2746,33 +2746,69 @@ select {
 
 .layout_bok_car::before {
   display: block;
-  content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 75px;
   background-color: #444;
-  z-index: -2;
+  content: '';
+  z-index: -3;
+  bottom: 0;
+}
+
+@media (min-width: 640px) {
+  .layout_bok_car::before {
+    bottom: 105px;
+  }
+}
+
+@media (min-width: 640px) {
+  .layout_bok_car::before {
+    bottom: 0;
+  }
 }
 
 .layout_bok_car::after {
   display: block;
-  content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: -1;
+  bottom: 75px;
+  background-color: #444;
+  content: '';
+  z-index: -2;
   background-image: url("../assets/images/backgrounds/Dollarphotoclub_72530909.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: 75px;
 }
 
 @media (min-width: 640px) {
   .layout_bok_car::after {
+    bottom: 105px;
+  }
+}
+
+.layout_bok_car--back_tone {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 75px;
+  background-color: #444;
+  z-index: -1;
+  opacity: 0.3;
+  background-color: #444;
+  background-image: radial-gradient(#555 15%, transparent 16%), radial-gradient(#333 15%, transparent 16%);
+  background-size: 7px 7px;
+  background-position: 0 0, 12px 12px;
+}
+
+@media (min-width: 640px) {
+  .layout_bok_car--back_tone {
     bottom: 105px;
   }
 }
@@ -2797,6 +2833,16 @@ select {
   .container_bok_car {
     padding-left: 0;
     width: 960px;
+  }
+}
+
+.main_box_bok_car {
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .main_box_bok_car-row:first-child {
+    margin-right: 50px;
   }
 }
 
@@ -2911,15 +2957,5 @@ select {
 @media (min-width: 1024px) {
   .rental_bok_car-item:first-child {
     margin-right: 30px;
-  }
-}
-
-.main_box_bok_car {
-  display: flex;
-}
-
-@media (min-width: 1024px) {
-  .main_box_bok_car-row:first-child {
-    margin-right: 50px;
   }
 }
