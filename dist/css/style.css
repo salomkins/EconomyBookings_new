@@ -2764,6 +2764,17 @@ select {
   background-color: #555;
 }
 
+.container_sitemap {
+  background-color: grey;
+  padding: 0 0 30px;
+}
+
+@media (min-width: 640px) {
+  .container_sitemap {
+    padding: 25px 20px 30px;
+  }
+}
+
 @media (min-width: 1024px) {
   .container_sitemap {
     width: 960px;
@@ -2771,7 +2782,13 @@ select {
 }
 
 .info_box_sitemap {
-  padding: 25px 20px;
+  padding: 25px 20px 0;
+}
+
+@media (min-width: 640px) {
+  .info_box_sitemap {
+    margin-top: 10px;
+  }
 }
 
 .links_sitemap {
@@ -2801,8 +2818,21 @@ select {
   color: #e2f0f0;
 }
 
+@media (min-width: 640px) {
+  .links_sitemap-list {
+    margin-top: 20px;
+  }
+}
+
 .links_sitemap-item {
   margin: 8px 0;
+}
+
+@media (min-width: 640px) {
+  .footbox_sitemap {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .socicons_sitemap {
@@ -2810,13 +2840,49 @@ select {
   text-align: center;
 }
 
-.socico_sitemap {
+@media (min-width: 640px) {
+  .socicons_sitemap {
+    margin-top: 15px;
+  }
+}
+
+.socicons_sitemap-item {
   margin: 0 15px;
   color: #d5d5d5;
+}
+
+@media (min-width: 640px) {
+  .socicons_sitemap-item {
+    color: #eee;
+  }
+}
+
+@media (min-width: 640px) {
+  .socicons_sitemap-item:first-child {
+    margin-left: 0;
+  }
 }
 
 .store_sitemap {
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width: 640px) {
+  .store_sitemap {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .store_sitemap {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) {
+  .store_sitemap-item {
+    margin-left: 15px;
+  }
 }

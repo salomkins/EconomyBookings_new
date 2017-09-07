@@ -7,56 +7,100 @@
 }
 
 .container_sitemap {
-    @extend .container; //background-color: grey;
+    @extend .container;
+    background-color: grey;
+    padding: 0 0 30px;
+    @include media(md) {
+        padding: 25px 20px 30px;
+    }
     @include media(lg) {
         width: 960px;
     }
 }
 
 .info_box_sitemap {
-    padding: 25px 20px;
-}
-
-.links_sitemap{
-  display: none;
-  @include media(md){
-    display:flex;
-    justify-content: space-between;
-  }
-  &-col{
-    &-head{
-      font-family: 'open_sansregular';
-      font-size: 15px;
-      color: #ccc;
+    padding: 25px 20px 0;
+    @include media(md) {
+        margin-top: 10px;
     }
-  }
-  &-list{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-family: 'open_sansregular';
-    font-size: 12px;
-    line-height: calc(15 /12);
-    color: #e2f0f0;
-  }
-  &-item{
-    margin: 8px 0;
-  }
 }
 
+.links_sitemap {
+    display: none;
+    @include media(md) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-col {
+        &-head {
+            font-family: 'open_sansregular';
+            font-size: 15px;
+            color: #ccc;
+        }
+    }
+
+    &-list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-family: 'open_sansregular';
+        font-size: 12px;
+        line-height: calc(15 /12);
+        color: #e2f0f0;
+        @include media(md) {
+            margin-top: 20px;
+        }
+    }
+
+    &-item {
+        margin: 8px 0;
+    }
+}
+
+.footbox_sitemap {
+    @include media(md) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
 .socicons_sitemap {
     margin-top: 35px;
     text-align: center;
-}
+    @include media(md) {
+        margin-top: 15px;
+    }
 
-.socico_sitemap {
-    margin: 0 15px;
-    color: #d5d5d5;
+    &-item {
+        margin: 0 15px;
+        color: #d5d5d5;
+        @include media(md) {
+            color: #eee;
+        }
+
+        &:first-child {
+            @include media(md) {
+                margin-left: 0;
+            }
+        }
+    }
 }
 
 .store_sitemap {
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
+    @include media(md) {
+        margin-top: 15px;
+    }
+    @include media(lg) {
+        display: none;
+    }
+
+    &-item {
+        @include media(md) {
+            margin-left: 15px;
+        }
+    }
 }
