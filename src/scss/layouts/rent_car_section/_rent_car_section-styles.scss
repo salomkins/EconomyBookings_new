@@ -20,7 +20,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-content: stretch;
-    align-items: center;
   }
 }
 
@@ -52,6 +51,12 @@
 .block--rent-car {
   @include media(lg) {
     width: 33.3333%;
+  }
+}
+
+.block--feedback {
+  @include media(lg) {
+    margin-right: 0px;
   }
 }
 
