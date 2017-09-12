@@ -29,6 +29,7 @@
 
         &-active,
         &:focus {
+            @extend .dropdown-active;
             background-color: $dropdown_mrk_background_color_active;
 
             &:after {
