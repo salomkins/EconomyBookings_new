@@ -1,14 +1,23 @@
-.btn {
-  height: 42px;
+.btn, a.btn, button.btn {
+  min-height: $button-height-base;
   background-color: #0073b5;
   border: none;
-  border-radius: 4px;
-  color: #fff;
+  border-radius: $button-border-radius-base;
+  color: $button-color-base;
   font-family: 'open_sansregular';
-  font-size: 16px;
+  font-size: $button-font-size;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  padding: $button-space-vertical $button-space-horizontal;
 
   &:focus {
     outline: none;
+  }
+
+  &:hover {
+    background-color: lighten(#0073b5, 10%);
   }
 
   &-main {

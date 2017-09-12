@@ -1,0 +1,48 @@
+//
+
+.block {
+    &--by_phone {
+        background-color: #ddd;
+        padding: 20px;
+        text-align: center;
+        color: #444;
+    }
+}
+
+.row {
+    &--by_phone {
+        margin-top: 13px;
+    }
+}
+
+.anchor {
+    &--by_phone {
+        font-family: "open_sansbold";
+        font-size: 24px;
+        color: #0073b5;
+    }
+}
+
+.social {
+    &--by_phone {
+        color: #777;
+    }
+}
+
+.separator {
+    &--by_phone {
+        display: block;
+        width: 100%;
+        border-top: 1px dashed;
+    }
+}
+
+.icon {
+    &--by_phone {
+        margin-left: 28px;
+
+        &:first-of-type {
+            margin-left: 0;
+        }
+    }
+}
