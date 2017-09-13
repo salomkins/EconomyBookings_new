@@ -2795,6 +2795,25 @@ select {
   }
 }
 
+.links_list_sitemap {
+  background-color: #fff;
+  color: #444;
+  text-align: left;
+  margin: 25px 20px 0;
+  border-radius: 5px;
+}
+
+@media (min-width: 640px) {
+  .links_list_sitemap {
+    display: none;
+  }
+}
+
+.links_list_sitemap-text {
+  display: block;
+  padding: 7px 10px;
+}
+
 .info_box_sitemap {
   padding: 25px 20px 0;
 }
