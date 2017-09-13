@@ -13,8 +13,7 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
    ========================================================================== */
@@ -22,8 +21,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
@@ -34,8 +32,7 @@ footer,
 header,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -43,8 +40,7 @@ section {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
    ========================================================================== */
@@ -56,15 +52,13 @@ figcaption,
 figure,
 main {
   /* 1 */
-  display: block;
-}
+  display: block; }
 
 /**
  * Add the correct margin in IE 8.
  */
 figure {
-  margin: 1em 40px;
-}
+  margin: 1em 40px; }
 
 /**
  * 1. Add the correct box sizing in Firefox.
@@ -76,8 +70,7 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -87,8 +80,7 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
    ========================================================================== */
@@ -100,8 +92,7 @@ a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
@@ -113,24 +104,21 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
 b,
 strong {
-  font-weight: inherit;
-}
+  font-weight: inherit; }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -142,30 +130,26 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font style in Android 4.3-.
  */
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
 mark {
   background-color: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -176,16 +160,13 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
    ========================================================================== */
@@ -194,30 +175,26 @@ sup {
  */
 audio,
 video {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Add the correct display in iOS 4-7.
  */
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Remove the border on images inside links in IE 10-.
  */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* Forms
    ========================================================================== */
@@ -237,8 +214,7 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
@@ -247,8 +223,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -257,8 +232,7 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
@@ -270,8 +244,7 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -281,8 +254,7 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
@@ -291,15 +263,13 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -319,8 +289,7 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * 1. Add the correct display in IE 9-.
@@ -330,15 +299,13 @@ progress {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the default vertical scrollbar in IE.
  */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10-.
@@ -349,16 +316,14 @@ textarea {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -368,16 +333,14 @@ textarea {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -387,8 +350,7 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
    ========================================================================== */
@@ -398,15 +360,13 @@ textarea {
  */
 details,
 menu {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Scripting
    ========================================================================== */
@@ -414,15 +374,13 @@ summary {
  * Add the correct display in IE 9-.
  */
 canvas {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
 template {
-  display: none;
-}
+  display: none; }
 
 /* Hidden
    ========================================================================== */
@@ -430,813 +388,626 @@ template {
  * Add the correct display in IE 10-.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
+
+* {
+  box-sizing: border-box; }
 
 @font-face {
   font-family: "fontawesome_webfont";
   src: url("../assets/fonts/fontawesome-webfont.eot");
   src: url("../assets/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/fontawesome-webfont.woff2") format("woff2"), url("../assets/fonts/fontawesome-webfont.woff") format("woff"), url("../assets/fonts/fontawesome-webfont.ttf") format("truetype"), url("../assets/fonts/fontawesome-webfont.svg#fontawesome_webfont") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: "open_sansregular";
   src: url("../assets/fonts/OpenSans-Regular.eot");
   src: url("../assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"), url("../assets/fonts/OpenSans-Regular.woff") format("woff"), url("../assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("../assets/fonts/OpenSans-Regular.svg#open_sansregular") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: "open_sanslight";
   src: url("../assets/fonts/OpenSans-Light.eot");
   src: url("../assets/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Light.woff2") format("woff2"), url("../assets/fonts/OpenSans-Light.woff") format("woff"), url("../assets/fonts/OpenSans-Light.ttf") format("truetype"), url("../assets/fonts/OpenSans-Light.svg#open_sanslight") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: "open_sanssemibold";
   src: url("../assets/fonts/OpenSans-Semibold.eot");
   src: url("../assets/fonts/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Semibold.woff2") format("woff2"), url("../assets/fonts/OpenSans-Semibold.woff") format("woff"), url("../assets/fonts/OpenSans-Semibold.ttf") format("truetype"), url("../assets/fonts/OpenSans-Semibold.svg#open_sanssemibold") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: "open_sansbold";
   src: url("../assets/fonts/OpenSans-Bold.eot");
   src: url("../assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Bold.woff2") format("woff2"), url("../assets/fonts/OpenSans-Bold.woff") format("woff"), url("../assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("../assets/fonts/OpenSans-Bold.svg#open_sansbold") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 .font_12 {
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .font_13 {
-  font-size: 13px;
-}
+  font-size: 13px; }
 
 .font_14 {
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .font_15 {
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 .font_16 {
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 .font_18 {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 .font_22 {
-  font-size: 22px;
-}
+  font-size: 22px; }
 
 .font_24 {
-  font-size: 24px;
-}
+  font-size: 24px; }
 
 .font_32 {
-  font-size: 32px;
-}
+  font-size: 32px; }
 
 .font_a, .font_a_12, .font_a_13, .font_a_14, .font_a_15, .font_a_16, .font_a_18, .font_a_22, .font_a_24, .font_a_32 {
-  font-family: 'fontawesome_webfont';
-}
-
-.font_a_12 {
-  font-size: 12px;
-}
-
-.font_a_13 {
-  font-size: 13px;
-}
-
-.font_a_14 {
-  font-size: 14px;
-}
-
-.font_a_15 {
-  font-size: 15px;
-}
-
-.font_a_16 {
-  font-size: 16px;
-}
-
-.font_a_18 {
-  font-size: 18px;
-}
-
-.font_a_22 {
-  font-size: 22px;
-}
-
-.font_a_24 {
-  font-size: 24px;
-}
-
-.font_a_32 {
-  font-size: 32px;
-}
+  font-family: 'fontawesome_webfont'; }
+  .font_a_12 {
+    font-size: 12px; }
+  .font_a_13 {
+    font-size: 13px; }
+  .font_a_14 {
+    font-size: 14px; }
+  .font_a_15 {
+    font-size: 15px; }
+  .font_a_16 {
+    font-size: 16px; }
+  .font_a_18 {
+    font-size: 18px; }
+  .font_a_22 {
+    font-size: 22px; }
+  .font_a_24 {
+    font-size: 24px; }
+  .font_a_32 {
+    font-size: 32px; }
 
 .font_r, .font_r_12, .font_r_13, .font_r_14, .font_r_15, .font_r_16, .font_r_18, .font_r_22, .font_r_24, .font_r_32 {
-  font-family: 'open_sansregular';
-}
-
-.font_r_12 {
-  font-size: 12px;
-}
-
-.font_r_13 {
-  font-size: 13px;
-}
-
-.font_r_14 {
-  font-size: 14px;
-}
-
-.font_r_15 {
-  font-size: 15px;
-}
-
-.font_r_16 {
-  font-size: 16px;
-}
-
-.font_r_18 {
-  font-size: 18px;
-}
-
-.font_r_22 {
-  font-size: 22px;
-}
-
-.font_r_24 {
-  font-size: 24px;
-}
-
-.font_r_32 {
-  font-size: 32px;
-}
+  font-family: 'open_sansregular'; }
+  .font_r_12 {
+    font-size: 12px; }
+  .font_r_13 {
+    font-size: 13px; }
+  .font_r_14 {
+    font-size: 14px; }
+  .font_r_15 {
+    font-size: 15px; }
+  .font_r_16 {
+    font-size: 16px; }
+  .font_r_18 {
+    font-size: 18px; }
+  .font_r_22 {
+    font-size: 22px; }
+  .font_r_24 {
+    font-size: 24px; }
+  .font_r_32 {
+    font-size: 32px; }
 
 .font_l, .font_l_12, .font_l_13, .font_l_14, .font_l_15, .font_l_16, .font_l_18, .font_l_22, .font_l_24, .font_l_32 {
-  font-family: 'open_sanslight';
-}
-
-.font_l_12 {
-  font-size: 12px;
-}
-
-.font_l_13 {
-  font-size: 13px;
-}
-
-.font_l_14 {
-  font-size: 14px;
-}
-
-.font_l_15 {
-  font-size: 15px;
-}
-
-.font_l_16 {
-  font-size: 16px;
-}
-
-.font_l_18 {
-  font-size: 18px;
-}
-
-.font_l_22 {
-  font-size: 22px;
-}
-
-.font_l_24 {
-  font-size: 24px;
-}
-
-.font_l_32 {
-  font-size: 32px;
-}
+  font-family: 'open_sanslight'; }
+  .font_l_12 {
+    font-size: 12px; }
+  .font_l_13 {
+    font-size: 13px; }
+  .font_l_14 {
+    font-size: 14px; }
+  .font_l_15 {
+    font-size: 15px; }
+  .font_l_16 {
+    font-size: 16px; }
+  .font_l_18 {
+    font-size: 18px; }
+  .font_l_22 {
+    font-size: 22px; }
+  .font_l_24 {
+    font-size: 24px; }
+  .font_l_32 {
+    font-size: 32px; }
 
 .font_sb, .font_sb_12, .font_sb_13, .font_sb_14, .font_sb_15, .font_sb_16, .font_sb_18, .font_sb_22, .font_sb_24, .font_sb_32 {
-  font-family: 'open_sanssemibold';
-}
-
-.font_sb_12 {
-  font-size: 12px;
-}
-
-.font_sb_13 {
-  font-size: 13px;
-}
-
-.font_sb_14 {
-  font-size: 14px;
-}
-
-.font_sb_15 {
-  font-size: 15px;
-}
-
-.font_sb_16 {
-  font-size: 16px;
-}
-
-.font_sb_18 {
-  font-size: 18px;
-}
-
-.font_sb_22 {
-  font-size: 22px;
-}
-
-.font_sb_24 {
-  font-size: 24px;
-}
-
-.font_sb_32 {
-  font-size: 32px;
-}
+  font-family: 'open_sanssemibold'; }
+  .font_sb_12 {
+    font-size: 12px; }
+  .font_sb_13 {
+    font-size: 13px; }
+  .font_sb_14 {
+    font-size: 14px; }
+  .font_sb_15 {
+    font-size: 15px; }
+  .font_sb_16 {
+    font-size: 16px; }
+  .font_sb_18 {
+    font-size: 18px; }
+  .font_sb_22 {
+    font-size: 22px; }
+  .font_sb_24 {
+    font-size: 24px; }
+  .font_sb_32 {
+    font-size: 32px; }
 
 .font_b, .font_b_12, .font_b_13, .font_b_14, .font_b_15, .font_b_16, .font_b_18, .font_b_22, .font_b_24, .font_b_32 {
-  font-family: 'open_sansbold';
-}
+  font-family: 'open_sansbold'; }
+  .font_b_12 {
+    font-size: 12px; }
+  .font_b_13 {
+    font-size: 13px; }
+  .font_b_14 {
+    font-size: 14px; }
+  .font_b_15 {
+    font-size: 15px; }
+  .font_b_16 {
+    font-size: 16px; }
+  .font_b_18 {
+    font-size: 18px; }
+  .font_b_22 {
+    font-size: 22px; }
+  .font_b_24 {
+    font-size: 24px; }
+  .font_b_32 {
+    font-size: 32px; }
 
-.font_b_12 {
-  font-size: 12px;
-}
+.anchor, .anchor_underline, .anchor_underline--main, a, .anchor_underline_dash {
+  color: inherit;
+  text-decoration: inherit; }
+  .anchor:focus, .anchor_underline:focus, .anchor_underline--main:focus, a:focus, .anchor_underline_dash:focus {
+    outline: none; }
+  .anchor_underline, .anchor_underline--main, a, .anchor_underline_dash {
+    text-decoration: underline; }
+    .anchor_underline--main, a {
+      color: #0073b5; }
+    .anchor_underline_dash {
+      text-decoration-style: dashed; }
 
-.font_b_13 {
-  font-size: 13px;
-}
-
-.font_b_14 {
-  font-size: 14px;
-}
-
-.font_b_15 {
-  font-size: 15px;
-}
-
-.font_b_16 {
-  font-size: 16px;
-}
-
-.font_b_18 {
-  font-size: 18px;
-}
-
-.font_b_22 {
-  font-size: 22px;
-}
-
-.font_b_24 {
-  font-size: 24px;
-}
-
-.font_b_32 {
-  font-size: 32px;
-}
-
-.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right, .icon_angle_down {
-  font-family: 'fontawesome_webfont';
-}
-
-.icon_facebook::before, .icon_facebook_soc::before, .icon_facebook_soc--footer::before {
-  content: "";
-}
-
-.icon_google_plus::before, .icon_google_plus_soc::before, .icon_google_plus_soc--footer::before {
-  content: "";
-}
-
-.icon_youtube::before, .icon_youtube_soc::before, .icon_youtube_soc--footer::before {
-  content: "";
-}
-
-.icon_angle_double_right::before {
-  content: "";
-}
-
-.icon_angle_down::before {
-  content: "";
-}
+.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right, .icon_bars, .icon_star, .icon_star_half, .icon_star_empty, .icon_angle_down {
+  font-family: 'fontawesome_webfont'; }
+  .icon_facebook::before, .icon_facebook_soc::before, .icon_facebook_soc--footer::before {
+    content: ""; }
+  .icon_google_plus::before, .icon_google_plus_soc::before, .icon_google_plus_soc--footer::before {
+    content: ""; }
+  .icon_youtube::before, .icon_youtube_soc::before, .icon_youtube_soc--footer::before {
+    content: ""; }
+  .icon_angle_double_right::before {
+    content: ""; }
+  .icon_bars::before {
+    content: ""; }
+  .icon_star::before {
+    content: ""; }
+  .icon_star_half::before {
+    content: ""; }
+  .icon_star_empty::before {
+    content: ""; }
+  .icon_angle_down::before {
+    content: ""; }
 
 .dropdown {
   position: relative;
-  display: inline-block;
-}
+  display: inline-block; }
+  .dropdown-label {
+    display: block; }
+  .dropdown-content {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 100; }
+  .dropdown:hover {
+    cursor: pointer; }
+  .dropdown:focus {
+    outline: none; }
+  .dropdown-active .dropdown-content, .dropdown-mrk-active .dropdown-content, .dropdown-mrk:focus .dropdown-content, .dropdown:focus .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    cursor: auto; }
 
-.dropdown-label {
-  display: block;
-}
-
-.dropdown-content {
-  display: block;
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  z-index: 100;
-}
-
-.dropdown:hover {
-  cursor: pointer;
-}
-
-.dropdown:focus {
-  outline: none;
-}
-
-.dropdown-active .dropdown-content, .dropdown-mrk-active .dropdown-content, .dropdown-mrk:focus .dropdown-content, .dropdown:focus .dropdown-content {
-  opacity: 1;
-  visibility: visible;
-  cursor: auto;
-}
-
-.form-input[type="text"], .form-input[type="password"] {
+.form-input[type="text"], .form-input--subscribe, .form-input[type="password"] {
   display: block;
   outline: none;
   border: none;
   border-bottom: 1px solid #ddd;
   width: 100%;
   text-align: center;
-  padding: 15px;
-}
+  padding: 15px; }
 
 .famfamfam-flags {
   background: url("../assets/images/flags.png") no-repeat;
   background-size: 224px 199px;
   display: inline-block;
   width: 14px;
-  height: 9px;
-}
+  height: 9px; }
 
 .famfamfam-flags.me {
   width: 16px;
   height: 12px;
-  background-position: 0 0;
-}
+  background-position: 0 0; }
 
 .famfamfam-flags.ky {
   width: 16px;
   height: 11px;
-  background-position: -16px 0;
-}
+  background-position: -16px 0; }
 
 .famfamfam-flags.af {
   width: 16px;
   height: 11px;
-  background-position: 0 -12px;
-}
+  background-position: 0 -12px; }
 
 .famfamfam-flags.ag {
   width: 16px;
   height: 11px;
-  background-position: -16px -12px;
-}
+  background-position: -16px -12px; }
 
 .famfamfam-flags.ai {
   width: 16px;
   height: 11px;
-  background-position: -32px 0;
-}
+  background-position: -32px 0; }
 
 .famfamfam-flags.al {
   width: 16px;
   height: 11px;
-  background-position: -32px -11px;
-}
+  background-position: -32px -11px; }
 
 .famfamfam-flags.am {
   width: 16px;
   height: 11px;
-  background-position: 0 -23px;
-}
+  background-position: 0 -23px; }
 
 .famfamfam-flags.an {
   width: 16px;
   height: 11px;
-  background-position: -16px -23px;
-}
+  background-position: -16px -23px; }
 
 .famfamfam-flags.ao {
   width: 16px;
   height: 11px;
-  background-position: -32px -23px;
-}
+  background-position: -32px -23px; }
 
 .famfamfam-flags.ar {
   width: 16px;
   height: 11px;
-  background-position: 0 -34px;
-}
+  background-position: 0 -34px; }
 
 .famfamfam-flags.as {
   width: 16px;
   height: 11px;
-  background-position: -16px -34px;
-}
+  background-position: -16px -34px; }
 
 .famfamfam-flags.at {
   width: 16px;
   height: 11px;
-  background-position: -32px -34px;
-}
+  background-position: -32px -34px; }
 
 .famfamfam-flags.au {
   width: 16px;
   height: 11px;
-  background-position: -48px 0;
-}
+  background-position: -48px 0; }
 
 .famfamfam-flags.aw {
   width: 16px;
   height: 11px;
-  background-position: -48px -11px;
-}
+  background-position: -48px -11px; }
 
 .famfamfam-flags.ax {
   width: 16px;
   height: 11px;
-  background-position: -48px -22px;
-}
+  background-position: -48px -22px; }
 
 .famfamfam-flags.az {
   width: 16px;
   height: 11px;
-  background-position: -48px -33px;
-}
+  background-position: -48px -33px; }
 
 .famfamfam-flags.ba {
   width: 16px;
   height: 11px;
-  background-position: 0 -45px;
-}
+  background-position: 0 -45px; }
 
 .famfamfam-flags.bb {
   width: 16px;
   height: 11px;
-  background-position: -16px -45px;
-}
+  background-position: -16px -45px; }
 
 .famfamfam-flags.bd {
   width: 16px;
   height: 11px;
-  background-position: -32px -45px;
-}
+  background-position: -32px -45px; }
 
 .famfamfam-flags.be {
   width: 16px;
   height: 11px;
-  background-position: -48px -45px;
-}
+  background-position: -48px -45px; }
 
 .famfamfam-flags.bf {
   width: 16px;
   height: 11px;
-  background-position: -64px 0;
-}
+  background-position: -64px 0; }
 
 .famfamfam-flags.bg {
   width: 16px;
   height: 11px;
-  background-position: -64px -11px;
-}
+  background-position: -64px -11px; }
 
 .famfamfam-flags.bh {
   width: 16px;
   height: 11px;
-  background-position: -64px -22px;
-}
+  background-position: -64px -22px; }
 
 .famfamfam-flags.bi {
   width: 16px;
   height: 11px;
-  background-position: -64px -33px;
-}
+  background-position: -64px -33px; }
 
 .famfamfam-flags.bj {
   width: 16px;
   height: 11px;
-  background-position: -64px -44px;
-}
+  background-position: -64px -44px; }
 
 .famfamfam-flags.bm {
   width: 16px;
   height: 11px;
-  background-position: 0 -56px;
-}
+  background-position: 0 -56px; }
 
 .famfamfam-flags.bn {
   width: 16px;
   height: 11px;
-  background-position: -16px -56px;
-}
+  background-position: -16px -56px; }
 
 .famfamfam-flags.bo {
   width: 16px;
   height: 11px;
-  background-position: -32px -56px;
-}
+  background-position: -32px -56px; }
 
 .famfamfam-flags.br {
   width: 16px;
   height: 11px;
-  background-position: -48px -56px;
-}
+  background-position: -48px -56px; }
 
 .famfamfam-flags.bs {
   width: 16px;
   height: 11px;
-  background-position: -64px -56px;
-}
+  background-position: -64px -56px; }
 
 .famfamfam-flags.bt {
   width: 16px;
   height: 11px;
-  background-position: 0 -67px;
-}
+  background-position: 0 -67px; }
 
 .famfamfam-flags.bv {
   width: 16px;
   height: 11px;
-  background-position: -16px -67px;
-}
+  background-position: -16px -67px; }
 
 .famfamfam-flags.bw {
   width: 16px;
   height: 11px;
-  background-position: -32px -67px;
-}
+  background-position: -32px -67px; }
 
 .famfamfam-flags.by {
   width: 16px;
   height: 11px;
-  background-position: -48px -67px;
-}
+  background-position: -48px -67px; }
 
 .famfamfam-flags.bz {
   width: 16px;
   height: 11px;
-  background-position: -64px -67px;
-}
+  background-position: -64px -67px; }
 
 .famfamfam-flags.ca {
   width: 16px;
   height: 11px;
-  background-position: -80px 0;
-}
+  background-position: -80px 0; }
 
 .famfamfam-flags.catalonia {
   width: 16px;
   height: 11px;
-  background-position: -80px -11px;
-}
+  background-position: -80px -11px; }
 
 .famfamfam-flags.cc {
   width: 16px;
   height: 11px;
-  background-position: -80px -22px;
-}
+  background-position: -80px -22px; }
 
 .famfamfam-flags.cd {
   width: 16px;
   height: 11px;
-  background-position: -80px -33px;
-}
+  background-position: -80px -33px; }
 
 .famfamfam-flags.cf {
   width: 16px;
   height: 11px;
-  background-position: -80px -44px;
-}
+  background-position: -80px -44px; }
 
 .famfamfam-flags.cg {
   width: 16px;
   height: 11px;
-  background-position: -80px -55px;
-}
+  background-position: -80px -55px; }
 
 .famfamfam-flags.zm {
   width: 16px;
   height: 11px;
-  background-position: -80px -66px;
-}
+  background-position: -80px -66px; }
 
 .famfamfam-flags.ci {
   width: 16px;
   height: 11px;
-  background-position: 0 -78px;
-}
+  background-position: 0 -78px; }
 
 .famfamfam-flags.ck {
   width: 16px;
   height: 11px;
-  background-position: -16px -78px;
-}
+  background-position: -16px -78px; }
 
 .famfamfam-flags.cl {
   width: 16px;
   height: 11px;
-  background-position: -32px -78px;
-}
+  background-position: -32px -78px; }
 
 .famfamfam-flags.cm {
   width: 16px;
   height: 11px;
-  background-position: -48px -78px;
-}
+  background-position: -48px -78px; }
 
 .famfamfam-flags.cn {
   width: 16px;
   height: 11px;
-  background-position: -64px -78px;
-}
+  background-position: -64px -78px; }
 
 .famfamfam-flags.co {
   width: 16px;
   height: 11px;
-  background-position: -80px -78px;
-}
+  background-position: -80px -78px; }
 
 .famfamfam-flags.cr {
   width: 16px;
   height: 11px;
-  background-position: -96px 0;
-}
+  background-position: -96px 0; }
 
 .famfamfam-flags.cs {
   width: 16px;
   height: 11px;
-  background-position: -96px -11px;
-}
+  background-position: -96px -11px; }
 
 .famfamfam-flags.cu {
   width: 16px;
   height: 11px;
-  background-position: -96px -22px;
-}
+  background-position: -96px -22px; }
 
 .famfamfam-flags.cv {
   width: 16px;
   height: 11px;
-  background-position: -96px -33px;
-}
+  background-position: -96px -33px; }
 
 .famfamfam-flags.cx {
   width: 16px;
   height: 11px;
-  background-position: -96px -44px;
-}
+  background-position: -96px -44px; }
 
 .famfamfam-flags.cy {
   width: 16px;
   height: 11px;
-  background-position: -96px -55px;
-}
+  background-position: -96px -55px; }
 
 .famfamfam-flags.cz {
   width: 16px;
   height: 11px;
-  background-position: -96px -66px;
-}
+  background-position: -96px -66px; }
 
 .famfamfam-flags.de {
   width: 16px;
   height: 11px;
-  background-position: -96px -77px;
-}
+  background-position: -96px -77px; }
 
 .famfamfam-flags.dj {
   width: 16px;
   height: 11px;
-  background-position: 0 -89px;
-}
+  background-position: 0 -89px; }
 
 .famfamfam-flags.dk {
   width: 16px;
   height: 11px;
-  background-position: -16px -89px;
-}
+  background-position: -16px -89px; }
 
 .famfamfam-flags.dm {
   width: 16px;
   height: 11px;
-  background-position: -32px -89px;
-}
+  background-position: -32px -89px; }
 
 .famfamfam-flags.do {
   width: 16px;
   height: 11px;
-  background-position: -48px -89px;
-}
+  background-position: -48px -89px; }
 
 .famfamfam-flags.dz {
   width: 16px;
   height: 11px;
-  background-position: -64px -89px;
-}
+  background-position: -64px -89px; }
 
 .famfamfam-flags.ec {
   width: 16px;
   height: 11px;
-  background-position: -80px -89px;
-}
+  background-position: -80px -89px; }
 
 .famfamfam-flags.ee {
   width: 16px;
   height: 11px;
-  background-position: -96px -89px;
-}
+  background-position: -96px -89px; }
 
 .famfamfam-flags.eg {
   width: 16px;
   height: 11px;
-  background-position: 0 -100px;
-}
+  background-position: 0 -100px; }
 
 .famfamfam-flags.eh {
   width: 16px;
   height: 11px;
-  background-position: -16px -100px;
-}
+  background-position: -16px -100px; }
 
 .famfamfam-flags.england {
   width: 16px;
   height: 11px;
-  background-position: -32px -100px;
-}
+  background-position: -32px -100px; }
 
 .famfamfam-flags.er {
   width: 16px;
   height: 11px;
-  background-position: -48px -100px;
-}
+  background-position: -48px -100px; }
 
 .famfamfam-flags.es {
   width: 16px;
   height: 11px;
-  background-position: -64px -100px;
-}
+  background-position: -64px -100px; }
 
 .famfamfam-flags.et {
   width: 16px;
   height: 11px;
-  background-position: -80px -100px;
-}
+  background-position: -80px -100px; }
 
 .famfamfam-flags.europeanunion {
   width: 16px;
   height: 11px;
-  background-position: -96px -100px;
-}
+  background-position: -96px -100px; }
 
 .famfamfam-flags.fam {
   width: 16px;
   height: 11px;
-  background-position: -112px 0;
-}
+  background-position: -112px 0; }
 
 .famfamfam-flags.fi {
   width: 16px;
   height: 11px;
-  background-position: -112px -11px;
-}
+  background-position: -112px -11px; }
 
 .famfamfam-flags.fj {
   width: 16px;
   height: 11px;
-  background-position: -112px -22px;
-}
+  background-position: -112px -22px; }
 
 .famfamfam-flags.fk {
   width: 16px;
   height: 11px;
-  background-position: -112px -33px;
-}
+  background-position: -112px -33px; }
 
 .famfamfam-flags.fm {
   width: 16px;
   height: 11px;
-  background-position: -112px -44px;
-}
+  background-position: -112px -44px; }
 
 .famfamfam-flags.fo {
   width: 16px;
   height: 11px;
-  background-position: -112px -55px;
-}
+  background-position: -112px -55px; }
 
 .famfamfam-flags.fr,
 .famfamfam-flags.gp,
@@ -1245,1086 +1016,911 @@ template {
 .famfamfam-flags.yt {
   width: 16px;
   height: 11px;
-  background-position: -112px -66px;
-}
+  background-position: -112px -66px; }
 
 .famfamfam-flags.ga {
   width: 16px;
   height: 11px;
-  background-position: -112px -77px;
-}
+  background-position: -112px -77px; }
 
 .famfamfam-flags.gb {
   width: 16px;
   height: 11px;
-  background-position: -112px -88px;
-}
+  background-position: -112px -88px; }
 
 .famfamfam-flags.gd {
   width: 16px;
   height: 11px;
-  background-position: -112px -99px;
-}
+  background-position: -112px -99px; }
 
 .famfamfam-flags.ge {
   width: 16px;
   height: 11px;
-  background-position: 0 -111px;
-}
+  background-position: 0 -111px; }
 
 .famfamfam-flags.gf {
   width: 16px;
   height: 11px;
-  background-position: -16px -111px;
-}
+  background-position: -16px -111px; }
 
 .famfamfam-flags.gg {
   width: 16px;
   height: 11px;
-  background-position: -32px -111px;
-}
+  background-position: -32px -111px; }
 
 .famfamfam-flags.gh {
   width: 16px;
   height: 11px;
-  background-position: -48px -111px;
-}
+  background-position: -48px -111px; }
 
 .famfamfam-flags.gi {
   width: 16px;
   height: 11px;
-  background-position: -64px -111px;
-}
+  background-position: -64px -111px; }
 
 .famfamfam-flags.gl {
   width: 16px;
   height: 11px;
-  background-position: -80px -111px;
-}
+  background-position: -80px -111px; }
 
 .famfamfam-flags.gm {
   width: 16px;
   height: 11px;
-  background-position: -96px -111px;
-}
+  background-position: -96px -111px; }
 
 .famfamfam-flags.gn {
   width: 16px;
   height: 11px;
-  background-position: -112px -111px;
-}
+  background-position: -112px -111px; }
 
 .famfamfam-flags.gp {
   width: 16px;
   height: 11px;
-  background-position: -128px 0;
-}
+  background-position: -128px 0; }
 
 .famfamfam-flags.gq {
   width: 16px;
   height: 11px;
-  background-position: -128px -11px;
-}
+  background-position: -128px -11px; }
 
 .famfamfam-flags.gr {
   width: 16px;
   height: 11px;
-  background-position: -128px -22px;
-}
+  background-position: -128px -22px; }
 
 .famfamfam-flags.gs {
   width: 16px;
   height: 11px;
-  background-position: -128px -33px;
-}
+  background-position: -128px -33px; }
 
 .famfamfam-flags.gt {
   width: 16px;
   height: 11px;
-  background-position: -128px -44px;
-}
+  background-position: -128px -44px; }
 
 .famfamfam-flags.gu {
   width: 16px;
   height: 11px;
-  background-position: -128px -55px;
-}
+  background-position: -128px -55px; }
 
 .famfamfam-flags.gw {
   width: 16px;
   height: 11px;
-  background-position: -128px -66px;
-}
+  background-position: -128px -66px; }
 
 .famfamfam-flags.gy {
   width: 16px;
   height: 11px;
-  background-position: -128px -77px;
-}
+  background-position: -128px -77px; }
 
 .famfamfam-flags.hk {
   width: 16px;
   height: 11px;
-  background-position: -128px -88px;
-}
+  background-position: -128px -88px; }
 
 .famfamfam-flags.hm {
   width: 16px;
   height: 11px;
-  background-position: -128px -99px;
-}
+  background-position: -128px -99px; }
 
 .famfamfam-flags.hn {
   width: 16px;
   height: 11px;
-  background-position: -128px -110px;
-}
+  background-position: -128px -110px; }
 
 .famfamfam-flags.hr {
   width: 16px;
   height: 11px;
-  background-position: 0 -122px;
-}
+  background-position: 0 -122px; }
 
 .famfamfam-flags.ht {
   width: 16px;
   height: 11px;
-  background-position: -16px -122px;
-}
+  background-position: -16px -122px; }
 
 .famfamfam-flags.hu {
   width: 16px;
   height: 11px;
-  background-position: -32px -122px;
-}
+  background-position: -32px -122px; }
 
 .famfamfam-flags.id {
   width: 16px;
   height: 11px;
-  background-position: -48px -122px;
-}
+  background-position: -48px -122px; }
 
 .famfamfam-flags.ie {
   width: 16px;
   height: 11px;
-  background-position: -64px -122px;
-}
+  background-position: -64px -122px; }
 
 .famfamfam-flags.il {
   width: 16px;
   height: 11px;
-  background-position: -80px -122px;
-}
+  background-position: -80px -122px; }
 
 .famfamfam-flags.in {
   width: 16px;
   height: 11px;
-  background-position: -96px -122px;
-}
+  background-position: -96px -122px; }
 
 .famfamfam-flags.io {
   width: 16px;
   height: 11px;
-  background-position: -112px -122px;
-}
+  background-position: -112px -122px; }
 
 .famfamfam-flags.iq {
   width: 16px;
   height: 11px;
-  background-position: -128px -122px;
-}
+  background-position: -128px -122px; }
 
 .famfamfam-flags.ir {
   width: 16px;
   height: 11px;
-  background-position: 0 -133px;
-}
+  background-position: 0 -133px; }
 
 .famfamfam-flags.is {
   width: 16px;
   height: 11px;
-  background-position: -16px -133px;
-}
+  background-position: -16px -133px; }
 
 .famfamfam-flags.it {
   width: 16px;
   height: 11px;
-  background-position: -32px -133px;
-}
+  background-position: -32px -133px; }
 
 .famfamfam-flags.je {
   width: 16px;
   height: 11px;
-  background-position: -48px -133px;
-}
+  background-position: -48px -133px; }
 
 .famfamfam-flags.jm {
   width: 16px;
   height: 11px;
-  background-position: -64px -133px;
-}
+  background-position: -64px -133px; }
 
 .famfamfam-flags.jo {
   width: 16px;
   height: 11px;
-  background-position: -80px -133px;
-}
+  background-position: -80px -133px; }
 
 .famfamfam-flags.jp {
   width: 16px;
   height: 11px;
-  background-position: -96px -133px;
-}
+  background-position: -96px -133px; }
 
 .famfamfam-flags.ke {
   width: 16px;
   height: 11px;
-  background-position: -112px -133px;
-}
+  background-position: -112px -133px; }
 
 .famfamfam-flags.kg {
   width: 16px;
   height: 11px;
-  background-position: -128px -133px;
-}
+  background-position: -128px -133px; }
 
 .famfamfam-flags.kh {
   width: 16px;
   height: 11px;
-  background-position: -144px 0;
-}
+  background-position: -144px 0; }
 
 .famfamfam-flags.ki {
   width: 16px;
   height: 11px;
-  background-position: -144px -11px;
-}
+  background-position: -144px -11px; }
 
 .famfamfam-flags.km {
   width: 16px;
   height: 11px;
-  background-position: -144px -22px;
-}
+  background-position: -144px -22px; }
 
 .famfamfam-flags.kn {
   width: 16px;
   height: 11px;
-  background-position: -144px -33px;
-}
+  background-position: -144px -33px; }
 
 .famfamfam-flags.kp {
   width: 16px;
   height: 11px;
-  background-position: -144px -44px;
-}
+  background-position: -144px -44px; }
 
 .famfamfam-flags.kr {
   width: 16px;
   height: 11px;
-  background-position: -144px -55px;
-}
+  background-position: -144px -55px; }
 
 .famfamfam-flags.kw {
   width: 16px;
   height: 11px;
-  background-position: -144px -66px;
-}
+  background-position: -144px -66px; }
 
 .famfamfam-flags.ae {
   width: 16px;
   height: 11px;
-  background-position: -144px -77px;
-}
+  background-position: -144px -77px; }
 
 .famfamfam-flags.kz {
   width: 16px;
   height: 11px;
-  background-position: -144px -88px;
-}
+  background-position: -144px -88px; }
 
 .famfamfam-flags.la {
   width: 16px;
   height: 11px;
-  background-position: -144px -99px;
-}
+  background-position: -144px -99px; }
 
 .famfamfam-flags.lb {
   width: 16px;
   height: 11px;
-  background-position: -144px -110px;
-}
+  background-position: -144px -110px; }
 
 .famfamfam-flags.lc {
   width: 16px;
   height: 11px;
-  background-position: -144px -121px;
-}
+  background-position: -144px -121px; }
 
 .famfamfam-flags.li {
   width: 16px;
   height: 11px;
-  background-position: -144px -132px;
-}
+  background-position: -144px -132px; }
 
 .famfamfam-flags.lk {
   width: 16px;
   height: 11px;
-  background-position: 0 -144px;
-}
+  background-position: 0 -144px; }
 
 .famfamfam-flags.lr {
   width: 16px;
   height: 11px;
-  background-position: -16px -144px;
-}
+  background-position: -16px -144px; }
 
 .famfamfam-flags.ls {
   width: 16px;
   height: 11px;
-  background-position: -32px -144px;
-}
+  background-position: -32px -144px; }
 
 .famfamfam-flags.lt {
   width: 16px;
   height: 11px;
-  background-position: -48px -144px;
-}
+  background-position: -48px -144px; }
 
 .famfamfam-flags.lu {
   width: 16px;
   height: 11px;
-  background-position: -64px -144px;
-}
+  background-position: -64px -144px; }
 
 .famfamfam-flags.lv {
   width: 16px;
   height: 11px;
-  background-position: -80px -144px;
-}
+  background-position: -80px -144px; }
 
 .famfamfam-flags.ly {
   width: 16px;
   height: 11px;
-  background-position: -96px -144px;
-}
+  background-position: -96px -144px; }
 
 .famfamfam-flags.ma {
   width: 16px;
   height: 11px;
-  background-position: -112px -144px;
-}
+  background-position: -112px -144px; }
 
 .famfamfam-flags.mc {
   width: 16px;
   height: 11px;
-  background-position: -128px -144px;
-}
+  background-position: -128px -144px; }
 
 .famfamfam-flags.md {
   width: 16px;
   height: 11px;
-  background-position: -144px -144px;
-}
+  background-position: -144px -144px; }
 
 .famfamfam-flags.ad {
   width: 16px;
   height: 11px;
-  background-position: -160px 0;
-}
+  background-position: -160px 0; }
 
 .famfamfam-flags.mg {
   width: 16px;
   height: 11px;
-  background-position: -160px -11px;
-}
+  background-position: -160px -11px; }
 
 .famfamfam-flags.mh {
   width: 16px;
   height: 11px;
-  background-position: -160px -22px;
-}
+  background-position: -160px -22px; }
 
 .famfamfam-flags.mk {
   width: 16px;
   height: 11px;
-  background-position: -160px -33px;
-}
+  background-position: -160px -33px; }
 
 .famfamfam-flags.ml {
   width: 16px;
   height: 11px;
-  background-position: -160px -44px;
-}
+  background-position: -160px -44px; }
 
 .famfamfam-flags.mm {
   width: 16px;
   height: 11px;
-  background-position: -160px -55px;
-}
+  background-position: -160px -55px; }
 
 .famfamfam-flags.mn {
   width: 16px;
   height: 11px;
-  background-position: -160px -66px;
-}
+  background-position: -160px -66px; }
 
 .famfamfam-flags.mo {
   width: 16px;
   height: 11px;
-  background-position: -160px -77px;
-}
+  background-position: -160px -77px; }
 
 .famfamfam-flags.mp {
   width: 16px;
   height: 11px;
-  background-position: -160px -88px;
-}
+  background-position: -160px -88px; }
 
 .famfamfam-flags.mq {
   width: 16px;
   height: 11px;
-  background-position: -160px -99px;
-}
+  background-position: -160px -99px; }
 
 .famfamfam-flags.mr {
   width: 16px;
   height: 11px;
-  background-position: -160px -110px;
-}
+  background-position: -160px -110px; }
 
 .famfamfam-flags.ms {
   width: 16px;
   height: 11px;
-  background-position: -160px -121px;
-}
+  background-position: -160px -121px; }
 
 .famfamfam-flags.mt {
   width: 16px;
   height: 11px;
-  background-position: -160px -132px;
-}
+  background-position: -160px -132px; }
 
 .famfamfam-flags.mu {
   width: 16px;
   height: 11px;
-  background-position: -160px -143px;
-}
+  background-position: -160px -143px; }
 
 .famfamfam-flags.mv {
   width: 16px;
   height: 11px;
-  background-position: 0 -155px;
-}
+  background-position: 0 -155px; }
 
 .famfamfam-flags.mw {
   width: 16px;
   height: 11px;
-  background-position: -16px -155px;
-}
+  background-position: -16px -155px; }
 
 .famfamfam-flags.mx {
   width: 16px;
   height: 11px;
-  background-position: -32px -155px;
-}
+  background-position: -32px -155px; }
 
 .famfamfam-flags.my {
   width: 16px;
   height: 11px;
-  background-position: -48px -155px;
-}
+  background-position: -48px -155px; }
 
 .famfamfam-flags.mz {
   width: 16px;
   height: 11px;
-  background-position: -64px -155px;
-}
+  background-position: -64px -155px; }
 
 .famfamfam-flags.na {
   width: 16px;
   height: 11px;
-  background-position: -80px -155px;
-}
+  background-position: -80px -155px; }
 
 .famfamfam-flags.nc {
   width: 16px;
   height: 11px;
-  background-position: -96px -155px;
-}
+  background-position: -96px -155px; }
 
 .famfamfam-flags.ne {
   width: 16px;
   height: 11px;
-  background-position: -112px -155px;
-}
+  background-position: -112px -155px; }
 
 .famfamfam-flags.nf {
   width: 16px;
   height: 11px;
-  background-position: -128px -155px;
-}
+  background-position: -128px -155px; }
 
 .famfamfam-flags.ng {
   width: 16px;
   height: 11px;
-  background-position: -144px -155px;
-}
+  background-position: -144px -155px; }
 
 .famfamfam-flags.ni {
   width: 16px;
   height: 11px;
-  background-position: -160px -155px;
-}
+  background-position: -160px -155px; }
 
 .famfamfam-flags.bq,
 .famfamfam-flags.nl {
   width: 16px;
   height: 11px;
-  background-position: -176px 0;
-}
+  background-position: -176px 0; }
 
 .famfamfam-flags.no {
   width: 16px;
   height: 11px;
-  background-position: -176px -11px;
-}
+  background-position: -176px -11px; }
 
 .famfamfam-flags.za {
   width: 16px;
   height: 11px;
-  background-position: -176px -22px;
-}
+  background-position: -176px -22px; }
 
 .famfamfam-flags.nr {
   width: 16px;
   height: 11px;
-  background-position: -176px -33px;
-}
+  background-position: -176px -33px; }
 
 .famfamfam-flags.nu {
   width: 16px;
   height: 11px;
-  background-position: -176px -44px;
-}
+  background-position: -176px -44px; }
 
 .famfamfam-flags.nz {
   width: 16px;
   height: 11px;
-  background-position: -176px -55px;
-}
+  background-position: -176px -55px; }
 
 .famfamfam-flags.om {
   width: 16px;
   height: 11px;
-  background-position: -176px -66px;
-}
+  background-position: -176px -66px; }
 
 .famfamfam-flags.pa {
   width: 16px;
   height: 11px;
-  background-position: -176px -77px;
-}
+  background-position: -176px -77px; }
 
 .famfamfam-flags.pe {
   width: 16px;
   height: 11px;
-  background-position: -176px -88px;
-}
+  background-position: -176px -88px; }
 
 .famfamfam-flags.pf {
   width: 16px;
   height: 11px;
-  background-position: -176px -99px;
-}
+  background-position: -176px -99px; }
 
 .famfamfam-flags.pg {
   width: 16px;
   height: 11px;
-  background-position: -176px -110px;
-}
+  background-position: -176px -110px; }
 
 .famfamfam-flags.ph {
   width: 16px;
   height: 11px;
-  background-position: -176px -121px;
-}
+  background-position: -176px -121px; }
 
 .famfamfam-flags.pk {
   width: 16px;
   height: 11px;
-  background-position: -176px -132px;
-}
+  background-position: -176px -132px; }
 
 .famfamfam-flags.pl {
   width: 16px;
   height: 11px;
-  background-position: -176px -143px;
-}
+  background-position: -176px -143px; }
 
 .famfamfam-flags.pm {
   width: 16px;
   height: 11px;
-  background-position: -176px -154px;
-}
+  background-position: -176px -154px; }
 
 .famfamfam-flags.pn {
   width: 16px;
   height: 11px;
-  background-position: 0 -166px;
-}
+  background-position: 0 -166px; }
 
 .famfamfam-flags.pr {
   width: 16px;
   height: 11px;
-  background-position: -16px -166px;
-}
+  background-position: -16px -166px; }
 
 .famfamfam-flags.ps {
   width: 16px;
   height: 11px;
-  background-position: -32px -166px;
-}
+  background-position: -32px -166px; }
 
 .famfamfam-flags.pt {
   width: 16px;
   height: 11px;
-  background-position: -48px -166px;
-}
+  background-position: -48px -166px; }
 
 .famfamfam-flags.pw {
   width: 16px;
   height: 11px;
-  background-position: -64px -166px;
-}
+  background-position: -64px -166px; }
 
 .famfamfam-flags.py {
   width: 16px;
   height: 11px;
-  background-position: -80px -166px;
-}
+  background-position: -80px -166px; }
 
 .famfamfam-flags.qa {
   width: 16px;
   height: 11px;
-  background-position: -96px -166px;
-}
+  background-position: -96px -166px; }
 
 .famfamfam-flags.re {
   width: 16px;
   height: 11px;
-  background-position: -112px -166px;
-}
+  background-position: -112px -166px; }
 
 .famfamfam-flags.ro {
   width: 16px;
   height: 11px;
-  background-position: -128px -166px;
-}
+  background-position: -128px -166px; }
 
 .famfamfam-flags.rs {
   width: 16px;
   height: 11px;
-  background-position: -144px -166px;
-}
+  background-position: -144px -166px; }
 
 .famfamfam-flags.ru {
   width: 16px;
   height: 11px;
-  background-position: -160px -166px;
-}
+  background-position: -160px -166px; }
 
 .famfamfam-flags.rw {
   width: 16px;
   height: 11px;
-  background-position: -176px -166px;
-}
+  background-position: -176px -166px; }
 
 .famfamfam-flags.sa {
   width: 16px;
   height: 11px;
-  background-position: 0 -177px;
-}
+  background-position: 0 -177px; }
 
 .famfamfam-flags.sb {
   width: 16px;
   height: 11px;
-  background-position: -16px -177px;
-}
+  background-position: -16px -177px; }
 
 .famfamfam-flags.sc {
   width: 16px;
   height: 11px;
-  background-position: -32px -177px;
-}
+  background-position: -32px -177px; }
 
 .famfamfam-flags.scotland {
   width: 16px;
   height: 11px;
-  background-position: -48px -177px;
-}
+  background-position: -48px -177px; }
 
 .famfamfam-flags.sd {
   width: 16px;
   height: 11px;
-  background-position: -64px -177px;
-}
+  background-position: -64px -177px; }
 
 .famfamfam-flags.se {
   width: 16px;
   height: 11px;
-  background-position: -80px -177px;
-}
+  background-position: -80px -177px; }
 
 .famfamfam-flags.sg {
   width: 16px;
   height: 11px;
-  background-position: -96px -177px;
-}
+  background-position: -96px -177px; }
 
 .famfamfam-flags.sh {
   width: 16px;
   height: 11px;
-  background-position: -112px -177px;
-}
+  background-position: -112px -177px; }
 
 .famfamfam-flags.si {
   width: 16px;
   height: 11px;
-  background-position: -128px -177px;
-}
+  background-position: -128px -177px; }
 
 .famfamfam-flags.sj {
   width: 16px;
   height: 11px;
-  background-position: -144px -177px;
-}
+  background-position: -144px -177px; }
 
 .famfamfam-flags.sk {
   width: 16px;
   height: 11px;
-  background-position: -160px -177px;
-}
+  background-position: -160px -177px; }
 
 .famfamfam-flags.sl {
   width: 16px;
   height: 11px;
-  background-position: -176px -177px;
-}
+  background-position: -176px -177px; }
 
 .famfamfam-flags.sm {
   width: 16px;
   height: 11px;
-  background-position: -192px 0;
-}
+  background-position: -192px 0; }
 
 .famfamfam-flags.sn {
   width: 16px;
   height: 11px;
-  background-position: -192px -11px;
-}
+  background-position: -192px -11px; }
 
 .famfamfam-flags.so {
   width: 16px;
   height: 11px;
-  background-position: -192px -22px;
-}
+  background-position: -192px -22px; }
 
 .famfamfam-flags.sr {
   width: 16px;
   height: 11px;
-  background-position: -192px -33px;
-}
+  background-position: -192px -33px; }
 
 .famfamfam-flags.st {
   width: 16px;
   height: 11px;
-  background-position: -192px -44px;
-}
+  background-position: -192px -44px; }
 
 .famfamfam-flags.sv {
   width: 16px;
   height: 11px;
-  background-position: -192px -55px;
-}
+  background-position: -192px -55px; }
 
 .famfamfam-flags.sy {
   width: 16px;
   height: 11px;
-  background-position: -192px -66px;
-}
+  background-position: -192px -66px; }
 
 .famfamfam-flags.sz {
   width: 16px;
   height: 11px;
-  background-position: -192px -77px;
-}
+  background-position: -192px -77px; }
 
 .famfamfam-flags.tc {
   width: 16px;
   height: 11px;
-  background-position: -192px -88px;
-}
+  background-position: -192px -88px; }
 
 .famfamfam-flags.td {
   width: 16px;
   height: 11px;
-  background-position: -192px -99px;
-}
+  background-position: -192px -99px; }
 
 .famfamfam-flags.tf {
   width: 16px;
   height: 11px;
-  background-position: -192px -110px;
-}
+  background-position: -192px -110px; }
 
 .famfamfam-flags.tg {
   width: 16px;
   height: 11px;
-  background-position: -192px -121px;
-}
+  background-position: -192px -121px; }
 
 .famfamfam-flags.th {
   width: 16px;
   height: 11px;
-  background-position: -192px -132px;
-}
+  background-position: -192px -132px; }
 
 .famfamfam-flags.tj {
   width: 16px;
   height: 11px;
-  background-position: -192px -143px;
-}
+  background-position: -192px -143px; }
 
 .famfamfam-flags.tk {
   width: 16px;
   height: 11px;
-  background-position: -192px -154px;
-}
+  background-position: -192px -154px; }
 
 .famfamfam-flags.tl {
   width: 16px;
   height: 11px;
-  background-position: -192px -165px;
-}
+  background-position: -192px -165px; }
 
 .famfamfam-flags.tm {
   width: 16px;
   height: 11px;
-  background-position: -192px -176px;
-}
+  background-position: -192px -176px; }
 
 .famfamfam-flags.tn {
   width: 16px;
   height: 11px;
-  background-position: 0 -188px;
-}
+  background-position: 0 -188px; }
 
 .famfamfam-flags.to {
   width: 16px;
   height: 11px;
-  background-position: -16px -188px;
-}
+  background-position: -16px -188px; }
 
 .famfamfam-flags.tr {
   width: 16px;
   height: 11px;
-  background-position: -32px -188px;
-}
+  background-position: -32px -188px; }
 
 .famfamfam-flags.tt {
   width: 16px;
   height: 11px;
-  background-position: -48px -188px;
-}
+  background-position: -48px -188px; }
 
 .famfamfam-flags.tv {
   width: 16px;
   height: 11px;
-  background-position: -64px -188px;
-}
+  background-position: -64px -188px; }
 
 .famfamfam-flags.tw {
   width: 16px;
   height: 11px;
-  background-position: -80px -188px;
-}
+  background-position: -80px -188px; }
 
 .famfamfam-flags.tz {
   width: 16px;
   height: 11px;
-  background-position: -96px -188px;
-}
+  background-position: -96px -188px; }
 
 .famfamfam-flags.ua {
   width: 16px;
   height: 11px;
-  background-position: -112px -188px;
-}
+  background-position: -112px -188px; }
 
 .famfamfam-flags.ug {
   width: 16px;
   height: 11px;
-  background-position: -128px -188px;
-}
+  background-position: -128px -188px; }
 
 .famfamfam-flags.um {
   width: 16px;
   height: 11px;
-  background-position: -144px -188px;
-}
+  background-position: -144px -188px; }
 
 .famfamfam-flags.us {
   width: 16px;
   height: 11px;
-  background-position: -160px -188px;
-}
+  background-position: -160px -188px; }
 
 .famfamfam-flags.uy {
   width: 16px;
   height: 11px;
-  background-position: -176px -188px;
-}
+  background-position: -176px -188px; }
 
 .famfamfam-flags.uz {
   width: 16px;
   height: 11px;
-  background-position: -192px -188px;
-}
+  background-position: -192px -188px; }
 
 .famfamfam-flags.va {
   width: 16px;
   height: 11px;
-  background-position: -208px 0;
-}
+  background-position: -208px 0; }
 
 .famfamfam-flags.vc {
   width: 16px;
   height: 11px;
-  background-position: -208px -11px;
-}
+  background-position: -208px -11px; }
 
 .famfamfam-flags.ve {
   width: 16px;
   height: 11px;
-  background-position: -208px -22px;
-}
+  background-position: -208px -22px; }
 
 .famfamfam-flags.vg {
   width: 16px;
   height: 11px;
-  background-position: -208px -33px;
-}
+  background-position: -208px -33px; }
 
 .famfamfam-flags.vi {
   width: 16px;
   height: 11px;
-  background-position: -208px -44px;
-}
+  background-position: -208px -44px; }
 
 .famfamfam-flags.vn {
   width: 16px;
   height: 11px;
-  background-position: -208px -55px;
-}
+  background-position: -208px -55px; }
 
 .famfamfam-flags.vu {
   width: 16px;
   height: 11px;
-  background-position: -208px -66px;
-}
+  background-position: -208px -66px; }
 
 .famfamfam-flags.wales {
   width: 16px;
   height: 11px;
-  background-position: -208px -77px;
-}
+  background-position: -208px -77px; }
 
 .famfamfam-flags.wf {
   width: 16px;
   height: 11px;
-  background-position: -208px -88px;
-}
+  background-position: -208px -88px; }
 
 .famfamfam-flags.ws {
   width: 16px;
   height: 11px;
-  background-position: -208px -99px;
-}
+  background-position: -208px -99px; }
 
 .famfamfam-flags.ye {
   width: 16px;
   height: 11px;
-  background-position: -208px -110px;
-}
+  background-position: -208px -110px; }
 
 .famfamfam-flags.yt {
   width: 16px;
   height: 11px;
-  background-position: -208px -121px;
-}
+  background-position: -208px -121px; }
 
 .famfamfam-flags.zw {
   width: 16px;
   height: 11px;
-  background-position: -208px -132px;
-}
+  background-position: -208px -132px; }
 
 .famfamfam-flags.ch {
   width: 11px;
   height: 11px;
-  background-position: -208px -143px;
-}
+  background-position: -208px -143px; }
 
 .famfamfam-flags.np {
   width: 9px;
   height: 11px;
-  background-position: -208px -154px;
-}
+  background-position: -208px -154px; }
 
 .heading-section {
   font-family: open_sanssemibold;
   font-size: 24px;
-  margin: 0;
-}
+  margin: 0; }
 
 .heading-subsection {
   font-family: open_sanssemibold;
   font-size: 18px;
-  margin: 0;
-}
+  margin: 0; }
 
-.heading-subject {
+.heading-subject, .heading-subject--subscribe {
   font-family: open_sanssemibold;
   font-size: 16px;
-  margin: 0;
-}
+  margin: 0; }
+
+.heading-alternative, .heading-alternative--subscribe {
+  font-family: open_sanssemibold;
+  font-size: 22px;
+  line-height: 18px;
+  margin: 0; }
 
 .main_logo {
   display: block;
   background-image: url("../assets/images/main-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 170px;
-  height: 30px;
-}
+  height: 26px; }
 
 .selectdiv {
   position: relative;
   float: left;
-  min-width: 60px;
-}
-
-.selectdiv:after {
-  content: "";
-  font-family: "fontawesome_webfont";
-  font-size: 14px;
-  color: #fff;
-  right: 11px;
-  top: 15px;
-  padding: 0 0 2px;
-  position: absolute;
-  pointer-events: none;
-}
+  min-width: 60px; }
+  .selectdiv:after {
+    content: "";
+    font-family: "fontawesome_webfont";
+    font-size: 14px;
+    color: #fff;
+    right: 11px;
+    top: 15px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none; }
 
 .selectdiv select {
   -webkit-appearance: none;
@@ -2337,156 +1933,354 @@ template {
   padding: 0px 12px;
   font-size: 13px;
   background-color: transparent;
-  border: 1px solid transparent;
-}
-
-.selectdiv select:focus {
-  outline: none;
-}
-
-.selectdiv select:focus + span {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #142a3c;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  z-index: -1;
-}
+  border: 1px solid transparent; }
+  .selectdiv select:focus {
+    outline: none; }
+    .selectdiv select:focus + span {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #142a3c;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      z-index: -1; }
 
 option {
-  color: black;
-}
+  color: black; }
 
 select {
-  color: white;
-}
+  color: white; }
 
-.btn, .btn-main, .btn-main_form, .btn-carousel, .btn-carousel_active {
-  height: 42px;
+.btn, .btn-main, .btn-main_form, a.btn-main_form, button.btn-main_form, a.btn-main, button.btn-main, .btn-carousel, .btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active, a.btn-carousel, button.btn-carousel, a.btn, a.btn-main, a.btn-main_form, a.btn-carousel, a.btn-carousel_active, button.btn, button.btn-main, button.btn-main_form, button.btn-carousel, button.btn-carousel_active {
+  min-height: 42px;
   background-color: #0073b5;
   border: none;
   border-radius: 4px;
   color: #fff;
   font-family: 'open_sansregular';
   font-size: 16px;
-}
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  padding: 13px 1em; }
+  .btn:focus, .btn-main:focus, .btn-main_form:focus, .btn-carousel:focus, .btn-carousel_active:focus, a.btn:focus, a.btn-main:focus, a.btn-main_form:focus, a.btn-carousel:focus, a.btn-carousel_active:focus, button.btn:focus, button.btn-main:focus, button.btn-main_form:focus, button.btn-carousel:focus, button.btn-carousel_active:focus {
+    outline: none; }
+  .btn:hover, .btn-main:hover, .btn-main_form:hover, .btn-carousel:hover, .btn-carousel_active:hover, a.btn:hover, a.btn-main:hover, a.btn-main_form:hover, a.btn-carousel:hover, a.btn-carousel_active:hover, button.btn:hover, button.btn-main:hover, button.btn-main_form:hover, button.btn-carousel:hover, button.btn-carousel_active:hover {
+    background-color: #0093e8; }
+  .btn-main, .btn-main_form, a.btn-main_form, button.btn-main_form, a.btn-main, a.btn-main_form, button.btn-main, button.btn-main_form {
+    width: 100%; }
+    .btn-main_form, a.btn-main_form, button.btn-main_form {
+      background-color: #f26522; }
+  .btn-carousel, .btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active, a.btn-carousel, a.btn-carousel_active, button.btn-carousel, button.btn-carousel_active {
+    font-family: 'open_sansbold';
+    width: 151px; }
+    .btn-carousel:hover, .btn-carousel_active:hover, a.btn-carousel:hover, a.btn-carousel_active:hover, button.btn-carousel:hover, button.btn-carousel_active:hover {
+      background-color: #00a0fb; }
+    .btn-carousel_active, a.btn-carousel_active, button.btn-carousel_active {
+      background-color: #f2a622; }
 
-.btn:focus, .btn-main:focus, .btn-main_form:focus, .btn-carousel:focus, .btn-carousel_active:focus {
-  outline: none;
-}
+.appbtn, .appbtn-large, .appbtn-medium, .appbtn-small {
+  display: block;
+  border: none;
+  cursor: pointer; }
+  .appbtn:focus, .appbtn-large:focus, .appbtn-medium:focus, .appbtn-small:focus {
+    outline: none; }
+  .appbtn-large {
+    width: 234px;
+    height: 71px;
+    border-radius: 10px;
+    background-color: #fff; }
+  .appbtn-medium {
+    width: 135px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #fff; }
+  .appbtn-small {
+    width: 115px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #fff; }
 
-.btn-main, .btn-main_form {
-  width: 100%;
-}
-
-.btn-main_form {
-  background-color: #f26522;
-}
-
-.btn-carousel, .btn-carousel_active {
-  font-family: 'open_sansbold';
-  width: 151px;
-}
-
-.btn-carousel:hover, .btn-carousel_active:hover {
-  background-color: #00a0fb;
-}
-
-.btn-carousel_active {
-  background-color: #f2a622;
-}
+.rating {
+  color: #fff292;
+  font-size: 15px; }
 
 .icon_facebook_soc, .icon_facebook_soc--footer {
-  font-size: 35px;
-}
-
-.icon_facebook_soc--footer {
-  font-size: 32px;
-  color: #eee;
-}
+  font-size: 35px; }
+  .icon_facebook_soc--footer {
+    font-size: 32px;
+    color: #eee; }
 
 .icon_google_plus_soc, .icon_google_plus_soc--footer {
-  font-size: 35px;
-}
-
-.icon_google_plus_soc--footer {
-  font-size: 32px;
-  color: #eee;
-}
+  font-size: 35px; }
+  .icon_google_plus_soc--footer {
+    font-size: 32px;
+    color: #eee; }
 
 .icon_youtube_soc, .icon_youtube_soc--footer {
-  font-size: 35px;
-}
-
-.icon_youtube_soc--footer {
-  font-size: 32px;
-  color: #eee;
-}
+  font-size: 35px; }
+  .icon_youtube_soc--footer {
+    font-size: 32px;
+    color: #eee; }
 
 .dropdown-mrk {
   background-color: transparent;
   border-radius: 3px;
-  border: 1px solid transparent;
-}
-
-.dropdown-mrk:after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-color: #fff;
-  width: 10px;
-  height: 10px;
-  top: calc(100% + 12px - 10px / 2);
-  left: calc(50% - 10px / 2);
-  transform: rotate(45deg);
-  opacity: 0;
-  visibility: hidden;
-  z-index: 99;
-}
-
-.dropdown-mrk:hover {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.dropdown-mrk-active, .dropdown-mrk:focus {
-  background-color: #142a3c;
-}
-
-.dropdown-mrk-active:after, .dropdown-mrk:focus:after {
-  opacity: 1;
-  visibility: visible;
-  cursor: auto;
-}
+  border: 1px solid transparent; }
+  .dropdown-mrk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    top: calc(100% + 12px - 10px / 2);
+    left: calc(50% - 10px / 2);
+    transform: rotate(45deg);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99; }
+  .dropdown-mrk:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5); }
+  .dropdown-mrk-active, .dropdown-mrk:focus {
+    background-color: #142a3c; }
+    .dropdown-mrk-active:after, .dropdown-mrk:focus:after {
+      opacity: 1;
+      visibility: visible;
+      cursor: auto; }
 
 .dropdown-label-mrk {
   display: block;
   color: #fff;
-  margin: 10px 15px;
-}
+  margin: 10px 15px; }
 
 .dropdown-content-mrk {
   top: calc(100% + 12px);
   background-color: #fff;
   border-radius: 3px;
-  min-width: calc(50% + (10px * 1.41421 / 2) + 3px);
-}
+  min-width: calc(50% + (10px * 1.41421 / 2) + 3px); }
 
 .dropdown-content--sign_in {
   min-width: 320px;
   border-radius: 3px;
   padding: 3px;
-  box-shadow: inset 0 0 8px #888, 0 0 8px #888;
-}
+  box-shadow: inset 0 0 8px #888, 0 0 8px #888; }
 
 .form-input--sign_in {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 .btn-main--sign_in {
   margin: 16px 12px;
-  width: calc(100% - 24px);
-}
+  width: calc(100% - 24px); }
+
+.block--stay_tuned {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  color: #444; }
+
+.row--stay_tuned {
+  margin-top: 13px; }
+
+.form-input--stay_tuned[type="text"] {
+  font-size: 14px;
+  padding: 12px 0;
+  border: 1px solid #ddd; }
+
+.block--feedback {
+  margin: 0 auto;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  border: #bccad7 1px dashed;
+  position: relative; }
+
+.row--feedback {
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.rating--feedback {
+  color: #ffcd4a;
+  font-size: 13px; }
+
+.review-text {
+  line-height: 1.38; }
+
+.block--questions {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  color: #444; }
+
+.row--questions {
+  margin-top: 13px; }
+
+.navbar {
+  background-color: #1a5880;
+  color: #fff; }
+  .navbar-container {
+    display: flex;
+    flex-direction: row; }
+  .navbar-main_logo {
+    margin: 20px 15px 0;
+    width: 100%; }
+  .navbar-icon_bars {
+    margin: 12px 15px;
+    padding: 8px 10px;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px; }
+  .navbar-content {
+    display: none;
+    background-color: #133f5c; }
+    .navbar-content--active {
+      display: block; }
+
+.block--by_phone {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+  color: #444; }
+
+.row--by_phone {
+  margin-top: 13px; }
+
+.anchor--by_phone {
+  font-family: "open_sansbold";
+  font-size: 24px;
+  color: #0073b5; }
+
+.social--by_phone {
+  color: #777; }
+
+.separator--by_phone {
+  display: block;
+  width: 100%;
+  border-top: 1px dashed; }
+
+.icon--by_phone {
+  margin-left: 28px; }
+  .icon--by_phone:first-of-type {
+    margin-left: 0; }
+
+.container, .container--footer {
+  margin: 0 auto;
+  width: 320px; }
+  @media (min-width: 640px) {
+    .container, .container--footer {
+      width: 640px; } }
+  @media (min-width: 1024px) {
+    .container, .container--footer {
+      width: 1024px; } }
+
+.apple--dark, .apple--dark_footer {
+  background-image: url("../assets/images/app-store.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #c0c0c0; }
+
+.apple--light {
+  background-image: url("../assets/images/app-store-white.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.google--dark, .google--dark_footer {
+  background-image: url("../assets/images/google-play.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #c0c0c0; }
+
+.google--light {
+  background-image: url("../assets/images/google-play-white.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.block--subscribe {
+  background-color: #444444;
+  padding: 26px 20px 22px 20px; }
+
+.form-input--subscribe {
+  border-radius: 2px;
+  padding: 14px 0px;
+  margin: 10px 0px;
+  font-family: open_sansregular;
+  font-size: 16px; }
+
+.heading-alternative--subscribe {
+  font-family: open_sansregular;
+  color: #cccccc;
+  padding-bottom: 15px;
+  line-height: 18px;
+  letter-spacing: -1px; }
+
+.heading-subject--subscribe {
+  font-family: open_sansregular;
+  color: #aaaaaa;
+  padding-bottom: 8px;
+  line-height: 18px;
+  letter-spacing: -1px; }
+
+.block-footer {
+  background-color: #373737; }
+
+.item-footer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column; }
+
+@media (max-width: 639px) {
+  .store-btn--footer {
+    display: none; } }
+
+@media (min-width: 640px) {
+  .store-btn--footer {
+    display: none; } }
+
+@media (min-width: 1024px) {
+  .store-btn--footer {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row; } }
+
+.container--footer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  @media (max-width: 639px) {
+    .container--footer {
+      padding: 24px 20px 24px 20px; } }
+  @media (min-width: 640px) {
+    .container--footer {
+      padding: 14px 0px 14px 0px; } }
+  @media (min-width: 1024px) {
+    .container--footer {
+      padding: 14px 32px 14px 32px; } }
+
+.copyright-text {
+  color: #939393;
+  font-size: 12px;
+  margin-right: 50px;
+  line-height: 16px;
+  outline: none; }
+
+.logo-booking {
+  outline: none; }
+
+.apple--dark_footer {
+  margin-right: 40px; }
+
+.google--dark_footer {
+  margin-right: 145px; }
