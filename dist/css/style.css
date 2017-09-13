@@ -734,7 +734,7 @@ template {
   text-decoration-style: dashed;
 }
 
-.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right, .icon_bars, .icon_star, .icon_star_half, .icon_star_empty {
+.icon, .icon_facebook, .icon_facebook_soc, .icon_facebook_soc--footer, .icon_google_plus, .icon_google_plus_soc, .icon_google_plus_soc--footer, .icon_youtube, .icon_youtube_soc, .icon_youtube_soc--footer, .icon_angle_double_right, .icon_angle_down, .icon_bars, .icon_star, .icon_star_half, .icon_star_empty, .icon_caret-up, .icon_caret-down {
   font-family: 'fontawesome_webfont';
 }
 
@@ -754,6 +754,10 @@ template {
   content: "";
 }
 
+.icon_angle_down::before {
+  content: "";
+}
+
 .icon_bars::before {
   content: "";
 }
@@ -768,6 +772,14 @@ template {
 
 .icon_star_empty::before {
   content: "";
+}
+
+.icon_caret-up::before {
+  content: "";
+}
+
+.icon_caret-down::before {
+  content: "";
 }
 
 .dropdown {
@@ -2796,11 +2808,13 @@ select {
 }
 
 .links_list_sitemap {
+  display: flex;
   background-color: #fff;
   color: #444;
   text-align: left;
   margin: 25px 20px 0;
   border-radius: 5px;
+  box-shadow: 0 0 5px #555 inset;
 }
 
 @media (min-width: 640px) {
@@ -2812,6 +2826,20 @@ select {
 .links_list_sitemap-text {
   display: block;
   padding: 7px 10px;
+  width: 100%;
+}
+
+.links_list_sitemap-btns {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  border-left: 1px solid #ccc;
+  padding: 9px 5px;
+}
+
+.links_list_sitemap-btns .icon_caret-down,
+.links_list_sitemap-btns .icon_caret-up {
+  line-height: 0.6;
 }
 
 .info_box_sitemap {
@@ -2905,7 +2933,7 @@ select {
 }
 
 .socicons_sitemap {
-  margin-top: 35px;
+  margin-top: 10px;
   text-align: center;
 }
 
