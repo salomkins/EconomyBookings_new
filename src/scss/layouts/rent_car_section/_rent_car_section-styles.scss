@@ -28,7 +28,7 @@
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
-    width: 50%;
+    width: calc(100%/3);
     margin-left: 8px;
     margin-right: 8px;
   }
@@ -42,7 +42,7 @@
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
     align-content: stretch;
     margin-bottom: 35px;
   }
@@ -50,7 +50,8 @@
 
 .block--rent-car {
   @include media(lg) {
-    width: 33.3333%;
+    display: flex;
+    width: calc(100%/3);
   }
 }
 
@@ -102,10 +103,25 @@
   @include media(xs-only) {
     margin-top: 26px;
   }
+  @include media(lg) {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
 }
 
 .block--stay_tuned {
   @include media(xs-only) {
     margin-bottom: 46px;
+  }
+  @include media(lg) {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+
+.block--by_phone {
+  @include media(lg) {
+    flex-grow: 1;
+    flex-shrink: 1;
   }
 }
