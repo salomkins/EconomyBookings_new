@@ -1,1 +1,40 @@
 //ratings_block
+
+.block {
+  &--ratings {
+    background-color: #f3f3f3;
+    text-align: left;
+    color: #000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+    line-height: calc(17/13);
+  }
+}
+
+.row {
+  &--ratings {
+    display: flex;
+    padding: 9px 0;
+    border-top: 1px solid #ddd;
+
+    &:nth-of-type(1) {
+      border-top: none;
+    }
+  }
+}
+
+.item {
+  &--ratings {
+    width: 100%;
+    margin-right: 10px;
+  }
+}
+
+.value {
+  &--ratings {
+    text-align: right;
+    font-size: 15px;
+    color: #0073b5;
+  }
+}
