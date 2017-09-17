@@ -1,5 +1,17 @@
 .block-footer {
   background-color: #373737;
+  position: relative;
+}
+
+.overlay--footer {
+  background-image: url("../assets/images/diagonal-waves.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.5;
 }
 
 .item-footer {
@@ -32,6 +44,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 
   @include media(xs-only) {
     padding: 24px 20px 24px 20px;
