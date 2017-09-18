@@ -3,20 +3,26 @@
 .block {
   &_review {
     background-color: #fff;
-    padding: 20px 10px;
+    padding: 15px 10px;
     color: #000;
+    @include media(lg) {
+    padding: 15px 0;
+    }
   }
 }
 
 .header_review {
-      display: flex;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 10px;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+
   &-name {
     font-family: 'open_sansbold';
     font-size: 14px;
+    margin-right: 10px;
   }
-  &-country,
+
+  &-country_name,
   &-date {
     font-size: 12px;
     color: #777;
@@ -28,26 +34,50 @@
     font-family: 'open_sanslight';
     @include ext(_value) {
       font-family: 'open_sanssemibold';
+      padding-left: 8px;
     }
   }
-  &-row1,&-row2{
+
+  &-row1,
+  &-row2 {
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
-    width: 50%;
+    justify-content: flex-end;
   }
-  &-row1{
-    @include media(lg){
+
+  &-row1 {
+    flex-grow: 1;
+    @include media(lg) {
       flex-direction: row;
-      justify-content: flex-start;
+      flex-grow: 0;
       align-items: flex-end;
-      width: auto;
     }
   }
-  &-row2{
+
+  &-row2 {
     align-items: flex-end;
-    @include media(lg){
+    @include media(lg) {
       flex-direction: row-reverse;
+      flex-grow: 1;
+      display: flex;
     }
   }
+  &-date{
+    @include media(lg) {
+      flex-grow: 1;
+      &:before{
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 6px;
+        border-top: 1px solid #777;
+        vertical-align: bottom;
+        margin: 0 6px;
+      }
+    }
+  }
+}
+
+.content_review {
+display: flex;
 }
