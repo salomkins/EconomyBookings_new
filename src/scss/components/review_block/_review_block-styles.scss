@@ -1,14 +1,53 @@
 //review_block
-.block{
-  &--questions{
-    background-color: #eee;
-    padding: 20px;
-    text-align: center;
-    color: #444;
+
+.block {
+  &_review {
+    background-color: #fff;
+    padding: 20px 10px;
+    color: #000;
   }
 }
-.row{
-  &--questions{
-    margin-top: 13px;
+
+.header_review {
+      display: flex;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+  &-name {
+    font-family: 'open_sansbold';
+    font-size: 14px;
+  }
+  &-country,
+  &-date {
+    font-size: 12px;
+    color: #777;
+  }
+
+  &-rate {
+    font-size: 18px;
+    color: #1a5880;
+    font-family: 'open_sanslight';
+    @include ext(_value) {
+      font-family: 'open_sanssemibold';
+    }
+  }
+  &-row1,&-row2{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 50%;
+  }
+  &-row1{
+    @include media(lg){
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-end;
+      width: auto;
+    }
+  }
+  &-row2{
+    align-items: flex-end;
+    @include media(lg){
+      flex-direction: row-reverse;
+    }
   }
 }
