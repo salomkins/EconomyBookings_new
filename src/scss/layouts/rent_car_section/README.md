@@ -1,5 +1,5 @@
     <section class="rent_car">
-        <div class="container">
+        <div class="container--rent-car">
             <div class="heading-alternative--rent-car">Rent car worldwide with <strong> EconomyBookings</strong></div>
             <div class="h-line"></div>
             <div class="wrapper--rent-car">
@@ -101,4 +101,3 @@
             </div>
         </div>
     </section>
-</section>

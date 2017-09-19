@@ -1,3 +1,15 @@
+.container--rent-car {
+  @extend .container;
+  @include media(md) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @include media(lg) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
 .antivirus-logo {
   padding-top: 20px;
   padding-bottom: 30px;
@@ -20,19 +32,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-content: stretch;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 }
 
 .item--rent-car {
+
   @include media(md) {
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
     width: calc(100%/2);
-    margin-left: 8px;
-    margin-right: 8px;
   }
 
   @include media(lg) {
@@ -51,12 +60,23 @@
   }
 }
 
+.item--rent-car:first-child {
+  @include media(xs-only) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.item--rent-car:last-child {
+  @include media(md) {
+    padding-left: 23px;
+  }
+}
+
 .btn-main--rent-car, a.btn-main--rent-car, button.btn-main--rent-car {
   @extend .btn-main;
-  @include media(lg) {
     padding-top: 13px;
     padding-bottom: 13px;
-  }
 }
 
 .heading-subsection--stay-tuned {
@@ -75,9 +95,13 @@
 }
 
 .block--feedback {
+  @include media (md) {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
   @include media(lg) {
     margin-right: 0px;
-    margin-top: -30px;
+    margin-top: -20px;
   }
 }
 
@@ -85,48 +109,57 @@
   @extend .heading-alternative;
   font-family: open_sansregular;
   color: #777777;
-  padding-bottom: 20px;
   text-align: center;
   line-height: 24px;
   margin: 0 auto;
   margin-top: 28px;
 
+  @include media(xs-only) {
+    padding-bottom: 20px;
+  }
+
   @include media(md) {
     font-size: 24px;
+    padding-bottom: 24px;
   }
 
   @include media(lg) {
     font-size: 32px;
+    padding-bottom: 35px;
   }
 }
 
 .heading-subsection--rent-car {
   @extend .heading-subsection;
-  padding-bottom: 20px;
   text-align: center;
+  @include media(xs-only) {
+    letter-spacing: -1px;
+  }
   @include media(lg) {
     text-align: left;
+    font-size: 22px;
+    margin-bottom: 10px
   }
 }
 
 .h-line {
-  margin-left: 10px;
-  margin-right: 10px;
   display: block;
   height: 4px;
   background-color: #eee;
-  margin-bottom: 25px;
-  @include media(lg) {
-    margin-left: 32px;
-    margin-right: 32px;
+  margin-bottom: 26px;
+  @include media(xs-only) {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
 .checklist--rent-car {
   @extend .checklist;
+  margin-top: 20px;
   margin-left: 10px;
   @include media(lg) {
     margin-left: 0;
+    padding-right: 37px;
   }
 }
 
@@ -158,6 +191,12 @@
   @include media(lg) {
     flex-grow: 1;
     flex-shrink: 1;
+  }
+}
+
+.anchor--by_phone {
+  @include media(lg) {
+    font-size: 30px;
   }
 }
 
