@@ -29,6 +29,12 @@
     margin-top: 5px;
   }
 
+  &-country {
+    .famfamfam-flags {
+      transform: scale(.7);
+    }
+  }
+
   &-rate {
     font-size: 18px;
     color: #1a5880;
@@ -119,8 +125,7 @@
   }
 
   &-txt {
-    margin: 0;
-    margin-left: 10px;
+    margin: 0 0 0 10px;
     line-height: calc(18 / 13);
   }
 }
