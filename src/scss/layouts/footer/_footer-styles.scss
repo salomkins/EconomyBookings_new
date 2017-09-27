@@ -1,0 +1,75 @@
+.block-footer {
+  background-color: #373737;
+  position: relative;
+}
+
+.overlay--footer {
+  background-image: url("../assets/images/diagonal-waves.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.item-footer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.store-btn--footer {
+  margin: 0 auto;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  display: none;
+
+  @include media(lg) {
+    display: flex;
+  }
+}
+
+.container--footer {
+  @extend .container;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+
+  @include media(xs-only) {
+    padding: 24px 20px 24px 20px;
+  }
+
+  @include media(md) {
+    padding: 14px 20px 14px 20px;
+  }
+
+  @include media(lg) {
+    padding: 14px 32px 14px 32px;
+  }
+}
+
+.copyright-text {
+  color: #939393;
+  margin-right: 50px;
+  line-height: 16px;
+  outline: none;
+}
+
+.logo-booking {
+  outline: none;
+}
+
+.apple--dark_footer {
+  @extend .apple--dark;
+  margin-right: 40px;
+}
+
+.google--dark_footer {
+  @extend .google--dark;
+  margin-right: 145px;
+}
