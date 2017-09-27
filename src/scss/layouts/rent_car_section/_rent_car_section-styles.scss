@@ -41,7 +41,7 @@
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
-    width: calc(100%/2);
+    width: calc(100% / 2);
   }
 
   @include media(lg) {
@@ -68,15 +68,15 @@
 }
 
 .item--rent-car:last-child {
-  @include media(md) {
+  @include media(md-only) {
     padding-left: 23px;
   }
 }
 
 .btn-main--rent-car, a.btn-main--rent-car, button.btn-main--rent-car {
   @extend .btn-main;
-    padding-top: 13px;
-    padding-bottom: 13px;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 
 .heading-subsection--stay-tuned {
@@ -90,7 +90,7 @@
   @include media(lg) {
     display: flex;
     flex-flow: row wrap;
-    width: calc(100%/3);
+    width: calc(100% / 3);
   }
 }
 
@@ -185,8 +185,6 @@
   }
 }
 
-
-
 .block--by_phone {
   @include media(lg) {
     flex-grow: 1;
@@ -200,17 +198,16 @@
   }
 }
 
-.row  {
-  @include media(lg){
+.row {
+  @include media(lg) {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
   }
-  }
+}
 
-
-.col  {
-  @include media(lg){
+.col {
+  @include media(lg) {
     flex: 0 0 100%;
     width: 100%;
     &-1_2 {
@@ -223,7 +220,7 @@
       width: $col-width;
     }
     &-2_3 {
-      $col-width: calc(100% / 3 * 2 );
+      $col-width: calc(100% / 3 * 2);
       flex-basis: $col-width;
       width: $col-width;
     }
