@@ -1,4 +1,4 @@
-.apple {
+.apple, a.apple, button.apple {
   &--dark {
     background-image: url("../assets/images/app-store.png");
     background-size: 100% 100%;
@@ -15,7 +15,7 @@
   }
 }
 
-.google {
+.google, a.google, button.google {
   &--dark {
     background-image: url("../assets/images/google-play.png");
     background-size: 100% 100%;

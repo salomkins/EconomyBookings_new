@@ -1,0 +1,235 @@
+.container--rent-car {
+  @extend .container;
+  @include media(md) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @include media(lg) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.antivirus-logo {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+}
+
+.wrapper--rent-car {
+  @include media(md) {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+  }
+
+  @include media(lg) {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;
+  }
+}
+
+.item--rent-car {
+
+  @include media(md) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: calc(100% / 2);
+  }
+
+  @include media(lg) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+}
+
+.item--rent-car:first-child {
+  @include media(xs-only) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.item--rent-car:last-child {
+  @include media(md-only) {
+    padding-left: 23px;
+  }
+}
+
+.btn-main--rent-car, a.btn-main--rent-car, button.btn-main--rent-car {
+  @extend .btn-main;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.heading-subsection--stay-tuned {
+  @extend .heading-subsection;
+  @include media(lg) {
+    margin-bottom: -5px;
+  }
+}
+
+.block--rent-car {
+  @include media(lg) {
+    display: flex;
+    flex-flow: row wrap;
+    width: calc(100% / 3);
+  }
+}
+
+.block--feedback {
+  @include media (md) {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  @include media(lg) {
+    margin-right: 0px;
+    margin-top: -20px;
+  }
+}
+
+.heading-alternative--rent-car {
+  @extend .heading-alternative;
+  font-family: open_sansregular;
+  color: #777777;
+  text-align: center;
+  line-height: 24px;
+  margin: 0 auto;
+  margin-top: 28px;
+
+  @include media(xs-only) {
+    padding-bottom: 20px;
+  }
+
+  @include media(md) {
+    font-size: 24px;
+    padding-bottom: 24px;
+  }
+
+  @include media(lg) {
+    font-size: 32px;
+    padding-bottom: 35px;
+  }
+}
+
+.heading-subsection--rent-car {
+  @extend .heading-subsection;
+  text-align: center;
+  @include media(xs-only) {
+    letter-spacing: -1px;
+  }
+  @include media(lg) {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 10px
+  }
+}
+
+.h-line {
+  display: block;
+  height: 4px;
+  background-color: #eee;
+  margin-bottom: 26px;
+  @include media(xs-only) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.checklist--rent-car {
+  @extend .checklist;
+  margin-top: 20px;
+  margin-left: 10px;
+  @include media(lg) {
+    margin-left: 0;
+    padding-right: 37px;
+  }
+}
+
+.block--questions {
+  @include media(xs-only) {
+    margin-top: 26px;
+  }
+  @include media(lg) {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 25px 30px 28px 25px;
+  }
+}
+
+.block--stay_tuned {
+  @include media(xs-only) {
+    margin-bottom: 46px;
+  }
+  @include media(lg) {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 25px 30px 28px 30px;
+  }
+}
+
+.block--by_phone {
+  @include media(lg) {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+
+.anchor--by_phone {
+  @include media(lg) {
+    font-size: 30px;
+  }
+}
+
+.row {
+  @include media(lg) {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+}
+
+.col {
+  @include media(lg) {
+    flex: 0 0 100%;
+    width: 100%;
+    &-1_2 {
+      $col-width: calc(100% / 2);
+      flex-basis: $col-width;
+    }
+    &-1_3 {
+      $col-width: calc(100% / 3);
+      flex-basis: $col-width;
+      width: $col-width;
+    }
+    &-2_3 {
+      $col-width: calc(100% / 3 * 2);
+      flex-basis: $col-width;
+      width: $col-width;
+    }
+  }
+}
+
+.form-input--stay_tuned[type="text"] {
+  @include media(lg) {
+    text-align: left;
+    padding-left: 9px;
+  }
+}
