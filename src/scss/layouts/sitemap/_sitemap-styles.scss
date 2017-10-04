@@ -7,7 +7,7 @@
 }
 
 .container_sitemap {
-  @extend .container; //background-color: grey;
+  @extend .container;
   @include media(lg) {
     width: 960px;
   }
@@ -105,13 +105,12 @@
   }
 }
 
-.links_list_sitemap{
+.links_list_sitemap {
   padding: 5px 8px;
   width: 100%;
   outline: none;
   background-color: #fff;
   color: #444;
-  //margin-top: 25px;
   border-radius: 5px;
   box-shadow: 0 0 5px #555 inset;
   @include media(md) {
