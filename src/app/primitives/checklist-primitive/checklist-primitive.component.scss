@@ -1,0 +1,31 @@
+@import "variables";
+
+$checklist_icon: "\F00C";
+$checklist_icon_color: #0073b5;
+$checklist_text_left: 30px;
+$checklist_space: 20px;
+$checklist_margin: $goldMargin;
+
+.checklist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  &-item {
+    position: relative;
+    margin-left: $checklist_text_left;
+    margin-top: $checklist_space;
+    &:before {
+      content: $checklist_icon;
+      color: $checklist_icon_color;
+      //font-family: 'fontawesome_webfont';
+      font-size: calc(150%);
+      position: absolute;
+      top: -4px;
+      left: -#{$checklist_text_left};
+    }
+  }
+  & > &-item:first-child{
+    margin-top: 0;
+  }
+}
+
