@@ -55,3 +55,19 @@ $button-gold-margin: $goldMargin;
     }
   }
 }
+
+img {
+  max-width: 500px;
+  border: 5px solid $coolestColorEver;
+  border-radius: 5px;
+}
+
+.earth {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  border: 5px solid $coolestColorEver;
+  border-radius: 3px;
+  background: url('/assets/primitives/button-primitive/assets/earth.jpg') no-repeat 50% 50%;
+  background-size: cover;
+}
