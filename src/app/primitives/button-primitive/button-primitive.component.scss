@@ -70,7 +70,4 @@ img {
   border-radius: 3px;
   background: url('/assets/primitives/button-primitive/assets/earth.jpg') no-repeat 50% 50%;
   background-size: cover;
-  @include media(lg) {
-    border: none;
-  }
 }
