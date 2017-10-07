@@ -1,3 +1,50 @@
 
 $coolestColorEver: #bada55;
 $goldMargin: 15px;
+//
+//
+//ext START
+@mixin ext($extention) {
+    $selector: nth(&, 1);
+
+    &#{$extention} {
+        @extend #{$selector} !optional;
+        @content;
+    }
+}
+//ext END
+//
+//
+//media START
+$media_phone_width: 320px;
+$media_tablet_width: 640px;
+$media_desktop_width: 1024px;
+//
+@mixin media($type) {
+     @if $type == xs-only{
+        @media (max-width: #{$media_tablet_width - 1px}) {
+             @content;
+        }
+    }
+    @else if $type == md {
+         @media (min-width: #{$media_tablet_width}){
+            @content;
+        }
+    }
+    @else if $type == md-only {
+         @media (min-width: #{$media_tablet_width}) and (max-width: #{$media_desktop_width - 1px}){
+            @content;
+        }
+    }
+    @else if $type == lg {
+         @media (min-width: #{$media_desktop_width}){
+            @content;
+        }
+    }
+    @else {
+         @error"Houston, we have a problem!";
+    }
+}
+//media END
+//
+//
