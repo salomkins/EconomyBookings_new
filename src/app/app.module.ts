@@ -9,6 +9,7 @@ import { IconsPrimitiveComponent } from './primitives/icons-primitive/icons-prim
 import { DropdownPrimitiveComponent } from './primitives/dropdown-primitive/dropdown-primitive.component';
 import { InputPrimitiveComponent } from './primitives/input-primitive/input-primitive.component';
 import { IconsFlagsPrimitiveComponent } from './primitives/icons-flags-primitive/icons-flags-primitive.component';
+import { HeadingsPrimitiveComponent } from './primitives/headings-primitive/headings-primitive.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { IconsFlagsPrimitiveComponent } from './primitives/icons-flags-primitive
     IconsPrimitiveComponent,
     DropdownPrimitiveComponent,
     InputPrimitiveComponent,
-    IconsFlagsPrimitiveComponent
+    IconsFlagsPrimitiveComponent,
+    HeadingsPrimitiveComponent
   ],
   imports: [
     BrowserModule
