@@ -7,6 +7,7 @@ import { ChecklistPrimitiveComponent } from './primitives/checklist-primitive/ch
 import { AnchorPrimitiveComponent } from './primitives/anchor-primitive/anchor-primitive.component';
 import { IconsPrimitiveComponent } from './primitives/icons-primitive/icons-primitive.component';
 import { DropdownPrimitiveComponent } from './primitives/dropdown-primitive/dropdown-primitive.component';
+import { InputPrimitiveComponent } from './primitives/input-primitive/input-primitive.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DropdownPrimitiveComponent } from './primitives/dropdown-primitive/drop
     ChecklistPrimitiveComponent,
     AnchorPrimitiveComponent,
     IconsPrimitiveComponent,
-    DropdownPrimitiveComponent
+    DropdownPrimitiveComponent,
+    InputPrimitiveComponent
   ],
   imports: [
     BrowserModule
