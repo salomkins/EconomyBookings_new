@@ -10,6 +10,7 @@ import { DropdownPrimitiveComponent } from './primitives/dropdown-primitive/drop
 import { InputPrimitiveComponent } from './primitives/input-primitive/input-primitive.component';
 import { IconsFlagsPrimitiveComponent } from './primitives/icons-flags-primitive/icons-flags-primitive.component';
 import { HeadingsPrimitiveComponent } from './primitives/headings-primitive/headings-primitive.component';
+import { MainLogoPrimitiveComponent } from './primitives/main-logo-primitive/main-logo-primitive.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HeadingsPrimitiveComponent } from './primitives/headings-primitive/head
     DropdownPrimitiveComponent,
     InputPrimitiveComponent,
     IconsFlagsPrimitiveComponent,
-    HeadingsPrimitiveComponent
+    HeadingsPrimitiveComponent,
+    MainLogoPrimitiveComponent
   ],
   imports: [
     BrowserModule
