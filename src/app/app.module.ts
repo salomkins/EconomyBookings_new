@@ -8,6 +8,7 @@ import { AnchorPrimitiveComponent } from './primitives/anchor-primitive/anchor-p
 import { IconsPrimitiveComponent } from './primitives/icons-primitive/icons-primitive.component';
 import { DropdownPrimitiveComponent } from './primitives/dropdown-primitive/dropdown-primitive.component';
 import { InputPrimitiveComponent } from './primitives/input-primitive/input-primitive.component';
+import { IconsFlagsPrimitiveComponent } from './primitives/icons-flags-primitive/icons-flags-primitive.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { InputPrimitiveComponent } from './primitives/input-primitive/input-prim
     AnchorPrimitiveComponent,
     IconsPrimitiveComponent,
     DropdownPrimitiveComponent,
-    InputPrimitiveComponent
+    InputPrimitiveComponent,
+    IconsFlagsPrimitiveComponent
   ],
   imports: [
     BrowserModule
