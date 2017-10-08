@@ -14,6 +14,7 @@ import { MainLogoPrimitiveComponent } from './primitives/main-logo-primitive/mai
 import { FormSelectPrimitiveComponent } from './primitives/form-select-primitive/form-select-primitive.component';
 import { StoreButtonPrimitiveComponent } from './primitives/store-button-primitive/store-button-primitive.component';
 import { RatingPrimitiveComponent } from './primitives/rating-primitive/rating-primitive.component';
+import { FontsPrimitiveComponent } from './primitives/fonts-primitive/fonts-primitive.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { RatingPrimitiveComponent } from './primitives/rating-primitive/rating-p
     MainLogoPrimitiveComponent,
     FormSelectPrimitiveComponent,
     StoreButtonPrimitiveComponent,
-    RatingPrimitiveComponent
+    RatingPrimitiveComponent,
+    FontsPrimitiveComponent
   ],
   imports: [
     BrowserModule
