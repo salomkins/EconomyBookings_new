@@ -13,6 +13,7 @@ import { HeadingsPrimitiveComponent } from './primitives/headings-primitive/head
 import { MainLogoPrimitiveComponent } from './primitives/main-logo-primitive/main-logo-primitive.component';
 import { FormSelectPrimitiveComponent } from './primitives/form-select-primitive/form-select-primitive.component';
 import { StoreButtonPrimitiveComponent } from './primitives/store-button-primitive/store-button-primitive.component';
+import { RatingPrimitiveComponent } from './primitives/rating-primitive/rating-primitive.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { StoreButtonPrimitiveComponent } from './primitives/store-button-primiti
     HeadingsPrimitiveComponent,
     MainLogoPrimitiveComponent,
     FormSelectPrimitiveComponent,
-    StoreButtonPrimitiveComponent
+    StoreButtonPrimitiveComponent,
+    RatingPrimitiveComponent
   ],
   imports: [
     BrowserModule

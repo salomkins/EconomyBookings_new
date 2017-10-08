@@ -1,21 +1,5 @@
 @import "variables";
 
-$icons: (
-        facebook: '\F09A',
-        google_plus: '\F0D5',
-        youtube: '\F167',
-        angle_double_right: '\F101',
-        angle_down: '\F107',
-        bars: '\F0C9',
-        star: '\F005',
-        star_half: '\F123',
-        star_empty: '\F006',
-        caret-up: '\F0D8',
-        caret-down: '\F0D7',
-        plus: '\F067',
-        minus: '\F068'
-);
-
 .icon {
   font-family: 'fontawesome_webfont';
   @each $name, $code in $icons {
