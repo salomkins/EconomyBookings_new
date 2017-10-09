@@ -1,12 +1,13 @@
 @import "variables";
+@import "icons";
 
-.icon {
-  font-family: 'fontawesome_webfont';
-  @each $name, $code in $icons {
-    @include ext(_#{$name}){
-      &::before {
-        content: $code;
-      }
-    }
-  }
-}
+//.icon {
+//  font-family: 'fontawesome_webfont';
+//  @each $name, $code in $icons {
+//    @include ext(_#{$name}){
+//      &::before {
+//        content: $code;
+//      }
+//    }
+//  }
+//}
