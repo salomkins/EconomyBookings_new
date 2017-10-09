@@ -35,7 +35,7 @@
 
 .apple, a.apple, button.apple {
   &--dark {
-    background-image: url("/assets/primitives/store-button-primitive/app-store.png");
+    background-image: url("/assets/primitives/store-button-primitive/assets/app-store.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -43,7 +43,7 @@
   }
 
   &--light {
-    background-image: url("/assets/primitives/store-button-primitive/app-store-white.png");
+    background-image: url("/assets/primitives/store-button-primitive/assets/app-store-white.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -52,7 +52,7 @@
 
 .google, a.google, button.google {
   &--dark {
-    background-image: url("/assets/primitives/store-button-primitive/google-play.png");
+    background-image: url("/assets/primitives/store-button-primitive/assets/google-play.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -60,7 +60,7 @@
   }
 
   &--light {
-    background-image: url("/assets/primitives/store-button-primitive/google-play-white.png");
+    background-image: url("/assets/primitives/store-button-primitive/assets/google-play-white.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
