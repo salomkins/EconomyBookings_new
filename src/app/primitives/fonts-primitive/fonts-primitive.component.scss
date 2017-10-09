@@ -1,4 +1,5 @@
 @import "variables";
+@import "styles-fonts";
 
 @each $family, $file in $fonts {
   @font-face{
