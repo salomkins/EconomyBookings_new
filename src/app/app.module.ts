@@ -15,6 +15,7 @@ import { FormSelectPrimitiveComponent } from './primitives/form-select-primitive
 import { StoreButtonPrimitiveComponent } from './primitives/store-button-primitive/store-button-primitive.component';
 import { RatingPrimitiveComponent } from './primitives/rating-primitive/rating-primitive.component';
 import { FontsPrimitiveComponent } from './primitives/fonts-primitive/fonts-primitive.component';
+import { IconsSocComponent } from './components/icons-soc/icons-soc.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FontsPrimitiveComponent } from './primitives/fonts-primitive/fonts-prim
     FormSelectPrimitiveComponent,
     StoreButtonPrimitiveComponent,
     RatingPrimitiveComponent,
-    FontsPrimitiveComponent
+    FontsPrimitiveComponent,
+    IconsSocComponent
   ],
   imports: [
     BrowserModule
