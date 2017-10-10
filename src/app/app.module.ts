@@ -29,6 +29,7 @@ import { ReviewBlockComponent } from './components/review-block/review-block.com
 import { RatingsBlockComponent } from './components/ratings-block/ratings-block.component';
 import { BookCarComponent } from './layouts/book-car/book-car.component';
 import { OtherCitiesComponent } from './layouts/other-cities/other-cities.component';
+import { FooterLayoutComponent } from './layouts/footer-layout/footer-layout.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { OtherCitiesComponent } from './layouts/other-cities/other-cities.compon
     ReviewBlockComponent,
     RatingsBlockComponent,
     BookCarComponent,
-    OtherCitiesComponent
+    OtherCitiesComponent,
+    FooterLayoutComponent
   ],
   imports: [
     BrowserModule
