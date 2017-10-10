@@ -17,6 +17,7 @@ import { RatingPrimitiveComponent } from './primitives/rating-primitive/rating-p
 import { FontsPrimitiveComponent } from './primitives/fonts-primitive/fonts-primitive.component';
 import { IconsSocComponent } from './components/icons-soc/icons-soc.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
+import { MybookingDropdownComponent } from './components/mybooking-dropdown/mybooking-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { DropdownComponent } from './components/dropdown/dropdown.component';
     RatingPrimitiveComponent,
     FontsPrimitiveComponent,
     IconsSocComponent,
-    DropdownComponent
+    DropdownComponent,
+    MybookingDropdownComponent
   ],
   imports: [
     BrowserModule
