@@ -24,6 +24,7 @@ import { QuestionsBlockComponent } from './components/questions-block/questions-
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BookByPhoneBlockComponent } from './components/book-by-phone-block/book-by-phone-block.component';
 import { GridComponent } from './components/grid/grid.component';
+import { SubscribeComponent } from './components/subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { GridComponent } from './components/grid/grid.component';
     QuestionsBlockComponent,
     NavbarComponent,
     BookByPhoneBlockComponent,
-    GridComponent
+    GridComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule
