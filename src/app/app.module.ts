@@ -18,6 +18,7 @@ import { FontsPrimitiveComponent } from './primitives/fonts-primitive/fonts-prim
 import { IconsSocComponent } from './components/icons-soc/icons-soc.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { MybookingDropdownComponent } from './components/mybooking-dropdown/mybooking-dropdown.component';
+import { StayTunedBlockComponent } from './components/stay-tuned-block/stay-tuned-block.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { MybookingDropdownComponent } from './components/mybooking-dropdown/mybo
     FontsPrimitiveComponent,
     IconsSocComponent,
     DropdownComponent,
-    MybookingDropdownComponent
+    MybookingDropdownComponent,
+    StayTunedBlockComponent
   ],
   imports: [
     BrowserModule
