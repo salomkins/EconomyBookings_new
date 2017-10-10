@@ -27,6 +27,7 @@ import { GridComponent } from './components/grid/grid.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { ReviewBlockComponent } from './components/review-block/review-block.component';
 import { RatingsBlockComponent } from './components/ratings-block/ratings-block.component';
+import { BookCarComponent } from './layouts/book-car/book-car.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { RatingsBlockComponent } from './components/ratings-block/ratings-block.
     GridComponent,
     SubscribeComponent,
     ReviewBlockComponent,
-    RatingsBlockComponent
+    RatingsBlockComponent,
+    BookCarComponent
   ],
   imports: [
     BrowserModule

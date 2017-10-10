@@ -48,3 +48,14 @@ $media_desktop_width: 1024px;
 //media END
 //
 //
+
+.container {
+  margin: 0 auto;
+  width: $media_phone_width;
+  @include media(md) {
+    width: $media_tablet_width;
+  }
+  @include media(lg) {
+    width: $media_desktop_width;
+  }
+}
