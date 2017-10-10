@@ -31,6 +31,7 @@ import { BookCarComponent } from './layouts/book-car/book-car.component';
 import { OtherCitiesComponent } from './layouts/other-cities/other-cities.component';
 import { FooterLayoutComponent } from './layouts/footer-layout/footer-layout.component';
 import { SitemapLayoutComponent } from './layouts/sitemap-layout/sitemap-layout.component';
+import { RentCarSectionLayoutComponent } from './layouts/rent-car-section-layout/rent-car-section-layout.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { SitemapLayoutComponent } from './layouts/sitemap-layout/sitemap-layout.
     BookCarComponent,
     OtherCitiesComponent,
     FooterLayoutComponent,
-    SitemapLayoutComponent
+    SitemapLayoutComponent,
+    RentCarSectionLayoutComponent
   ],
   imports: [
     BrowserModule
