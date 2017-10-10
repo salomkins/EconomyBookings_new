@@ -1,0 +1,169 @@
+@import "variables";
+
+//sitemap
+
+.layout_sitemap {
+  color: #fff;
+  background-color: #555;
+}
+
+.container_sitemap {
+  @extend .container;
+  @include media(lg) {
+    width: 960px;
+  }
+}
+
+.main_box_sitemap {
+  padding: 0 0 30px;
+  @include media(md) {
+    padding: 25px 20px 30px;
+  }
+  @include media(lg) {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px 0;
+  }
+}
+
+.subscribe_sitemap {
+  @include media(lg) {
+    min-width: 240px;
+    max-width: 240px;
+  }
+}
+
+.info_box_sitemap {
+  padding: 25px 20px 0;
+  @include media(md) {
+    margin-top: 10px;
+  }
+  @include media(lg) {
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.links_sitemap {
+  display: none;
+  @include media(md) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &-col {
+    &-head {
+      font-family: 'open_sansregular';
+      font-size: 15px;
+      color: #ccc;
+      @include media(lg) {
+        font-size: 18px;
+      }
+      @include ext(--lg) {
+        display: none;
+
+        &:nth-child(1) {
+          @include media(md-only) {
+            display: inherit;
+          }
+        }
+
+        &:nth-child(2) {
+          @include media(lg) {
+            display: inherit;
+          }
+        }
+      }
+    }
+  }
+
+  &-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: calc(15 /12);
+    color: #e2f0f0;
+    @include media(md) {
+      margin-top: 20px;
+    }
+    @include media(lg) {
+      color: #fff;
+      max-width: 200px;
+    }
+  }
+
+  &-item {
+    margin: 8px 0;
+  }
+}
+
+.footbox_sitemap {
+  @include media(md-only) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.links_list_sitemap {
+  padding: 5px 8px;
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #555 inset;
+  @include media(md) {
+    display: none;
+  }
+}
+
+.socicons_sitemap {
+  margin-top: 30px;
+  text-align: center;
+  @include media(md) {
+    margin-top: 15px;
+  }
+  @include media(lg) {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 0 40px;
+  }
+
+  &-item {
+    margin: 0 15px;
+    color: #d5d5d5;
+    @include media(md) {
+      color: #eee;
+    }
+
+    &:first-child {
+      @include media(md) {
+        margin-left: 0;
+      }
+    }
+    @include media(lg) {
+      margin: 5px 0 10px;
+      color: #ddd;
+    }
+  }
+}
+
+.store_sitemap {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  @include media(md) {
+    margin-top: 15px;
+  }
+  @include media(lg) {
+    display: none;
+  }
+
+  &-item {
+    @include media(md) {
+      margin-left: 15px;
+    }
+  }
+}

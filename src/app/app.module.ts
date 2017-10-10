@@ -30,6 +30,7 @@ import { RatingsBlockComponent } from './components/ratings-block/ratings-block.
 import { BookCarComponent } from './layouts/book-car/book-car.component';
 import { OtherCitiesComponent } from './layouts/other-cities/other-cities.component';
 import { FooterLayoutComponent } from './layouts/footer-layout/footer-layout.component';
+import { SitemapLayoutComponent } from './layouts/sitemap-layout/sitemap-layout.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { FooterLayoutComponent } from './layouts/footer-layout/footer-layout.com
     RatingsBlockComponent,
     BookCarComponent,
     OtherCitiesComponent,
-    FooterLayoutComponent
+    FooterLayoutComponent,
+    SitemapLayoutComponent
   ],
   imports: [
     BrowserModule
