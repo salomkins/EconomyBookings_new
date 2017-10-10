@@ -28,6 +28,7 @@ import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { ReviewBlockComponent } from './components/review-block/review-block.component';
 import { RatingsBlockComponent } from './components/ratings-block/ratings-block.component';
 import { BookCarComponent } from './layouts/book-car/book-car.component';
+import { OtherCitiesComponent } from './layouts/other-cities/other-cities.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { BookCarComponent } from './layouts/book-car/book-car.component';
     SubscribeComponent,
     ReviewBlockComponent,
     RatingsBlockComponent,
-    BookCarComponent
+    BookCarComponent,
+    OtherCitiesComponent
   ],
   imports: [
     BrowserModule
