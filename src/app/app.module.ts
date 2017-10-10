@@ -19,6 +19,7 @@ import { IconsSocComponent } from './components/icons-soc/icons-soc.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { MybookingDropdownComponent } from './components/mybooking-dropdown/mybooking-dropdown.component';
 import { StayTunedBlockComponent } from './components/stay-tuned-block/stay-tuned-block.component';
+import { FeedbackComponent } from './components/feedback/feedback.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { StayTunedBlockComponent } from './components/stay-tuned-block/stay-tune
     IconsSocComponent,
     DropdownComponent,
     MybookingDropdownComponent,
-    StayTunedBlockComponent
+    StayTunedBlockComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule
