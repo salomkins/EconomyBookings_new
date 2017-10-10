@@ -23,6 +23,7 @@ import { FeedbackComponent } from './components/feedback/feedback.component';
 import { QuestionsBlockComponent } from './components/questions-block/questions-block.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BookByPhoneBlockComponent } from './components/book-by-phone-block/book-by-phone-block.component';
+import { GridComponent } from './components/grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { BookByPhoneBlockComponent } from './components/book-by-phone-block/book
     FeedbackComponent,
     QuestionsBlockComponent,
     NavbarComponent,
-    BookByPhoneBlockComponent
+    BookByPhoneBlockComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule
