@@ -22,6 +22,7 @@ import { StayTunedBlockComponent } from './components/stay-tuned-block/stay-tune
 import { FeedbackComponent } from './components/feedback/feedback.component';
 import { QuestionsBlockComponent } from './components/questions-block/questions-block.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BookByPhoneBlockComponent } from './components/book-by-phone-block/book-by-phone-block.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     StayTunedBlockComponent,
     FeedbackComponent,
     QuestionsBlockComponent,
-    NavbarComponent
+    NavbarComponent,
+    BookByPhoneBlockComponent
   ],
   imports: [
     BrowserModule
