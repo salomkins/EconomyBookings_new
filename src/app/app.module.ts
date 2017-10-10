@@ -16,6 +16,7 @@ import { StoreButtonPrimitiveComponent } from './primitives/store-button-primiti
 import { RatingPrimitiveComponent } from './primitives/rating-primitive/rating-primitive.component';
 import { FontsPrimitiveComponent } from './primitives/fonts-primitive/fonts-primitive.component';
 import { IconsSocComponent } from './components/icons-soc/icons-soc.component';
+import { DropdownComponent } from './components/dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { IconsSocComponent } from './components/icons-soc/icons-soc.component';
     StoreButtonPrimitiveComponent,
     RatingPrimitiveComponent,
     FontsPrimitiveComponent,
-    IconsSocComponent
+    IconsSocComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule
