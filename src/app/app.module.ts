@@ -21,6 +21,7 @@ import { MybookingDropdownComponent } from './components/mybooking-dropdown/mybo
 import { StayTunedBlockComponent } from './components/stay-tuned-block/stay-tuned-block.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';
 import { QuestionsBlockComponent } from './components/questions-block/questions-block.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { QuestionsBlockComponent } from './components/questions-block/questions-
     MybookingDropdownComponent,
     StayTunedBlockComponent,
     FeedbackComponent,
-    QuestionsBlockComponent
+    QuestionsBlockComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule
