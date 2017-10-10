@@ -25,6 +25,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BookByPhoneBlockComponent } from './components/book-by-phone-block/book-by-phone-block.component';
 import { GridComponent } from './components/grid/grid.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
+import { ReviewBlockComponent } from './components/review-block/review-block.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { SubscribeComponent } from './components/subscribe/subscribe.component';
     NavbarComponent,
     BookByPhoneBlockComponent,
     GridComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    ReviewBlockComponent
   ],
   imports: [
     BrowserModule

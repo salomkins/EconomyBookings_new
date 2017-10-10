@@ -1,0 +1,135 @@
+@import "variables";
+@import "icons";
+@import "styles-fonts";
+
+//review_block
+
+.block {
+  &_review {
+    background-color: #fff;
+    padding: 15px 10px 0;
+    color: #000;
+    @include media(lg) {
+      padding: 15px 0 0;
+    }
+  }
+}
+
+.header_review {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+
+  &-name {
+    font-family: 'open_sansbold';
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  &-country,
+  &-date {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+  }
+
+  &-country {
+    .famfamfam-flags {
+      transform: scale(.7);
+    }
+  }
+
+  &-rate {
+    font-size: 18px;
+    color: #1a5880;
+    font-family: 'open_sanslight';
+    @include ext(_value) {
+      font-family: 'open_sanssemibold';
+      padding-left: 8px;
+    }
+  }
+
+  &-row1,
+  &-row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  &-row1 {
+    flex-grow: 1;
+    margin-right: 6px;
+    @include media(lg) {
+      flex-direction: row;
+      flex-grow: 0;
+      align-items: flex-end;
+    }
+  }
+
+  &-row2 {
+    align-items: flex-end;
+    @include media(lg) {
+      flex-direction: row-reverse;
+      flex-grow: 1;
+      display: flex;
+    }
+  }
+
+  &-date {
+    @include media(lg) {
+      flex-grow: 1;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 6px;
+        border-top: 1px solid #777;
+        vertical-align: bottom;
+        margin-right: 6px;
+      }
+    }
+  }
+}
+
+.content_review {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  @include media(lg) {
+    flex-direction: row;
+  }
+
+  &-plus {
+    flex: 1;
+
+    &_icon {
+      color: #28960b;
+      font-size: 16px;
+    }
+  }
+
+  &-minus {
+    flex: 1;
+    margin-left: 0;
+    @include media(lg) {
+      margin-left: 30px;
+    }
+
+    &_icon {
+      color: #960b0b;
+      font-size: 16px;
+    }
+  }
+
+  &-item {
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 12px;
+  }
+
+  &-txt {
+    margin: 0 0 0 10px;
+    line-height: calc(18 / 13);
+  }
+}
