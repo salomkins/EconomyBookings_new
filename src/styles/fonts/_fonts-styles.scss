@@ -1,0 +1,65 @@
+@import "../../scssLib/variables";
+
+@mixin font_sizes($s_array) {
+  @each $s in $s_array{
+    @include ext(_#{$s}) {
+      font-size: #{$s}px;
+    }
+  }
+}
+
+$fonts: (
+        fontawesome_webfont: fontawesome-webfont, //font_a
+        open_sansregular: OpenSans-Regular, //font_r
+  //open_sansitalic: OpenSans-Italic,
+        open_sanslight: OpenSans-Light, //font_l
+  //open_sanslight_italic: OpenSans-LightItalic,
+        open_sanssemibold: OpenSans-Semibold, //font_sb
+  //open_sanssemibold_italic: OpenSans-SemiboldItalic,
+        open_sansbold: OpenSans-Bold, //font_b
+  //open_sansbold_italic: OpenSans-BoldItalic,
+  //open_sansextrabold: OpenSans-ExtraBold,
+  //open_sansextrabold_italic: OpenSans-ExtraBoldItalic,
+);
+//
+$font_sizes: (12, 13, 14, 15, 16, 18, 22, 24, 32);
+//
+
+
+@each $family, $file in $fonts {
+  @font-face{
+    font-family: '#{$family}';
+    src: url('/assets/fonts/assets/#{$file}.eot');
+    src: url('/assets/fonts/assets/#{$file}.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/assets/#{$file}.woff2') format('woff2'),
+    url('/assets/fonts/assets/#{$file}.woff') format('woff'),
+    url('/assets/fonts/assets/#{$file}.ttf') format('truetype'),
+    url('/assets/fonts/assets/#{$file}.svg##{$family}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+.font {
+  @include font_sizes($font_sizes);
+  @include ext(_a) {
+    font-family: 'fontawesome_webfont';
+    @include font_sizes($font_sizes);
+  }
+  @include ext(_r) {
+    font-family: 'open_sansregular';
+    @include font_sizes($font_sizes);
+  }
+  @include ext(_l) {
+    font-family: 'open_sanslight';
+    @include font_sizes($font_sizes);
+  }
+  @include ext(_sb) {
+    font-family: 'open_sanssemibold';
+    @include font_sizes($font_sizes);
+  }
+  @include ext(_b) {
+    font-family: 'open_sansbold';
+    @include font_sizes($font_sizes);
+  }
+}

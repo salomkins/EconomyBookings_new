@@ -14,7 +14,6 @@ import { MainLogoPrimitiveComponent } from './primitives/main-logo-primitive/mai
 import { FormSelectPrimitiveComponent } from './primitives/form-select-primitive/form-select-primitive.component';
 import { StoreButtonPrimitiveComponent } from './primitives/store-button-primitive/store-button-primitive.component';
 import { RatingPrimitiveComponent } from './primitives/rating-primitive/rating-primitive.component';
-import { FontsPrimitiveComponent } from './primitives/fonts-primitive/fonts-primitive.component';
 import { IconsSocComponent } from './components/icons-soc/icons-soc.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { MybookingDropdownComponent } from './components/mybooking-dropdown/mybooking-dropdown.component';
@@ -48,7 +47,6 @@ import { RentCarSectionLayoutComponent } from './layouts/rent-car-section-layout
     FormSelectPrimitiveComponent,
     StoreButtonPrimitiveComponent,
     RatingPrimitiveComponent,
-    FontsPrimitiveComponent,
     IconsSocComponent,
     DropdownComponent,
     MybookingDropdownComponent,
