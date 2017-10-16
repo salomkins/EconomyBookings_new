@@ -19,7 +19,7 @@
 }
 
 .container_other_cities {
-  @extend .container;
+  //@extend .container;
   padding: 30px 0 25px;
   @include media(lg) {
     width: 960px;

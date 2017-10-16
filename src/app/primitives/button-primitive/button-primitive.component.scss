@@ -1,5 +1,4 @@
 @import "variables";
-@import "icons";
 
 $button-height-base: 32px;
 $button-color-base: #fff;
@@ -34,17 +33,17 @@ button.btn {
   }
 
   &-main {
-    @extend .btn;
+    //@extend .btn;
     width: 100%;
 
     &_form {
-      @extend .btn-main;
+      //@extend .btn-main;
       background-color: #f26522;
     }
   }
 
   &-carousel {
-    @extend .btn; //font-family: 'open_sansbold';
+    //@extend .btn; //font-family: 'open_sansbold';
     width: 151px;
 
     &:hover {
@@ -52,7 +51,7 @@ button.btn {
     }
 
     &_active {
-      @extend .btn-carousel;
+      //@extend .btn-carousel;
       background-color: #f2a622;
     }
   }
@@ -64,12 +63,3 @@ img {
   border-radius: 5px;
 }
 
-.earth {
-  display: inline-block;
-  width: 500px;
-  height: 500px;
-  border: 5px solid $coolestColorEver;
-  border-radius: 3px;
-  background: url('/assets/primitives/button-primitive/assets/earth.jpg') no-repeat 50% 50%;
-  background-size: cover;
-}

@@ -1,77 +1,5 @@
 @import "variables";
 
-//testing start---do not forget to remove
-.appbtn {
-  display: block;
-  border: none;
-  cursor: pointer;
-
-  &:focus {
-    outline: none;
-  }
-
-  &-large {
-    @extend .appbtn;
-    width: 234px;
-    height: 71px;
-    border-radius: 10px;
-    background-color: #fff;
-  }
-
-  &-medium {
-    @extend .appbtn;
-    width: 135px;
-    height: 40px;
-    border-radius: 7px;
-    background-color: #fff;
-
-  }
-
-  &-small {
-    @extend .appbtn;
-    width: 115px;
-    height: 40px;
-    border-radius: 7px;
-    background-color: #fff;
-  }
-}
-
-.apple, a.apple, button.apple {
-  &--dark {
-    background-image: url("/assets/primitives/store-button-primitive/assets/app-store.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border: 1px solid #c0c0c0;
-  }
-
-  &--light {
-    background-image: url("/assets/primitives/store-button-primitive/assets/app-store-white.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-}
-
-.google, a.google, button.google {
-  &--dark {
-    background-image: url("/assets/primitives/store-button-primitive/assets/google-play.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border: 1px solid #c0c0c0;
-  }
-
-  &--light {
-    background-image: url("/assets/primitives/store-button-primitive/assets/google-play-white.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-}
-//testing end
-
-//actual layout styles
 .block-footer {
   background-color: #373737;
   position: relative;
@@ -106,7 +34,7 @@
 }
 
 .container--footer {
-  @extend .container;
+  //@extend .container;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -139,11 +67,11 @@
 }
 
 .apple--dark_footer {
-  @extend .apple--dark;
+  //@extend .apple--dark;
   margin-right: 40px;
 }
 
 .google--dark_footer {
-  @extend .google--dark;
+  //@extend .google--dark;
   margin-right: 145px;
 }

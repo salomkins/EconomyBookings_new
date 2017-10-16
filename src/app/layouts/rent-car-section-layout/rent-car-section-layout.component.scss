@@ -1,6 +1,4 @@
 @import "variables";
-@import "styles-buttons";
-@import "styles-headings";
 
 //testing start
 $checklist_icon: "\F00C";
@@ -34,7 +32,7 @@ $checklist_margin: $goldMargin;
 //testing end
 
 .container--rent-car {
-  @extend .container;
+  //@extend .container;
   @include media(md) {
     padding-left: 15px;
     padding-right: 15px;
@@ -109,13 +107,13 @@ $checklist_margin: $goldMargin;
 }
 
 .btn-main--rent-car, a.btn-main--rent-car, button.btn-main--rent-car {
-  @extend .btn-main;
+  //@extend .btn-main;
   padding-top: 13px;
   padding-bottom: 13px;
 }
 
 .heading-subsection--stay-tuned {
-  @extend .heading-subsection;
+  //@extend .heading-subsection;
   @include media(lg) {
     margin-bottom: -5px;
   }
@@ -141,7 +139,7 @@ $checklist_margin: $goldMargin;
 }
 
 .heading-alternative--rent-car {
-  @extend .heading-alternative;
+  //@extend .heading-alternative;
   font-family: open_sansregular;
   color: #777777;
   text-align: center;
@@ -165,7 +163,7 @@ $checklist_margin: $goldMargin;
 }
 
 .heading-subsection--rent-car {
-  @extend .heading-subsection;
+  //@extend .heading-subsection;
   text-align: center;
   @include media(xs-only) {
     letter-spacing: -1px;
@@ -189,7 +187,7 @@ $checklist_margin: $goldMargin;
 }
 
 .checklist--rent-car {
-  @extend .checklist;
+  //@extend .checklist;
   margin-top: 20px;
   margin-left: 10px;
   @include media(lg) {

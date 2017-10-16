@@ -1,7 +1,4 @@
 @import "variables";
-@import "styles-headings";
-@import "styles-input";
-@import "styles-buttons";
 
 .block{
   &--subscribe {
@@ -23,7 +20,7 @@
 
 .form-input {
   &--subscribe {
-    @extend .form-input[type="text"];
+    //@extend .form-input[type="text"];
     border-radius: 2px;
     padding: 12px 0px;
     font-family: open_sansregular;
@@ -50,7 +47,7 @@
 
 .heading-alternative {
   &--subscribe {
-    @extend .heading-alternative;
+    //@extend .heading-alternative;
     font-family: open_sansregular;
     color: #cccccc;
     padding-bottom: 15px;
@@ -65,7 +62,7 @@
 
 .heading-subject {
   &--subscribe {
-    @extend .heading-subject;
+    //@extend .heading-subject;
     font-family: open_sansregular;
     color: #aaaaaa;
     padding-bottom: 6px;
@@ -97,7 +94,7 @@
 }
 
 .btn-main_form--subscribe, a.btn-main_form--subscribe, button.btn-main_form--subscribe {
-  @extend .btn-main_form;
+  //@extend .btn-main_form;
   @include media (md) {
     flex-grow: 1;
     flex-shrink: 5;

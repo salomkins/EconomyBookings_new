@@ -43,7 +43,7 @@ $dropdown_mrk_content_border_radius: 3px;
 
     &-active,
     &:focus {
-      @extend .dropdown-mrk-active;
+      //@extend .dropdown-mrk-active;
       background-color: $dropdown_mrk_background_color_active;
 
       &:after {

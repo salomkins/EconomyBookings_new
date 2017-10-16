@@ -8,7 +8,7 @@
 }
 
 .container_sitemap {
-  @extend .container;
+  //@extend .container;
   @include media(lg) {
     width: 960px;
   }
