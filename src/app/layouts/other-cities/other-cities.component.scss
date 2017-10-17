@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 //other_cities
 @mixin list_set_other_cities($cols, $rows) {

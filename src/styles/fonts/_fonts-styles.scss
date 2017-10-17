@@ -1,4 +1,5 @@
 @import "../../scssLib/variables";
+@import "../../scssLib/mixins";
 
 @mixin font_sizes($s_array) {
   @each $s in $s_array{
