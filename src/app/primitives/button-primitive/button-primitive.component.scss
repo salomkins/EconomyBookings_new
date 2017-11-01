@@ -8,6 +8,10 @@ $button-space-horizontal: 1em;
 $button-border-radius-base: 4px;
 $button-gold-margin: $goldMargin;
 
+:host {
+  display: block;
+}
+
 .btn,
 a.btn,
 button.btn {
@@ -32,17 +36,30 @@ button.btn {
     background-color: lighten(#0073b5, 10%);
   }
 
-  &-main {
+  &.xl {
+    font-size: $button-font-size * 2;
+    padding: $button-space-vertical*2 $button-space-horizontal*2;
+  }
+
+  &.warning {
+    color: #fff;
+    background-color: red;
+    &:hover {
+      background-color: violet;
+    }
+  }
+
+  &.main {
     //@extend .btn;
     width: 100%;
 
-    &_form {
+    &.form {
       //@extend .btn-main;
       background-color: #f26522;
     }
   }
 
-  &-carousel {
+  &.carousel {
     //@extend .btn; //font-family: 'open_sansbold';
     width: 151px;
 
@@ -50,7 +67,7 @@ button.btn {
       background-color: #00a0fb;
     }
 
-    &_active {
+    &.active {
       //@extend .btn-carousel;
       background-color: #f2a622;
     }

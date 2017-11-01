@@ -1,22 +1,43 @@
 <!--The content below is only a placeholder and can be replaced.-->
+
 <div style="text-align:center">
     <h1>
         Welcome to {{title}}!
-      <app-icons-flags-primitive [flag]="'lv'"></app-icons-flags-primitive>
+      <app-icons-flags-primitive flag="lv"></app-icons-flags-primitive>
       <app-icons-flags-primitive [flag]="'fr'"></app-icons-flags-primitive>
       <app-icons-flags-primitive [flag]="'de'"></app-icons-flags-primitive>
+
+        <app-button-primitive size="xl" stils="warning" >
+            my super button !!
+        </app-button-primitive>
+
+        <app-button-primitive presentation="block">
+            my super button !!
+        </app-button-primitive>
     </h1>
     <img width="300"
          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-    <app-button-primitive>some button</app-button-primitive>
+    <hr>
+    <app-button-primitive stils=" main form">some button</app-button-primitive>
     <app-button-primitive>some button other button</app-button-primitive>
+
+    <a class="anchor_underline--dash" href="#">Links</a>
+
+    <app-checklist-primitive checklistStyle="checklist" [items]="['title1', 'title2']">
+        List heading
+    </app-checklist-primitive>
+
+    <hr>
+
+    <app-other-cities></app-other-cities>
+    <app-rent-car-section-layout></app-rent-car-section-layout>
+    <app-book-car></app-book-car>
+    <app-sitemap-layout></app-sitemap-layout>
+    <app-footer-layout></app-footer-layout>
+
 </div>
 
-<app-other-cities></app-other-cities>
-<app-rent-car-section-layout></app-rent-car-section-layout>
-<app-book-car></app-book-car>
-<app-sitemap-layout></app-sitemap-layout>
-<app-footer-layout></app-footer-layout>
+
 
 <!--<div style="background-color: #bada55; max-width: 640px; margin: 0 auto;">-->
     <!--<app-button-primitive></app-button-primitive>-->

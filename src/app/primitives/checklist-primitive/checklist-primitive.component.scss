@@ -7,6 +7,10 @@ $checklist_text_left: 30px;
 $checklist_space: 20px;
 $checklist_margin: $goldMargin;
 
+:host {
+  display: block;
+}
+
 .checklist {
   margin: 0;
   padding: 0;
@@ -18,7 +22,7 @@ $checklist_margin: $goldMargin;
     &:before {
       content: $checklist_icon;
       color: $checklist_icon_color;
-      //font-family: 'fontawesome_webfont';
+      font-family: 'fontawesome_webfont';
       font-size: calc(150%);
       position: absolute;
       top: -4px;
