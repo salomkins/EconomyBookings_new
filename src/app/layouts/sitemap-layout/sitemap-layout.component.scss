@@ -1,5 +1,6 @@
 @import "variables";
 @import "mixins";
+@import "../../../grid/grid";
 
 //sitemap
 
@@ -9,7 +10,7 @@
 }
 
 .container_sitemap {
-  //@extend .container;
+  @extend .container;
   @include media(lg) {
     width: 960px;
   }

@@ -43,13 +43,9 @@
           <div class="block--feedback">
             <div class="row--feedback">
               <div class="user font_b_14">Joana</div>
-              <div class="rating--feedback">
-                <span class="icon_star"></span>
-                <span class="icon_star"></span>
-                <span class="icon_star"></span>
-                <span class="icon_star"></span>
-                <span class="icon_star"></span>
-              </div>
+              <app-rating-primitive class="rating--feedback" [rating]="4"></app-rating-primitive>
+              <app-rating-primitive class="rating--feedback" [rating]="0"></app-rating-primitive>
+              <app-rating-primitive class="rating--feedback"></app-rating-primitive>
             </div>
             <div class="row--feedback">
               <span class="review-text font_r_13">I rented with Economybooking(car rental company SIXT)s in Alicante in September and found the service and quality of car to be absolutely fantastic. One of my best experiences with a large company ever!</span>

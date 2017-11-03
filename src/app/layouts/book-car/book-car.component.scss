@@ -1,6 +1,6 @@
 @import "variables";
-@import "icons";
 @import "mixins";
+@import "../../../grid/grid";
 
 //book_car
 @mixin set_background_book_car {
@@ -65,7 +65,7 @@
 }
 
 .container_bok_car {
-  //@extend .container;
+  @extend .container;
   padding: 30px 20px 25px;
   @include media(md) {
     padding: 30px 20px;

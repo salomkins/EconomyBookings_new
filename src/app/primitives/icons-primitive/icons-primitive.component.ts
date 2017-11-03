@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-icons-primitive',
@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IconsPrimitiveComponent implements OnInit {
 
+  private _iconStyle: string;
+
   constructor() { }
 
   ngOnInit() {
   }
-
+  @Input('icon')
+  set size(value: string) {
+    this._iconStyle = value;
+  }
+  get iconStyle(): string {
+    return this._iconStyle;
+  }
 }

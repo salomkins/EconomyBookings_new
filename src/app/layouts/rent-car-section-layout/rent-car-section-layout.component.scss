@@ -1,5 +1,6 @@
 @import "variables";
 @import "mixins";
+@import "../../../grid/grid";
 
 //testing start
 $checklist_icon: "\F00C";
@@ -33,7 +34,7 @@ $checklist_margin: $goldMargin;
 //testing end
 
 .container--rent-car {
-  //@extend .container;
+  @extend .container;
   @include media(md) {
     padding-left: 15px;
     padding-right: 15px;

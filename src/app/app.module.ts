@@ -21,7 +21,6 @@ import { FeedbackComponent } from './components/feedback/feedback.component';
 import { QuestionsBlockComponent } from './components/questions-block/questions-block.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BookByPhoneBlockComponent } from './components/book-by-phone-block/book-by-phone-block.component';
-import { GridComponent } from './components/grid/grid.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { ReviewBlockComponent } from './components/review-block/review-block.component';
 import { RatingsBlockComponent } from './components/ratings-block/ratings-block.component';
@@ -53,7 +52,6 @@ import { RentCarSectionLayoutComponent } from './layouts/rent-car-section-layout
     QuestionsBlockComponent,
     NavbarComponent,
     BookByPhoneBlockComponent,
-    GridComponent,
     SubscribeComponent,
     ReviewBlockComponent,
     RatingsBlockComponent,

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-rating-primitive',
@@ -6,10 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rating-primitive.component.scss']
 })
 export class RatingPrimitiveComponent implements OnInit {
-
+  private _rating: number;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  get rating(): number {
+    return this._rating;
+  }
+
+  @Input('rating')
+  set rating(value: number) {
+    this._rating = value;
   }
 
 }

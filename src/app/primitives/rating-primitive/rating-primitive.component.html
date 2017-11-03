@@ -1,8 +1,15 @@
 <div class="rating">
-  <span class="icon_star"></span>
-  <span class="icon_star"></span>
-  <span class="icon_star"></span>
-  <span class="icon_star_half"></span>
-  <span class="icon_star_empty"></span>
-  (67)
+  <app-icons-primitive icon="star"></app-icons-primitive>
+  <app-icons-primitive icon="star"></app-icons-primitive>
+  <app-icons-primitive icon="star"></app-icons-primitive>
+  <app-icons-primitive icon="star"></app-icons-primitive>
+  <app-icons-primitive icon="star"></app-icons-primitive>
+  <!--<span class="icon_star"></span>-->
+  <!--<span class="icon_star"></span>-->
+  <!--<span class="icon_star"></span>-->
+  <!--<span class="icon_star_half"></span>-->
+  <!--<span class="icon_star_empty"></span>-->
+  <ng-container *ngIf="rating || rating === 0">
+    ({{rating}})
+  </ng-container>
 </div>
