@@ -1,6 +1,10 @@
 @import "variables";
 @import "mixins";
 
+:host {
+  display: block;
+}
+
 .appbtn {
   display: block;
   border: none;
@@ -10,7 +14,7 @@
     outline: none;
   }
 
-  &-large {
+  &.large {
     @extend .appbtn;
     width: 234px;
     height: 71px;
@@ -18,7 +22,7 @@
     background-color: #fff;
   }
 
-  &-medium {
+  &.medium {
     @extend .appbtn;
     width: 135px;
     height: 40px;
@@ -27,7 +31,7 @@
 
   }
 
-  &-small {
+  &.small {
     @extend .appbtn;
     width: 115px;
     height: 40px;
@@ -37,7 +41,7 @@
 }
 
 .apple, a.apple, button.apple {
-  &--dark {
+  &.dark {
     background-image: url("/assets/primitives/store-button-primitive/assets/app-store.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -45,7 +49,7 @@
     border: 1px solid #c0c0c0;
   }
 
-  &--light {
+  &.light {
     background-image: url("/assets/primitives/store-button-primitive/assets/app-store-white.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -54,7 +58,7 @@
 }
 
 .google, a.google, button.google {
-  &--dark {
+  &.dark {
     background-image: url("/assets/primitives/store-button-primitive/assets/google-play.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -62,7 +66,7 @@
     border: 1px solid #c0c0c0;
   }
 
-  &--light {
+  &.light {
     background-image: url("/assets/primitives/store-button-primitive/assets/google-play-white.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
