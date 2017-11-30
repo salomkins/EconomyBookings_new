@@ -3,10 +3,9 @@
 $button-height-base: 32px;
 $button-color-base: #fff;
 $button-font-size: 16px;
-$button-space-vertical: ($button-height-base - $button-font-size) / 2;
+$button-space-vertical: ($button-height-base - $button-font-size) / 1.2;
 $button-space-horizontal: 1em;
 $button-border-radius-base: 4px;
-$button-gold-margin: $goldMargin;
 
 :host {
   display: block;
@@ -26,7 +25,6 @@ button.btn {
   text-align: center;
   line-height: 1;
   padding: $button-space-vertical $button-space-horizontal;
-  margin-bottom: $button-gold-margin;
 
   &:focus {
     outline: none;
@@ -79,4 +77,3 @@ img {
   border: 5px solid $coolestColorEver;
   border-radius: 5px;
 }
-
