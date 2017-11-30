@@ -17,6 +17,7 @@ $icons: (
 );
 
 .icon {
+  color: red;
   font-family: 'fontawesome_webfont';
   @each $name, $code in $icons {
     @include ext(_#{$name}){

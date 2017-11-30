@@ -3,3 +3,9 @@
 h1 {
   color: $coolestColorEver;
 }
+
+.badass-icon {
+  ::ng-deep > span {
+    color: #bada55;
+  }
+}

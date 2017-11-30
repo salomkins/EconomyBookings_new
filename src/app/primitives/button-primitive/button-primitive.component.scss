@@ -60,7 +60,8 @@ button.btn {
   }
 
   &.carousel {
-    //@extend .btn; //font-family: 'open_sansbold';
+    //@extend .btn;
+    font-family: 'open_sansbold';
     width: 151px;
 
     &:hover {
