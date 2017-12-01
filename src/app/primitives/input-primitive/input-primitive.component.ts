@@ -7,44 +7,46 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class InputPrimitiveComponent implements OnInit {
 
-  private _styleInput = '';
   private _typeInput = '';
   private _nameInput = '';
   private _placeholderInput = '';
+  private _valueInput = '';
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  get styleInput(): string {
-    return this._styleInput;
-  }
   get typeInput(): string {
     return this._typeInput;
-  }
-  get nameInput(): string {
-    return this._nameInput;
-  }
-  get placeholderInput(): string {
-    return this._placeholderInput;
-  }
-
-  @Input('styleInput')
-  set styleInput(value: string) {
-    this._styleInput = value;
   }
   @Input('typeInput')
   set typeInput(value: string) {
     this._typeInput = value;
   }
+
+  get nameInput(): string {
+    return this._nameInput;
+  }
   @Input('nameInput')
   set nameInput(value: string) {
     this._nameInput = value;
   }
+
+  get placeholderInput(): string {
+    return this._placeholderInput;
+  }
   @Input('placeholderInput')
   set placeholderInput(value: string) {
     this._placeholderInput = value;
+  }
+
+  get valueInput(): string {
+    return this._valueInput;
+  }
+  @Input('valueInput')
+  set valueInput(value: string) {
+    this._valueInput = value;
   }
 
 }
