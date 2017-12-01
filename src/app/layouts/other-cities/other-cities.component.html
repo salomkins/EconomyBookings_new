@@ -4,7 +4,7 @@
     <ul class="list_other_cities">
 
       <li *ngFor="let city of citiesList; let i = index"
-      [ngClass] ="(i > 9) ? 'list_other_cities-item' : 'list_other_cities-item--lg'">
+      [ngClass] ="(i < 10) ? 'list_other_cities-item' : 'list_other_cities-item--lg'">
       <a class="anchor" href={{city.href}}>{{itemText}}<strong>{{city.item}}</strong></a>
       </li>
 
