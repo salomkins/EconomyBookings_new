@@ -1,8 +1,12 @@
 <div class="block--stay_tuned font_r_13">
-  <h3 class="heading-subsection">Stay tuned</h3>
+  <app-headings-primitive usage="subsection">Stay tuned</app-headings-primitive>
   <div class="row--stay_tuned">Subscribe to our latest news and offers</div>
   <form action="index.html" method="post">
-    <input class="row--stay_tuned form-input form-input--stay_tuned" type="text" name="" value="" placeholder="Your email">
+    <div class="row--stay_tuned">
+      <app-input-primitive class="form-input--stay_tuned" typeInput="text" nameInput="" placeholderInput="Your email"></app-input-primitive>
+    </div>
   </form>
-  <div class="row--stay_tuned"><button class="btn-main" type="button" name="button">Subscribe</button></div>
+  <div class="row--stay_tuned">
+    <app-button-primitive stils="main">Subscribe</app-button-primitive>
+  </div>
 </div>
