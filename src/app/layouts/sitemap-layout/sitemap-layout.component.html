@@ -17,97 +17,68 @@
 
       <div class="info_box_sitemap">
         <div class="links_sitemap">
-          <div class="links_sitemap-col">
-            <h3 class="heading-subject links_sitemap-col-head">Company</h3>
-            <ul class="links_sitemap-list font_r_12">
-              <li class="links_sitemap-item"><a class="anchor" href="#">About Us</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">News</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">Cooperation</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">Contacts</a>
-              </li>
-            </ul>
-          </div>
-          <div class="links_sitemap-col font_r_12">
-            <h3 class="heading-subject links_sitemap-col-head">Useful</h3>
-            <ul class="links_sitemap-list">
-              <li class="links_sitemap-item"><a class="anchor" href="#">Destination guide</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">Where Rent a Car</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">Best Deals</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">Terms of use</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">Mobile Apps</a>
-              </li>
-            </ul>
-          </div>
-          <div class="links_sitemap-col font_r_12">
-            <h3 class="heading-subject links_sitemap-col-head">Help</h3>
-            <ul class="links_sitemap-list">
-              <li class="links_sitemap-item"><a class="anchor" href="#">Privacy Policy</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">Terms</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">FAQ</a>
-              </li>
-            </ul>
-          </div>
-          <div class="links_sitemap-col font_r_13">
-            <h3 class="heading-subject links_sitemap-col-head--lg">Cooperation &amp; Partner Programs</h3>
-            <h3 class="heading-subject links_sitemap-col-head--lg">Partner Programs</h3>
-            <ul class="links_sitemap-list">
-              <li class="links_sitemap-item"><a class="anchor" href="#">Affiliate Programs For Publishers</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">For Car Rental Suppliers and Brokers</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">For Travel Agencies and Aggregators</a>
-              </li>
-              <li class="links_sitemap-item"><a class="anchor" href="#">Customer’s Referal Program</a>
-              </li>
-            </ul>
-          </div>
+
+
+          <ng-container *ngFor="let link of linksList; let i=index">
+            <div [ngClass]="['links_sitemap-col', (i < 3) ? 'font_r_12' : 'font_r_13']">
+              <app-headings-primitive usage="subject" class="links_sitemap-col-head">{{link.title}}</app-headings-primitive>
+              <ul class="links_sitemap-list">
+                <li class="links_sitemap-item" *ngFor="let item of link.items">
+                  <a class="anchor" href={{item.link}}>{{item.item}}</a>
+                </li>
+              </ul>
+            </div>
+          </ng-container>
+
+
+
+          <!-- <div class="links_sitemap-col font_r_12">
+<h3 class="heading-subject links_sitemap-col-head">Help</h3>
+<ul class="links_sitemap-list">
+<li class="links_sitemap-item"><a class="anchor" href="#">Privacy Policy</a>
+</li>
+<li class="links_sitemap-item"><a class="anchor" href="#">Terms</a>
+</li>
+<li class="links_sitemap-item"><a class="anchor" href="#">FAQ</a>
+</li>
+</ul>
+</div>
+<div class="links_sitemap-col font_r_13">
+<h3 class="heading-subject links_sitemap-col-head--lg">Cooperation &amp; Partner Programs</h3>
+<h3 class="heading-subject links_sitemap-col-head--lg">Partner Programs</h3>
+<ul class="links_sitemap-list">
+<li class="links_sitemap-item"><a class="anchor" href="#">Affiliate Programs For Publishers</a>
+</li>
+<li class="links_sitemap-item"><a class="anchor" href="#">For Car Rental Suppliers and Brokers</a>
+</li>
+<li class="links_sitemap-item"><a class="anchor" href="#">For Travel Agencies and Aggregators</a>
+</li>
+<li class="links_sitemap-item"><a class="anchor" href="#">Customer’s Referal Program</a>
+</li>
+</ul>
+</div> -->
 
         </div>
         <div class="footbox_sitemap">
           <!-- LinksListSpecial SĀKUMS -->
           <select class="links_list_sitemap font_r_14" required>
-            <optgroup label="Company">
-              <option value="" disabled selected hidden>Jump to page...</option>
-              <option value="about_us">About Us</option>
-              <option value="news">News</option>
-              <option value="cooperation">Cooperation</option>
-              <option value="contacts">Contacts</option>
-            </optgroup>
-            <optgroup label="Useful">
-              <option value="destination_guide">Destination guide</option>
-              <option value="where_rent">Where Rent a Car</option>
-              <option value="best_deals">Best Deals</option>
-              <option value="terms_of_use">Terms of use</option>
-              <option value="mobile_apps">Mobile Apps</option>
-            </optgroup>
-            <optgroup label="Help">
-              <option value="privacy_policy">Privacy Policy</option>
-              <option value="terms">Terms</option>
-              <option value="faq">FAQ</option>
-            </optgroup>
-            <optgroup label="Cooperation &amp; Partner Programs">
-              <option value="affiliate_programs">Affiliate Programs For Publishers</option>
-              <option value="for_car_rental">For Car Rental Suppliers and Brokers</option>
-              <option value="for_travel_agencies">For Travel Agencies and Aggregators</option>
-              <option value="terms_of_use">Terms of use</option>
-              <option value="customers_referal">Customer’s Referal Program</option>
+            <option value="" disabled selected hidden>Jump to page...</option>
+            <optgroup *ngFor="let link of linksList; let i = index" label={{link.title}}>
+              <option *ngFor="let item of link.items" value={{item.optValue}}>{{item.item}}</option>
             </optgroup>
           </select>
           <!-- LinksListSpecial BEIGAS -->
           <!--Socicons SĀKUMS  -->
           <div class="socicons_sitemap">
-            <span class="icon_facebook_soc--footer socicons_sitemap-item"></span>
-            <span class="icon_youtube_soc--footer socicons_sitemap-item"></span>
-            <span class="icon_google_plus_soc--footer socicons_sitemap-item"></span>
+            <a class="anchor socicons_sitemap-item" href="#">
+              <app-icons-primitive icon="facebook_soc--footer"></app-icons-primitive>
+            </a>
+            <a class="anchor socicons_sitemap-item" href="#">
+              <app-icons-primitive icon="youtube_soc--footer"></app-icons-primitive>
+            </a>
+            <a class="anchor socicons_sitemap-item" href="#">
+              <app-icons-primitive icon="google_plus_soc--footer"></app-icons-primitive>
+            </a>
           </div>
           <!--Socicons BEIGAS  -->
           <div class="store_sitemap">
