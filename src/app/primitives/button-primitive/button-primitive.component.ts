@@ -1,5 +1,10 @@
 import {Component, Input, OnInit} from '@angular/core';
 
+const allowedStyles = [
+    'main',
+    'outline'
+];
+
 @Component({
   selector: 'app-button-primitive',
   templateUrl: './button-primitive.component.html',
@@ -31,6 +36,8 @@ export class ButtonPrimitiveComponent implements OnInit {
 
   @Input('stils')
   set style(value: string) {
-    this._style = value;
+    if(allowedStyles.includes(value)) {
+      this._style = value;
+    }
   }
 }
