@@ -50,7 +50,6 @@
 .links_sitemap {
   display: none;
   @include media(md) {
-    background-color: green;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -66,21 +65,21 @@
         font-size: 18px;
       }
     }
-      // @include ext(--lg) {
-      //   display: none;
-      //
-      //   &:nth-child(1) {
-      //     @include media(md-only) {
-      //       display: inherit;
-      //     }
-      //   }
-      //
-      //   &:nth-child(2) {
-      //     @include media(lg) {
-      //       display: inherit;
-      //     }
-      //   }
-      // }
+      @include ext(--lg) {
+        display: none;
+
+        &:nth-child(1) {
+          @include media(md-only) {
+            display: inherit;
+          }
+        }
+
+        &:nth-child(2) {
+          @include media(lg) {
+            display: inherit;
+          }
+        }
+      }
     }
   }
 

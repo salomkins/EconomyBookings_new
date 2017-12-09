@@ -18,10 +18,10 @@
       <div class="info_box_sitemap">
         <div class="links_sitemap">
 
-
           <ng-container *ngFor="let link of linksList; let i=index">
-            <div [ngClass]="['links_sitemap-col', (i < 3) ? 'font_r_12' : 'font_r_13']">
-              <app-headings-primitive usage="subject" class="links_sitemap-col-head">{{link.title}}</app-headings-primitive>
+            <div [ngClass]="['links_sitemap-col', (i == 3) ? 'font_r_13' : 'font_r_12']">
+              <app-headings-primitive usage="subject" [ngClass]="(!! link.title_lg) ? 'links_sitemap-col-head--lg' : 'links_sitemap-col-head'">{{link.title}}</app-headings-primitive>
+              <app-headings-primitive *ngIf="!! link.title_lg" usage="subject" class="links_sitemap-col-head--lg">{{link.title_lg}}</app-headings-primitive>
               <ul class="links_sitemap-list">
                 <li class="links_sitemap-item" *ngFor="let item of link.items">
                   <a class="anchor" href={{item.link}}>{{item.item}}</a>
@@ -29,34 +29,6 @@
               </ul>
             </div>
           </ng-container>
-
-
-
-          <!-- <div class="links_sitemap-col font_r_12">
-<h3 class="heading-subject links_sitemap-col-head">Help</h3>
-<ul class="links_sitemap-list">
-<li class="links_sitemap-item"><a class="anchor" href="#">Privacy Policy</a>
-</li>
-<li class="links_sitemap-item"><a class="anchor" href="#">Terms</a>
-</li>
-<li class="links_sitemap-item"><a class="anchor" href="#">FAQ</a>
-</li>
-</ul>
-</div>
-<div class="links_sitemap-col font_r_13">
-<h3 class="heading-subject links_sitemap-col-head--lg">Cooperation &amp; Partner Programs</h3>
-<h3 class="heading-subject links_sitemap-col-head--lg">Partner Programs</h3>
-<ul class="links_sitemap-list">
-<li class="links_sitemap-item"><a class="anchor" href="#">Affiliate Programs For Publishers</a>
-</li>
-<li class="links_sitemap-item"><a class="anchor" href="#">For Car Rental Suppliers and Brokers</a>
-</li>
-<li class="links_sitemap-item"><a class="anchor" href="#">For Travel Agencies and Aggregators</a>
-</li>
-<li class="links_sitemap-item"><a class="anchor" href="#">Customer’s Referal Program</a>
-</li>
-</ul>
-</div> -->
 
         </div>
         <div class="footbox_sitemap">

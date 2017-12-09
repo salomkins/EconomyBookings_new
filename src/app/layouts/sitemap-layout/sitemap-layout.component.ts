@@ -35,8 +35,8 @@ export class SitemapLayoutComponent implements OnInit {
       ]
     },
     {
-      //title: "Cooperation & Partner Programs",
-      title: "Partner Programs",
+      title: "Cooperation & Partner Programs",
+      title_lg: "Partner Programs",
       items: [
         { item: "Affiliate Programs For Publishers", link: "#", optValue: "affiliate_programs" },
         { item: "For Car Rental Suppliers and Brokers", link: "#", optValue: "for_car_rental" },
