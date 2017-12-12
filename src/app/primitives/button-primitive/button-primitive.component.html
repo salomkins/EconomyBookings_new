@@ -1,2 +1,11 @@
-<a class="anchor btn {{size}} {{style}}"><ng-content></ng-content></a>
+<a *ngIf="tag == 'a'" class="anchor btn {{size}} {{style}}">
+    <ng-content></ng-content>
+</a>
+<span *ngIf="tag == 'span'" class="anchor btn {{size}} {{style}}">
+    <ng-content></ng-content>
+</span>
+<button *ngIf="tag == 'button'" type="button" class="anchor btn {{size}} {{style}}">
+    <ng-content></ng-content>
+</button>
+
 

@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, ElementRef, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-icons-flags-primitive',
@@ -8,14 +8,18 @@ import {Component, Input, OnInit} from '@angular/core';
 export class IconsFlagsPrimitiveComponent implements OnInit {
   private _flag: string;
 
-  constructor() { }
+  constructor(private elementRef: ElementRef) { }
 
   ngOnInit() {
   }
 
   @Input('flag')
   set flag(value: string) {
+    if (this.flag) {
+        this.elementRef.nativeElement.classList.remove(this.flag);
+    }
     this._flag = value;
+    this.elementRef.nativeElement.classList.add(value);
   }
 
   get flag() {

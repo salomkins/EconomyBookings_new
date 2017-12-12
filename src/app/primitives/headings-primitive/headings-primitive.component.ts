@@ -9,7 +9,9 @@ export class HeadingsPrimitiveComponent implements OnInit {
 
   private _usage = '';
 
-  constructor() { }
+  constructor() {
+    this.usage = 'section';
+  }
 
   ngOnInit() {
   }

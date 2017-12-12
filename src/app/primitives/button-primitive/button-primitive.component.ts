@@ -5,6 +5,8 @@ import {Component, Input, OnInit} from '@angular/core';
 //     'outline'
 // ];
 
+const ALLOWED_TAGS = ['a', 'button', 'span'];
+
 @Component({
   selector: 'app-button-primitive',
   templateUrl: './button-primitive.component.html',
@@ -14,8 +16,11 @@ export class ButtonPrimitiveComponent implements OnInit {
 
   private _size = '';
   private _style = '';
+  private _tag = '';
 
-  constructor() { }
+  constructor() {
+    this.tag = ALLOWED_TAGS[0] && ALLOWED_TAGS[0] || 'a';
+  }
 
   ngOnInit() {
   }
@@ -40,5 +45,16 @@ export class ButtonPrimitiveComponent implements OnInit {
     // if(allowedStyles.includes(value)) {
     //   this._style = value;
     // }
+  }
+
+  @Input('tag')
+  set tag(value: string) {
+    if (ALLOWED_TAGS.includes(value)) {
+      this._tag = value;
+    }
+  }
+
+  get tag(): string {
+    return this._tag;
   }
 }
