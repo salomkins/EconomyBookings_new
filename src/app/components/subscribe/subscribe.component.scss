@@ -2,27 +2,31 @@
 @import "mixins";
 
 
-.block{
-  &--subscribe {
-    background-color: #444444;
-    padding: 26px 20px 22px 20px;
+:host {
+  display: block;
+  background-color: #444444;
+  padding: 26px 20px 22px 20px;
 
-    @include media(md) {
-      margin-left: 20px;
-      margin-right: 20px;
-      padding: 30px 25px 30px 25px;
-    }
+  @include media(md) {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px 25px 30px 25px;
+  }
 
-    @include media(lg) {
-      padding: 22px 20px 24px 20px;
-      margin: 0 auto;
-    }
+  @include media(lg) {
+    padding: 22px 20px 24px 20px;
+    margin: 0 auto;
   }
 }
 
-.form-input {
-  &--subscribe {
-    //@extend .form-input[type="text"];
+.form-input--subscribe {
+  @include media (md) {
+    //flex-basis: 495px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+  }
+  ::ng-deep.form-input[type="text"] {
     border-radius: 2px;
     padding: 12px 0px;
     font-family: open_sansregular;
@@ -47,9 +51,8 @@
   }
 }
 
-.heading-alternative {
-  &--subscribe {
-    //@extend .heading-alternative;
+.heading-alternative--subscribe {
+  ::ng-deep.alternative {
     font-family: open_sansregular;
     color: #cccccc;
     padding-bottom: 15px;
@@ -62,9 +65,8 @@
   }
 }
 
-.heading-subject {
-  &--subscribe {
-    //@extend .heading-subject;
+.heading-subject--subscribe {
+  ::ng-deep .subject {
     font-family: open_sansregular;
     color: #aaaaaa;
     padding-bottom: 6px;
@@ -95,8 +97,9 @@
   }
 }
 
-.btn-main_form--subscribe, a.btn-main_form--subscribe, button.btn-main_form--subscribe {
-  //@extend .btn-main_form;
+.btn-main_form--subscribe,
+a.btn-main_form--subscribe,
+button.btn-main_form--subscribe {
   @include media (md) {
     flex-grow: 1;
     flex-shrink: 5;
@@ -113,20 +116,4 @@
     background-color: #f2a622;
   }
 
-}
-
-
-
-.form-wrapper--subscribe > form, .form-wrapper--subscribe > button {
-  @include media (md) {
-    flex-basis: 495px;
-  }
-}
-
-app-headings-primitive[usage="alternative"] {
-  color: red;
-}
-
-app-headings-primitive[usage="subject"] {
-  color: green;
 }

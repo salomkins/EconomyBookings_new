@@ -16,6 +16,7 @@
   width: 100%;
   z-index: 1;
   opacity: 0.5;
+  pointer-events: none;
 }
 
 .item-footer {
@@ -30,10 +31,24 @@
   flex-direction: row;
   display: none;
 
+  app-store-button-primitive {
+    margin-right: 40px;
+    &:last-child {
+      margin-right: 0;
+
+    }
+  }
   @include media(lg) {
     display: flex;
   }
 }
+
+  //.store-btn--footer:first-child {
+  //  border: 1px solid red!important;
+  //  //  @include media(lg) {
+  //  //    margin-right: 20px;
+  //  //  }
+  //}
 
 .container--footer {
   @extend .container;
@@ -69,11 +84,13 @@
 }
 
 .apple--dark_footer {
-  //@extend .apple--dark;
-  margin-right: 40px;
+  ::ng-deep.apple--dark {
+    margin-right: 40px;
+  }
 }
 
 .google--dark_footer {
-  //@extend .google--dark;
-  margin-right: 145px;
+  ::ng-deep.google--dark {
+    margin-right: 145px;
+  }
 }

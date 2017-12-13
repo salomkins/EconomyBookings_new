@@ -18,7 +18,8 @@ button.btn {
   background-color: #0073b5;
   border: none;
   border-radius: $button-border-radius-base;
-  color: $button-color-base; //font-family: 'open_sansregular';
+  color: $button-color-base;
+  font-family: 'open_sansregular';
   font-size: $button-font-size;
   cursor: pointer;
   display: block;
