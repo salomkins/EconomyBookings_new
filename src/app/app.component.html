@@ -11,3 +11,19 @@
 <app-icons-primitive icon="star_empty" class="font_32 badass-icon"></app-icons-primitive>
 <app-icons-primitive icon="star_half" class="font_18"></app-icons-primitive>
 <br>
+
+<app-review-block
+  [userData]="{
+  name:'Lelde',
+  country:'Latvia',
+  countryCode:'lv',
+  date:'August 18, 2014',
+  rating:8.3}"
+  [reviewsPlus]="[
+  'Perfect location. Easy to reach from airport TXL (TXL bus). Very convenient for shopping purposes, all popular shops are near- Primark, C&amp;A,Galeria Kaufhof, Alexa... Breakfast is very plentiful.'
+  ]"
+  [reviewsMinus]="[
+  'Quadruaple room was very small.'
+  ]"
+  >
+</app-review-block>
