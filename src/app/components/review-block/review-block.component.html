@@ -1,3 +1,20 @@
+<!-- PIEMĒRS -->
+<!-- <app-review-block
+[userData]="{
+name:'Lelde',
+country:'Latvia',
+countryCode:'lv',
+date:'August 18, 2014',
+rating:8.3}"
+[reviewsPlus]="[
+'Perfect location. Easy to reach from airport TXL (TXL bus). Very convenient for shopping purposes, all popular shops are near- Primark, C&amp;A,Galeria Kaufhof, Alexa... Breakfast is very plentiful.'
+]"
+[reviewsMinus]="[
+'Quadruaple room was very small.'
+]"
+>
+</app-review-block> -->
+
 <div class="block_review font_r_13">
   <div class="header_review">
     <div class="header_review-row1">
@@ -8,7 +25,7 @@
       </span>
     </div>
     <div class="header_review-row2">
-      <span class="header_review-rate">Perfect<span class="header_review-rate_value">{{userData.rating}}</span></span>
+      <span class="header_review-rate">{{ratingTxt}}<span class="header_review-rate_value">{{userData.rating}}</span></span>
       <span class="header_review-date">{{userData.date}}</span>
     </div>
   </div>

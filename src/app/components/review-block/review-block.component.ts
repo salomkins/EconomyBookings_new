@@ -7,6 +7,20 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ReviewBlockComponent implements OnInit {
 
+  RATINGS = [
+    'Hrenovo',
+    'Hrenovato',
+    'Počti Normaļno',
+    'Normaļno',
+    'Very Normaļno',
+    'Good',
+    'Very Good',
+    'Perfect',
+    'Awesome',
+    'Exceptional'
+  ];
+  ratingTxt = this.RATINGS[0];
+
   _userData: {
     name: string,
     country: string,
@@ -18,8 +32,7 @@ export class ReviewBlockComponent implements OnInit {
   _reviewsMinus: string[];
 
   constructor() { }
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
   get userData(): {
     name: string,
@@ -39,6 +52,10 @@ export class ReviewBlockComponent implements OnInit {
     rating: number
   }) {
     this._userData = value;
+    var i = Math.round(value.rating - 1 - .25);
+    i = (i < 0) ? 0 : i;
+    i = (i > 9) ? 9 : i;
+    this.ratingTxt = this.RATINGS[i];
   }
 
   get reviewsPlus(): string[] {
@@ -56,5 +73,4 @@ export class ReviewBlockComponent implements OnInit {
   set reviewsMinus(value: string[]) {
     this._reviewsMinus = value;
   }
-
 }
