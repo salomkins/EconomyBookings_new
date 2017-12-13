@@ -1,0 +1,73 @@
+<section class="rent_car">
+  <div class="container--rent-car">
+    <!--<div class="heading-alternative&#45;&#45;rent-car">Rent car worldwide with <strong> EconomyBookings</strong></div>-->
+    <app-headings-primitive usage="alternative">Rent car worldwide with EconomyBookings</app-headings-primitive>
+    <div class="h-line"></div>
+    <div class="wrapper--rent-car">
+      <div class="item--rent-car">
+        <div class="block--rent-car col">
+          <div class="row">
+            <div class="col-2_3">
+              <div class="heading-subsection--rent-car">Why Book with EconomyBookings?</div>
+            </div>
+          </div>
+        </div>
+        <div class="block--rent-car col-2_3">
+          <div class="row">
+            <div class="col-1_2">
+              <app-checklist-primitive checklistStyle="checklist"
+                                       class="font_r_15"
+                                       [items]="[
+                                        'A wide selection of cars to choose from',
+                                        'More than 150 countries and 20,000 locations',
+                                        'More than 850 trustworthy suppliers worldwide'
+                                         ]">
+
+              </app-checklist-primitive>
+            </div>
+            <div class="col-1_2">
+                <app-checklist-primitive checklistStyle="checklist"
+                                         class="font_r_15"
+                                         [items]="[
+                                        '24/7 multi-lingual customer support',
+                                        'No credit card or amendment fees'
+                                         ]">
+
+                </app-checklist-primitive>
+              <div class="antivirus-logo">
+                <a href="#"><img src="../dist/assets/images/norton-secured.png" alt="nortonAV-black"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block--rent-car col-1_3">
+          <div class="block--feedback">
+            <div class="row--feedback">
+              <div class="user font_b_14">Joana</div>
+              <app-rating-primitive class="rating--feedback"></app-rating-primitive>
+            </div>
+            <div class="row--feedback">
+              <span class="review-text font_r_13">I rented with Economybooking(car rental company SIXT)s in Alicante in September and found the service and quality of car to be absolutely fantastic. One of my best experiences with a large company ever!</span>
+            </div>
+            <div class="row--feedback">
+              <a class="anchor_underline--main font_r_13" href="#">Read more</a>
+              <a href=""><img class="review-logo" src="../dist/assets/images/review-centre.png"
+                              alt="review-centre"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item--rent-car">
+        <div class="block--rent-car">
+          <app-questions-block></app-questions-block>
+        </div>
+        <div class="block--rent-car">
+          <app-book-by-phone-block></app-book-by-phone-block>
+        </div>
+        <div class="block--rent-car">
+          <app-stay-tuned-block></app-stay-tuned-block>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

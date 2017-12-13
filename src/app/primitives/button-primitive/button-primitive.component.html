@@ -1,0 +1,25 @@
+<!--<a *ngIf="tag == 'a'" class="anchor btn {{size}} {{style}}">-->
+    <!--<ng-content></ng-content>-->
+<!--</a>-->
+<!--<span *ngIf="tag == 'span'" class="anchor btn {{size}} {{style}}">-->
+    <!--<ng-content></ng-content>-->
+<!--</span>-->
+<!--<button *ngIf="tag == 'button'" type="button" class="anchor btn {{size}} {{style}}">-->
+    <!--<ng-content></ng-content>-->
+<!--</button>-->
+
+<a *ngIf="tag == 'a'" class="anchor btn {{size}} {{style}}">
+    <ng-container *ngTemplateOutlet="content"></ng-container>
+</a>
+<span *ngIf="tag == 'span'" class="anchor btn {{size}} {{style}}">
+    <ng-container *ngTemplateOutlet="content"></ng-container>
+</span>
+<button type="button" *ngIf="tag == 'button'" class="anchor btn {{size}} {{style}}">
+    <ng-container *ngTemplateOutlet="content"></ng-container>
+</button>
+
+<ng-template #content>
+    <ng-content></ng-content>
+</ng-template>
+
+

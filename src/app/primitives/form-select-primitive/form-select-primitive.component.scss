@@ -1,0 +1,64 @@
+$form-select-min-width: 60px;
+$font-select-font-size: 13px;
+$form-select-icon-size: 14px;
+$form-select-main-color: #fff;
+$form-select-border-radius: 4px;
+$form-select-select-height: 36px;
+$form-select-icon-font: 'fontawesome_webfont';
+$form-select-icon: "\f107";
+
+.selectdiv {
+  position: relative;
+  float: left;
+  min-width: $form-select-min-width;
+
+  &:after {
+    content: $form-select-icon;
+    font-family: $form-select-icon-font;
+    font-size: $form-select-icon-size;
+    color: $form-select-main-color;
+    right: 11px;
+    top: 15px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+  }
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: auto;
+  height: $form-select-select-height;
+  margin: 5px 0px;
+  padding: 0px 12px;
+  font-size: $font-select-font-size;
+  background-color: transparent;
+  border: 1px solid transparent;
+
+  &:focus {
+    outline: none;
+    + span {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #142a3c;
+      border-radius: $form-select-border-radius;
+      border: 1px solid transparent;
+      z-index: -1;
+    }
+  }
+}
+
+option {
+  color: black;
+}
+
+select {
+  color: white;
+}

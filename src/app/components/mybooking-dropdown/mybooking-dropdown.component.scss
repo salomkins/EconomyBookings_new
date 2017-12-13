@@ -1,0 +1,25 @@
+@import "variables";
+
+//
+
+.dropdown-content {
+  &--sign_in {
+    min-width: 320px;
+    border-radius: 3px;
+    padding: 3px;
+    box-shadow: inset 0 0 8px #888, 0 0 8px #888;
+  }
+}
+
+.form-input {
+  &--sign_in {
+    background-color: transparent;
+  }
+}
+
+.btn-main {
+  &--sign_in {
+    margin: 16px 12px;
+    width: calc(100% - 24px);
+  }
+}

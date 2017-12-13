@@ -1,0 +1,48 @@
+<!-- PIEMĒRS -->
+<!-- <app-review-block
+[userData]="{
+name:'Lelde',
+country:'Latvia',
+countryCode:'lv',
+date:'August 18, 2014',
+rating:8.3}"
+[reviewsPlus]="[
+'Perfect location. Easy to reach from airport TXL (TXL bus). Very convenient for shopping purposes, all popular shops are near- Primark, C&amp;A,Galeria Kaufhof, Alexa... Breakfast is very plentiful.'
+]"
+[reviewsMinus]="[
+'Quadruaple room was very small.'
+]"
+>
+</app-review-block> -->
+
+<div class="block_review font_r_13">
+  <div class="header_review">
+    <div class="header_review-row1">
+      <span class="header_review-name">{{userData.name}}</span>
+      <span class="header_review-country">
+<app-icons-flags-primitive flag={{userData.countryCode}}></app-icons-flags-primitive>
+<span class="header_review-country_name">{{userData.country}}</span>
+      </span>
+    </div>
+    <div class="header_review-row2">
+      <span class="header_review-rate">{{ratingTxt}}<span class="header_review-rate_value">{{userData.rating}}</span></span>
+      <span class="header_review-date">{{userData.date}}</span>
+    </div>
+  </div>
+  <div class="content_review">
+    <!--PLUS  -->
+    <div class="content_review-plus">
+      <div *ngFor="let item of reviewsPlus" class="content_review-item">
+        <app-icons-primitive icon="plus" class="content_review-plus_icon"></app-icons-primitive>
+        <p class="content_review-txt">{{item}}</p>
+      </div>
+    </div>
+    <!--MINUS  -->
+    <div class="content_review-minus">
+      <div *ngFor="let item of reviewsMinus" class="content_review-item">
+        <app-icons-primitive icon="minus" class="content_review-minus_icon"></app-icons-primitive>
+        <p class="content_review-txt">{{item}}</p>
+      </div>
+    </div>
+  </div>
+</div>

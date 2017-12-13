@@ -1,0 +1,54 @@
+<div class="layout_sitemap">
+  <div class="container_sitemap">
+    <div class="main_box_sitemap">
+
+      <app-subscribe></app-subscribe>
+
+      <div class="info_box_sitemap">
+        <div class="links_sitemap">
+
+          <ng-container *ngFor="let link of linksList; let i=index">
+            <div [ngClass]="['links_sitemap-col', (i == 3) ? 'font_r_13' : 'font_r_12']">
+              <app-headings-primitive usage="subject" [ngClass]="(!! link.title_lg) ? 'links_sitemap-col-head--lg' : 'links_sitemap-col-head'">{{link.title}}</app-headings-primitive>
+              <app-headings-primitive *ngIf="!! link.title_lg" usage="subject" class="links_sitemap-col-head--lg">{{link.title_lg}}</app-headings-primitive>
+              <ul class="links_sitemap-list">
+                <li class="links_sitemap-item" *ngFor="let item of link.items">
+                  <a class="anchor" href={{item.link}}>{{item.item}}</a>
+                </li>
+              </ul>
+            </div>
+          </ng-container>
+
+        </div>
+        <div class="footbox_sitemap">
+          <!-- LinksListSpecial SĀKUMS -->
+          <select class="links_list_sitemap font_r_14" required>
+            <option value="" disabled selected hidden>Jump to page...</option>
+            <optgroup *ngFor="let link of linksList; let i = index" label={{link.title}}>
+              <option *ngFor="let item of link.items" value={{item.optValue}}>{{item.item}}</option>
+            </optgroup>
+          </select>
+          <!-- LinksListSpecial BEIGAS -->
+          <!--Socicons SĀKUMS  -->
+          <div class="socicons_sitemap">
+            <a class="anchor socicons_sitemap-item" href="#">
+              <app-icons-primitive icon="facebook_soc--footer"></app-icons-primitive>
+            </a>
+            <a class="anchor socicons_sitemap-item" href="#">
+              <app-icons-primitive icon="youtube_soc--footer"></app-icons-primitive>
+            </a>
+            <a class="anchor socicons_sitemap-item" href="#">
+              <app-icons-primitive icon="google_plus_soc--footer"></app-icons-primitive>
+            </a>
+          </div>
+          <!--Socicons BEIGAS  -->
+          <div class="store_sitemap">
+            <app-store-button-primitive size="medium" color="dark" brand="apple" class="store_sitemap-item"></app-store-button-primitive>
+            <app-store-button-primitive size="small" color="dark" brand="google" class="store_sitemap-item"></app-store-button-primitive>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

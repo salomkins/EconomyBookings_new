@@ -1,0 +1,119 @@
+@import "variables";
+@import "mixins";
+
+
+:host {
+  display: block;
+  background-color: #444444;
+  padding: 26px 20px 22px 20px;
+
+  @include media(md) {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px 25px 30px 25px;
+  }
+
+  @include media(lg) {
+    padding: 22px 20px 24px 20px;
+    margin: 0 auto;
+  }
+}
+
+.form-input--subscribe {
+  @include media (md) {
+    //flex-basis: 495px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+  }
+  ::ng-deep.form-input[type="text"] {
+    border-radius: 2px;
+    padding: 12px 0px;
+    font-family: open_sansregular;
+    font-size: 16px;
+
+    @include media(xs-only) {
+      margin-bottom: 10px;
+    }
+
+    @include media(md) {
+      flex-grow: 0;
+      flex-shrink: 0;
+      text-align: left;
+      padding-left: 10px;
+    }
+
+    @include media(lg) {
+      margin-bottom: 13px;
+      font-size: 13px;
+      padding: 8px 0px 9px 8px;
+    }
+  }
+}
+
+.heading-alternative--subscribe {
+  ::ng-deep.alternative {
+    font-family: open_sansregular;
+    color: #cccccc;
+    padding-bottom: 15px;
+    line-height: 18px;
+    letter-spacing: -1px;
+    @include media(lg) {
+      font-size: 16px;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.heading-subject--subscribe {
+  ::ng-deep .subject {
+    font-family: open_sansregular;
+    color: #aaaaaa;
+    padding-bottom: 6px;
+    line-height: 18px;
+    letter-spacing: -1px;
+    @include media(lg) {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+}
+
+.form-wrapper--subscribe {
+  @include media(xs-only) {
+    padding-top: 10px;
+  }
+
+  @include media (md) {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 16px;
+  }
+
+  @include media(lg) {
+    display: block;
+    padding-top: 6px;
+  }
+}
+
+.btn-main_form--subscribe,
+a.btn-main_form--subscribe,
+button.btn-main_form--subscribe {
+  @include media (md) {
+    flex-grow: 1;
+    flex-shrink: 5;
+    margin-left: 15px;
+  }
+
+  @include media(lg) {
+    min-height: 32px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  &:hover{
+    background-color: #f2a622;
+  }
+
+}

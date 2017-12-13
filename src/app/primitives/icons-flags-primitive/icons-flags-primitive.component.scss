@@ -1,0 +1,1506 @@
+:host {
+  background: url("/assets/primitives/icons-flags-primitive/assets/flags.png") no-repeat;
+  background-size: 224px 199px;
+  display: inline-block;
+  width: 14px;
+  height: 9px;
+
+  &.me {
+    width: 16px;
+    height: 12px;
+    background-position: 0 0;
+  }
+
+  &.ky {
+    width: 16px;
+    height: 11px;
+    background-position: -16px 0;
+  }
+
+  &.af {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -12px;
+  }
+
+  &.ag {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -12px;
+  }
+
+  &.ai {
+    width: 16px;
+    height: 11px;
+    background-position: -32px 0;
+  }
+
+  &.al {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -11px;
+  }
+
+  &.am {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -23px;
+  }
+
+  &.an {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -23px;
+  }
+
+  &.ao {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -23px;
+  }
+
+  &.ar {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -34px;
+  }
+
+  &.as {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -34px;
+  }
+
+  &.at {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -34px;
+  }
+
+  &.au {
+    width: 16px;
+    height: 11px;
+    background-position: -48px 0;
+  }
+
+  &.aw {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -11px;
+  }
+
+  &.ax {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -22px;
+  }
+
+  &.az {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -33px;
+  }
+
+  &.ba {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -45px;
+  }
+
+  &.bb {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -45px;
+  }
+
+  &.bd {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -45px;
+  }
+
+  &.be {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -45px;
+  }
+
+  &.bf {
+    width: 16px;
+    height: 11px;
+    background-position: -64px 0;
+  }
+
+  &.bg {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -11px;
+  }
+
+  &.bh {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -22px;
+  }
+
+  &.bi {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -33px;
+  }
+
+  &.bj {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -44px;
+  }
+
+  &.bm {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -56px;
+  }
+
+  &.bn {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -56px;
+  }
+
+  &.bo {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -56px;
+  }
+
+  &.br {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -56px;
+  }
+
+  &.bs {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -56px;
+  }
+
+  &.bt {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -67px;
+  }
+
+  &.bv {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -67px;
+  }
+
+  &.bw {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -67px;
+  }
+
+  &.by {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -67px;
+  }
+
+  &.bz {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -67px;
+  }
+
+  &.ca {
+    width: 16px;
+    height: 11px;
+    background-position: -80px 0;
+  }
+
+  &.catalonia {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -11px;
+  }
+
+  &.cc {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -22px;
+  }
+
+  &.cd {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -33px;
+  }
+
+  &.cf {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -44px;
+  }
+
+  &.cg {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -55px;
+  }
+
+  &.zm {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -66px;
+  }
+
+  &.ci {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -78px;
+  }
+
+  &.ck {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -78px;
+  }
+
+  &.cl {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -78px;
+  }
+
+  &.cm {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -78px;
+  }
+
+  &.cn {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -78px;
+  }
+
+  &.co {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -78px;
+  }
+
+  &.cr {
+    width: 16px;
+    height: 11px;
+    background-position: -96px 0;
+  }
+
+  &.cs {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -11px;
+  }
+
+  &.cu {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -22px;
+  }
+
+  &.cv {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -33px;
+  }
+
+  &.cx {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -44px;
+  }
+
+  &.cy {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -55px;
+  }
+
+  &.cz {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -66px;
+  }
+
+  &.de {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -77px;
+  }
+
+  &.dj {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -89px;
+  }
+
+  &.dk {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -89px;
+  }
+
+  &.dm {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -89px;
+  }
+
+  &.do {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -89px;
+  }
+
+  &.dz {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -89px;
+  }
+
+  &.ec {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -89px;
+  }
+
+  &.ee {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -89px;
+  }
+
+  &.eg {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -100px;
+  }
+
+  &.eh {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -100px;
+  }
+
+  &.england {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -100px;
+  }
+
+  &.er {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -100px;
+  }
+
+  &.es {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -100px;
+  }
+
+  &.et {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -100px;
+  }
+
+  &.europeanunion {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -100px;
+  }
+
+  &.fam {
+    width: 16px;
+    height: 11px;
+    background-position: -112px 0;
+  }
+
+  &.fi {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -11px;
+  }
+
+  &.fj {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -22px;
+  }
+
+  &.fk {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -33px;
+  }
+
+  &.fm {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -44px;
+  }
+
+  &.fo {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -55px;
+  }
+
+  &.fr,
+  &.gp,
+  &.mf,
+  &.re,
+  &.yt {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -66px;
+  }
+
+  &.ga {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -77px;
+  }
+
+  &.gb {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -88px;
+  }
+
+  &.gd {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -99px;
+  }
+
+  &.ge {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -111px;
+  }
+
+  &.gf {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -111px;
+  }
+
+  &.gg {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -111px;
+  }
+
+  &.gh {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -111px;
+  }
+
+  &.gi {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -111px;
+  }
+
+  &.gl {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -111px;
+  }
+
+  &.gm {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -111px;
+  }
+
+  &.gn {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -111px;
+  }
+
+  &.gp {
+    width: 16px;
+    height: 11px;
+    background-position: -128px 0;
+  }
+
+  &.gq {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -11px;
+  }
+
+  &.gr {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -22px;
+  }
+
+  &.gs {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -33px;
+  }
+
+  &.gt {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -44px;
+  }
+
+  &.gu {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -55px;
+  }
+
+  &.gw {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -66px;
+  }
+
+  &.gy {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -77px;
+  }
+
+  &.hk {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -88px;
+  }
+
+  &.hm {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -99px;
+  }
+
+  &.hn {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -110px;
+  }
+
+  &.hr {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -122px;
+  }
+
+  &.ht {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -122px;
+  }
+
+  &.hu {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -122px;
+  }
+
+  &.id {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -122px;
+  }
+
+  &.ie {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -122px;
+  }
+
+  &.il {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -122px;
+  }
+
+  &.in {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -122px;
+  }
+
+  &.io {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -122px;
+  }
+
+  &.iq {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -122px;
+  }
+
+  &.ir {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -133px;
+  }
+
+  &.is {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -133px;
+  }
+
+  &.it {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -133px;
+  }
+
+  &.je {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -133px;
+  }
+
+  &.jm {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -133px;
+  }
+
+  &.jo {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -133px;
+  }
+
+  &.jp {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -133px;
+  }
+
+  &.ke {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -133px;
+  }
+
+  &.kg {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -133px;
+  }
+
+  &.kh {
+    width: 16px;
+    height: 11px;
+    background-position: -144px 0;
+  }
+
+  &.ki {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -11px;
+  }
+
+  &.km {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -22px;
+  }
+
+  &.kn {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -33px;
+  }
+
+  &.kp {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -44px;
+  }
+
+  &.kr {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -55px;
+  }
+
+  &.kw {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -66px;
+  }
+
+  &.ae {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -77px;
+  }
+
+  &.kz {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -88px;
+  }
+
+  &.la {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -99px;
+  }
+
+  &.lb {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -110px;
+  }
+
+  &.lc {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -121px;
+  }
+
+  &.li {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -132px;
+  }
+
+  &.lk {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -144px;
+  }
+
+  &.lr {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -144px;
+  }
+
+  &.ls {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -144px;
+  }
+
+  &.lt {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -144px;
+  }
+
+  &.lu {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -144px;
+  }
+
+  &.lv {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -144px;
+  }
+
+  &.ly {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -144px;
+  }
+
+  &.ma {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -144px;
+  }
+
+  &.mc {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -144px;
+  }
+
+  &.md {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -144px;
+  }
+
+  &.ad {
+    width: 16px;
+    height: 11px;
+    background-position: -160px 0;
+  }
+
+  &.mg {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -11px;
+  }
+
+  &.mh {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -22px;
+  }
+
+  &.mk {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -33px;
+  }
+
+  &.ml {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -44px;
+  }
+
+  &.mm {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -55px;
+  }
+
+  &.mn {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -66px;
+  }
+
+  &.mo {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -77px;
+  }
+
+  &.mp {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -88px;
+  }
+
+  &.mq {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -99px;
+  }
+
+  &.mr {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -110px;
+  }
+
+  &.ms {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -121px;
+  }
+
+  &.mt {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -132px;
+  }
+
+  &.mu {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -143px;
+  }
+
+  &.mv {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -155px;
+  }
+
+  &.mw {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -155px;
+  }
+
+  &.mx {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -155px;
+  }
+
+  &.my {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -155px;
+  }
+
+  &.mz {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -155px;
+  }
+
+  &.na {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -155px;
+  }
+
+  &.nc {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -155px;
+  }
+
+  &.ne {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -155px;
+  }
+
+  &.nf {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -155px;
+  }
+
+  &.ng {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -155px;
+  }
+
+  &.ni {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -155px;
+  }
+
+  &.bq,
+  &.nl {
+    width: 16px;
+    height: 11px;
+    background-position: -176px 0;
+  }
+
+  &.no {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -11px;
+  }
+
+  &.za {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -22px;
+  }
+
+  &.nr {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -33px;
+  }
+
+  &.nu {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -44px;
+  }
+
+  &.nz {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -55px;
+  }
+
+  &.om {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -66px;
+  }
+
+  &.pa {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -77px;
+  }
+
+  &.pe {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -88px;
+  }
+
+  &.pf {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -99px;
+  }
+
+  &.pg {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -110px;
+  }
+
+  &.ph {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -121px;
+  }
+
+  &.pk {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -132px;
+  }
+
+  &.pl {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -143px;
+  }
+
+  &.pm {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -154px;
+  }
+
+  &.pn {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -166px;
+  }
+
+  &.pr {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -166px;
+  }
+
+  &.ps {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -166px;
+  }
+
+  &.pt {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -166px;
+  }
+
+  &.pw {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -166px;
+  }
+
+  &.py {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -166px;
+  }
+
+  &.qa {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -166px;
+  }
+
+  &.re {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -166px;
+  }
+
+  &.ro {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -166px;
+  }
+
+  &.rs {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -166px;
+  }
+
+  &.ru {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -166px;
+  }
+
+  &.rw {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -166px;
+  }
+
+  &.sa {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -177px;
+  }
+
+  &.sb {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -177px;
+  }
+
+  &.sc {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -177px;
+  }
+
+  &.scotland {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -177px;
+  }
+
+  &.sd {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -177px;
+  }
+
+  &.se {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -177px;
+  }
+
+  &.sg {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -177px;
+  }
+
+  &.sh {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -177px;
+  }
+
+  &.si {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -177px;
+  }
+
+  &.sj {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -177px;
+  }
+
+  &.sk {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -177px;
+  }
+
+  &.sl {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -177px;
+  }
+
+  &.sm {
+    width: 16px;
+    height: 11px;
+    background-position: -192px 0;
+  }
+
+  &.sn {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -11px;
+  }
+
+  &.so {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -22px;
+  }
+
+  &.sr {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -33px;
+  }
+
+  &.st {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -44px;
+  }
+
+  &.sv {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -55px;
+  }
+
+  &.sy {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -66px;
+  }
+
+  &.sz {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -77px;
+  }
+
+  &.tc {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -88px;
+  }
+
+  &.td {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -99px;
+  }
+
+  &.tf {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -110px;
+  }
+
+  &.tg {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -121px;
+  }
+
+  &.th {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -132px;
+  }
+
+  &.tj {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -143px;
+  }
+
+  &.tk {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -154px;
+  }
+
+  &.tl {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -165px;
+  }
+
+  &.tm {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -176px;
+  }
+
+  &.tn {
+    width: 16px;
+    height: 11px;
+    background-position: 0 -188px;
+  }
+
+  &.to {
+    width: 16px;
+    height: 11px;
+    background-position: -16px -188px;
+  }
+
+  &.tr {
+    width: 16px;
+    height: 11px;
+    background-position: -32px -188px;
+  }
+
+  &.tt {
+    width: 16px;
+    height: 11px;
+    background-position: -48px -188px;
+  }
+
+  &.tv {
+    width: 16px;
+    height: 11px;
+    background-position: -64px -188px;
+  }
+
+  &.tw {
+    width: 16px;
+    height: 11px;
+    background-position: -80px -188px;
+  }
+
+  &.tz {
+    width: 16px;
+    height: 11px;
+    background-position: -96px -188px;
+  }
+
+  &.ua {
+    width: 16px;
+    height: 11px;
+    background-position: -112px -188px;
+  }
+
+  &.ug {
+    width: 16px;
+    height: 11px;
+    background-position: -128px -188px;
+  }
+
+  &.um {
+    width: 16px;
+    height: 11px;
+    background-position: -144px -188px;
+  }
+
+  &.us {
+    width: 16px;
+    height: 11px;
+    background-position: -160px -188px;
+  }
+
+  &.uy {
+    width: 16px;
+    height: 11px;
+    background-position: -176px -188px;
+  }
+
+  &.uz {
+    width: 16px;
+    height: 11px;
+    background-position: -192px -188px;
+  }
+
+  &.va {
+    width: 16px;
+    height: 11px;
+    background-position: -208px 0;
+  }
+
+  &.vc {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -11px;
+  }
+
+  &.ve {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -22px;
+  }
+
+  &.vg {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -33px;
+  }
+
+  &.vi {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -44px;
+  }
+
+  &.vn {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -55px;
+  }
+
+  &.vu {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -66px;
+  }
+
+  &.wales {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -77px;
+  }
+
+  &.wf {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -88px;
+  }
+
+  &.ws {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -99px;
+  }
+
+  &.ye {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -110px;
+  }
+
+  &.yt {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -121px;
+  }
+
+  &.zw {
+    width: 16px;
+    height: 11px;
+    background-position: -208px -132px;
+  }
+
+  &.ch {
+    width: 11px;
+    height: 11px;
+    background-position: -208px -143px;
+  }
+
+  &.np {
+    width: 9px;
+    height: 11px;
+    background-position: -208px -154px;
+  }
+}

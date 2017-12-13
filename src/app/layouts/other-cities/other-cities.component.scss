@@ -1,0 +1,92 @@
+@import "variables";
+@import "mixins";
+@import "../../../grid/grid";
+
+//other_cities
+@mixin list_set_other_cities($cols, $rows) {
+  grid-template-columns: repeat($cols, 1fr);
+  grid-template-rows: repeat($rows, auto);
+  &-item{
+    &:nth-of-type(1n){
+      border-bottom: 1px solid #ddd;
+    }
+    &:nth-of-type(#{$rows}n){
+      border: none;
+    }
+  }
+}
+
+.layout_other_cities {
+  background-color: #f6f6f6;
+}
+
+.container_other_cities {
+  @extend .container;
+  padding: 30px 0 25px;
+  @include media(lg) {
+    width: 960px;
+  }
+}
+
+.heading_other_cities {
+  text-align: center;
+  margin: 0;
+  font-family: open_sanssemibold;
+  font-size: 18px;
+  @include media(lg) {
+    text-align: left;
+  }
+}
+
+.list_other_cities {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  @include list_set_other_cities(1, 10);
+  border-top: 4px solid #ddd;
+  list-style-type: none;
+  margin: 15px 0 0;
+  padding: 0;
+  @include media(md) {
+    @include list_set_other_cities(2, 5);
+    grid-column-gap: 20px;
+    padding: 0 10px;
+  }
+  @include media(lg) {
+    @include list_set_other_cities(4, 5);
+    grid-column-gap: 30px;
+    padding: 0;
+  }
+
+  &-item {
+    padding: 11.5px 0;
+    line-height: calc(16 / 13);
+    text-align: center;
+    @include media(md) {
+      text-align: left;
+      padding-left: 10px;
+    }
+    @include media(lg) {
+      padding-left: 0;
+    }
+    @include ext(--lg) {
+      display: none;
+      @include media(lg) {
+        display: block;
+      }
+    }
+  }
+}
+
+.footer_other_cities {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 20px 0 0;
+  @include media(md) {
+    text-align: left;
+    padding-left: 20px;
+  }
+  @include media(lg) {
+    padding-left: 0;
+  }
+}

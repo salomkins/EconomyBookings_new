@@ -1,0 +1,23 @@
+.anchor {
+  color: inherit;
+  text-decoration: inherit;
+  &:focus{
+    outline: none; //priekš firefox
+  }
+  &_underline {
+    @extend .anchor;
+    text-decoration: underline;
+    &--main{
+      @extend .anchor_underline;
+      color: #0073b5 ;
+    }
+    &--dash {
+      @extend .anchor_underline;
+      text-decoration-style: dashed;
+    }
+  }
+}
+
+a{
+  @extend .anchor_underline--main;
+}

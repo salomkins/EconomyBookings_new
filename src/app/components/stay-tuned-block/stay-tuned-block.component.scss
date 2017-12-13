@@ -1,0 +1,24 @@
+@import "variables";
+
+.block {
+  &--stay_tuned {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    color: #444;
+  }
+}
+
+.row {
+  &--stay_tuned {
+    margin-top: 12px;
+  }
+}
+
+.form-input--stay_tuned {
+  ::ng-deep.form-input[type="text"] {
+    font-size: 14px;
+    padding: 12px 0;
+    border: 1px solid #ddd;
+  }
+}
