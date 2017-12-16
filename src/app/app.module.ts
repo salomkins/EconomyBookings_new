@@ -28,6 +28,7 @@ import { OtherCitiesComponent } from './layouts/other-cities/other-cities.compon
 import { FooterLayoutComponent } from './layouts/footer-layout/footer-layout.component';
 import { SitemapLayoutComponent } from './layouts/sitemap-layout/sitemap-layout.component';
 import { RentCarSectionLayoutComponent } from './layouts/rent-car-section-layout/rent-car-section-layout.component';
+import { RatingsLayoutComponent } from './layouts/ratings-layout/ratings-layout.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { RentCarSectionLayoutComponent } from './layouts/rent-car-section-layout
     OtherCitiesComponent,
     FooterLayoutComponent,
     SitemapLayoutComponent,
-    RentCarSectionLayoutComponent
+    RentCarSectionLayoutComponent,
+    RatingsLayoutComponent
   ],
   imports: [
     BrowserModule
