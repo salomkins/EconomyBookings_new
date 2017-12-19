@@ -6,11 +6,8 @@
 .block {
   &_review {
     background-color: #fff;
-    padding: 15px 10px 0;
+    padding-top: 15px;
     color: #000;
-    @include media(lg) {
-      padding: 15px 0 0;
-    }
   }
 }
 

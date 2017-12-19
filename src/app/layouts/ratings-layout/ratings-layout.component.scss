@@ -1,13 +1,13 @@
 @import "variables";
 @import "mixins";
-@import "../../../grid/grid";
+@import "../../../grid/grid"; //retings-layout
 
-//retings-layout
 .section_ratings {
   background-color: #fff;
 }
+
 .container_ratings {
-  border: 1px solid gold;
+  //border: 1px solid gold;
   @extend .container;
   padding: 30px 10px;
   @include media(md) {
@@ -18,26 +18,39 @@
   }
 }
 
-.logo {
-  display: block;
-  background-color: red;
-}
 .header {
   text-align: center;
-  padding: 0 30px;
+  padding: 0 30px 15px;
   border-bottom: 4px solid #eee;
-  ::ng-deep.heading.section{
+
+  ::ng-deep.heading.section {
     margin: 0;
   }
   @include media(md) {
-  padding: 0;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+    padding: 10px 0 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  &-logo {
+    //border: 1px solid black;
+    display: block;
+    margin-bottom: 5px;
+    @include media(md) {
+      margin: -8px -8px 0 0;
+    }
   }
 }
-.main_rating{
+
+.main_rating {
   text-align: center;
+  padding: 20px 0;
+  @include media(md) {
+    padding-top: 15px;
+  }
+
   &_value {
     display: block;
     margin: 0 auto;
@@ -45,13 +58,58 @@
     font-size: 32px;
     border: 5px solid blue;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    padding-top: 15px;
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+    margin-bottom: 10px;
   }
+
+  &_item {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
   &_reviews {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 8px;
+  }
+}
 
+.body {
+  @include media(md) {
+    display: flex;
+  }
+}
+
+.row {
+  &_ratings {
+    @include media(md) {
+      padding-right: 30px;
+    }
+    @include media(lg) {
+      padding-top: 5px;
+    }
+  }
+
+  &_reviews {
+    @include media(md) {
+      width: 52%;
+      padding-right: 5px;
+    }
+    @include media(lg) {
+      width: 70%;
+      padding-right: 0;
+    }
+  }
+
+  &_footer {
+    color: #0073b5;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    @include media(md) {
+      text-align: left;
+    }
   }
 }

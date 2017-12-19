@@ -1,30 +1,30 @@
 <section class="section_ratings font_r">
   <div class="container_ratings">
     <div class="header">
-      <span class="logo">LOGO</span>
-      <app-headings-primitive usage="section">AVIS Customer Ratings in <a href="#" class="anchor_underline--main">Milan</a></app-headings-primitive>
+      <a href="#" class="header-logo"><img src="{{header.logo_path}}" alt=""></a>
+      <app-headings-primitive usage="section">{{header.text}} <a href="#" class="anchor_underline--main">{{header.place}}</a></app-headings-primitive>
     </div>
-    <div class="row_ratings">
-      <div class="main_rating">
-        <span class="main_rating_value">8.3</span>
-        <span class="font_sb_22">Excellent</span>
-        <a href="#" class="anchor_underline--main main_rating_reviews">150+ reviews</a>
+    <div class="body">
+      <div class="row row_ratings">
+        <!--main_rating BLOKA SĀKUMS  -->
+        <div class="main_rating">
+          <span class="main_rating_value">8.3</span>
+          <span class="main_rating_item font_sb">Excellent</span>
+          <a href="#" class="anchor_underline--main main_rating_reviews font_r_13">150+ reviews</a>
+        </div>
+        <!--main_rating BLOKA BEIGAS  -->
+        <app-ratings-block [ratingsList]="ratingsList"></app-ratings-block>
       </div>
-
-      VARIANTS A
-      <app-ratings-block [ratingsList]="[
-        {'item' : 'Overall value for money of your car rental', 'value' : '8.3'},
-        {'item' : 'How easy was it to find pickup location?', 'value' : '8.2'},
-        {'item' : 'Work efficiency of the car rental agents', 'value' : '8.4'},
-        {'item' : 'Time spent picking up the car', 'value' : '8.5'},
-        {'item' : 'Time spent dropping off the car', 'value' : '7.9'},
-        {'item' : 'Car cleanliness', 'value' : '7.6'},
-        {'item' : 'Overall condition of the car', 'value' : '7.8'}
-      ]"></app-ratings-block>
-
-      VARIANTS B
-      <app-ratings-block ratingsList={{rList}}></app-ratings-block>
-
+      <div class="row row_reviews">
+        <ng-container *ngFor="let review of reviewsData">
+          <app-review-block [userData]="review.userData" [reviewsPlus]="review.reviewsPlus" [reviewsMinus]="review.reviewsMinus"></app-review-block>
+        </ng-container>
+        <div class="row_footer font_r_13">
+          <a class="anchor" href={{allReviews.href}}>
+            <app-icons-primitive icon="angle_double_right"></app-icons-primitive>
+            {{allReviews.item}}</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
