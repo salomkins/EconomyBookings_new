@@ -2,12 +2,18 @@
 
 //
 
+:host {
+  display: flex;
+  width: 100%;
+}
+
 .block {
   &--by_phone {
     background-color: #ddd;
     padding: 20px;
     text-align: center;
     color: #444;
+    width: 100%;
   }
 }
 

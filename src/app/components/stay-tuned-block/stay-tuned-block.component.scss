@@ -1,11 +1,17 @@
 @import "variables";
 
+:host {
+  display: flex;
+  width: 100%;
+}
+
 .block {
   &--stay_tuned {
     background-color: #eee;
     padding: 20px;
     text-align: center;
     color: #444;
+    width: 100%;
   }
 }
 

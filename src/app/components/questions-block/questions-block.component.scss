@@ -1,11 +1,18 @@
 @import "variables";
 //
+
+:host {
+  display: flex;
+  width: 100%;
+}
+
 .block{
   &--questions{
     background-color: #eee;
     padding: 20px;
     text-align: center;
     color: #444;
+    width: 100%;
   }
 }
 .row{
