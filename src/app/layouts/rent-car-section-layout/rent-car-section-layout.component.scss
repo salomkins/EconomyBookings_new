@@ -47,6 +47,7 @@
     flex: 0 1 auto;
     align-self: auto;
     width: calc(100% / 2);
+    margin-bottom: 30px;
   }
 
   @include media(lg) {
@@ -69,10 +70,15 @@
   @include media(xs-only) {
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 25px;
   }
 }
 
 .item--rent-car:last-child {
+  @include media(xs-only) {
+    margin-bottom: 45px;
+  }
+
   @include media(md-only) {
     padding-left: 23px;
   }
